@@ -142,56 +142,56 @@ You can download the PDF and Epub version of this repository from the latest run
 | 98  | [JavaScript是否是大小写敏感的语言](#is-javascript-a-case-sensitive-language)                                                                               |
 | 99  | [Java 和 JavaScript间有什么关系吗](#is-there-any-relation-between-java-and-javascript)                                                           |
 | 100 | [什么是事件](#what-are-events)                                                                                                                               |
-| 101 | [Who created javascript](#who-created-javascript)                                                                                                                 |
-| 102 | [What is the use of preventDefault method](#what-is-the-use-of-preventdefault-method)                                                                             |
-| 103 | [What is the use of stopPropagation method](#what-is-the-use-of-stoppropagation-method)                                                                           |
-| 104 | [What are the steps involved in return false](#what-are-the-steps-involved-in-return-false)                                                                       |
-| 105 | [What is BOM](#what-is-bom)                                                                                                                                       |
-| 106 | [What is the use of setTimeout](#what-is-the-use-of-settimeout)                                                                                                   |
-| 107 | [What is the use of setInterval](#what-is-the-use-of-setinterval)                                                                                                 |
-| 108 | [Why is JavaScript treated as Single threaded](#why-is-javascript-treated-as-single-threaded)                                                                     |
-| 109 | [What is an event delegation](#what-is-an-event-delegation)                                                                                                       |
-| 110 | [What is ECMAScript](#what-is-ecmascript)                                                                                                                         |
-| 111 | [What is JSON](#what-is-json)                                                                                                                                     |
-| 112 | [What are the syntax rules of JSON](#what-are-the-syntax-rules-of-json)                                                                                           |
-| 113 | [What is the purpose JSON stringify](#what-is-the-purpose-json-stringify)                                                                                         |
-| 114 | [How do you parse JSON string](#how-do-you-parse-json-string)                                                                                                     |
-| 115 | [Why do you need JSON](#why-do-you-need-json)                                                                                                                     |
-| 116 | [What are PWAs](#what-are-pwas?)                                                                                                                                  |
-| 117 | [What is the purpose of clearTimeout method](#what-is-the-purpose-of-cleartimeout-method)                                                                         |
-| 118 | [What is the purpose of clearInterval method](#what-is-the-purpose-of-clearinterval-method)                                                                       |
-| 119 | [How do you redirect new page in javascript](#how-do-you-redirect-new-page-in-javascript)                                                                         |
-| 120 | [How do you check whether a string contains a substring](#how-do-you-check-whether-a-string-contains-a-substring)                                                 |
-| 121 | [How do you validate an email in javascript](#how-do-you-validate-an-email-in-javascript)                                                                         |
-| 122 | [How do you get the current url with javascript](#how-do-you-get-the-current-url-with-javascript)                                                                 |
-| 123 | [What are the various url properties of location object](#what-are-the-various-url-properties-of-location-object)                                                 |
-| 124 | [How do get query string values in javascript](#how-do-get-query-string-values-in-javascript)                                                                     |
-| 125 | [How do you check if a key exists in an object](#how-do-you-check-if-a-key-exists-in-an-object)                                                                   |
-| 126 | [How do you loop through or enumerate javascript object](#how-do-you-loop-through-or-enumerate-javascript-object)                                                 |
-| 127 | [How do you test for an empty object](#how-do-you-test-for-an-empty-object)                                                                                       |
-| 128 | [What is an arguments object](#what-is-an-arguments-object)                                                                                                       |
-| 129 | [How do you make first letter of the string in an uppercase](#how-do-you-make-first-letter-of-the-string-in-an-uppercase)                                         |
-| 130 | [What are the pros and cons of for loop](#what-are-the-pros-and-cons-of-for-loop)                                                                                 |
-| 131 | [How do you display the current date in javascript](#how-do-you-display-the-current-date-in-javascript)                                                           |
-| 132 | [How do you compare two date objects](#how-do-you-compare-two-date-objects)                                                                                       |
-| 133 | [How do you check if a string starts with another string](#how-do-you-check-if-a-string-starts-with-another-string)                                               |
-| 134 | [How do you trim a string in javascript](#how-do-you-trim-a-string-in-javascript)                                                                                 |
-| 135 | [How do you add a key value pair in javascript](#how-do-you-add-a-key-value-pair-in-javascript)                                                                   |
-| 136 | [Is the '!--' notation represents a special operator](#is-the-'!--'-notation-represents-a-special-operator)                                                       |
-| 137 | [How do you assign default values to variables](#how-do-you-assign-default-values-to-variables)                                                                   |
-| 138 | [How do you define multiline strings](#how-do-you-define-multiline-strings)                                                                                       |
-| 139 | [What is an app shell model](#what-is-an-app-shell-model)                                                                                                         |
-| 140 | [Can we define properties for functions](#can-we-define-properties-for-functions)                                                                                 |
-| 141 | [What is the way to find the number of parameters expected by a function](#what-is-the-way-to-find-the-number-of-parameters-expected-by-a-function)               |
-| 142 | [What is a polyfill](#what-is-a-polyfill)                                                                                                                         |
-| 143 | [What are break and continue statements](#what-are-break-and-continue-statements)                                                                                 |
-| 144 | [What are js labels](#what-are-js-labels)                                                                                                                         |
-| 145 | [What are the benefits of keeping declarations at the top](#what-are-the-benefits-of-keeping-declarations-at-the-top)                                             |
-| 146 | [What are the benefits of initializing variables](#what-are-the-benefits-of-initializing-variables)                                                               |
-| 147 | [What are the recommendations to create new object](#what-are-the-recommendations-to-create-new-object)                                                           |
-| 148 | [How do you define JSON arrays](#how-do-you-define-json-arrays)                                                                                                   |
-| 149 | [How do you generate random integers](#how-do-you-generate-random-integers)                                                                                       |
-| 150 | [Can you write a random integers function to print integers with in a range](#can-you-write-a-random-integers-function-to-print-integers-with-in-a-range)         |
+| 101 | [谁发明了javascript](#who-created-javascript)                                                                                                                 |
+| 102 | [preventDefault方法的用法是什么](#what-is-the-use-of-preventdefault-method)                                                                             |
+| 103 | [stopPropagation方法的用法是什么](#what-is-the-use-of-stoppropagation-method)                                                                           |
+| 104 | [return false涉及的步骤是什么](#what-are-the-steps-involved-in-return-false)                                                                       |
+| 105 | [什么是BOM](#what-is-bom)                                                                                                                                       |
+| 106 | [setTimeout的用处是什么](#what-is-the-use-of-settimeout)                                                                                                   |
+| 107 | [setInterval用处是什么](#what-is-the-use-of-setinterval)                                                                                                 |
+| 108 | [为什么JavaScript是单线程](#why-is-javascript-treated-as-single-threaded)                                                                     |
+| 109 | [什么是事件委托](#what-is-an-event-delegation)                                                                                                       |
+| 110 | [什么是ECMAScript](#what-is-ecmascript)                                                                                                                         |
+| 111 | [什么是JSON](#what-is-json)                                                                                                                                     |
+| 112 | [JSON的规则是什么](#what-are-the-syntax-rules-of-json)                                                                                           |
+| 113 | [JSON stringify的目的是什么](#what-is-the-purpose-json-stringify)                                                                                         |
+| 114 | [如何解析JSON字符串](#how-do-you-parse-json-string)                                                                                                     |
+| 115 | [为什么需要JSON](#why-do-you-need-json)                                                                                                                     |
+| 116 | [什么是PWA](#what-are-pwas?)                                                                                                                                  |
+| 117 | [clearTimeout方法的作用是什么](#what-is-the-purpose-of-cleartimeout-method)                                                                         |
+| 118 | [clearInterval方法的作用是什么](#what-is-the-purpose-of-clearinterval-method)                                                                       |
+| 119 | [javascript中如何重定向到新页面](#how-do-you-redirect-new-page-in-javascript)                                                                         |
+| 120 | [如何检测字符串是否包含子串](#how-do-you-check-whether-a-string-contains-a-substring)                                                 |
+| 121 | [javascript如何校验email](#how-do-you-validate-an-email-in-javascript)                                                                         |
+| 122 | [用javascript如何获取当前url](#how-do-you-get-the-current-url-with-javascript)                                                                 |
+| 123 | [location对象下的url相关属性都是什么](#what-are-the-various-url-properties-of-location-object)                                                 |
+| 124 | [如何用javascript获取查询字符串](#how-do-get-query-string-values-in-javascript)                                                                     |
+| 125 | [如何检测键是否存在于对象上](#how-do-you-check-if-a-key-exists-in-an-object)                                                                   |
+| 126 | [如何遍历或枚举javascript对象](#how-do-you-loop-through-or-enumerate-javascript-object)                                                 |
+| 127 | [如何检测空对象](#how-do-you-test-for-an-empty-object)                                                                                       |
+| 128 | [arguments对象是什么](#what-is-an-arguments-object)                                                                                                       |
+| 129 | [如何让字符串的首字母大写](#how-do-you-make-first-letter-of-the-string-in-an-uppercase)                                         |
+| 130 | [for循环的优缺点是什么](#what-are-the-pros-and-cons-of-for-loop)                                                                                 |
+| 131 | [如何用javascript展示当前日期](#how-do-you-display-the-current-date-in-javascript)                                                           |
+| 132 | [如何比较两个date对象](#how-do-you-compare-two-date-objects)                                                                                       |
+| 133 | [如何检测一个字符串以另一个字符串开头](#how-do-you-check-if-a-string-starts-with-another-string)                                               |
+| 134 | [如何用javascript去除字符串中的空格](#how-do-you-trim-a-string-in-javascript)                                                                                 |
+| 135 | [如何用javascript添加键值对](#how-do-you-add-a-key-value-pair-in-javascript)                                                                   |
+| 136 | ['!--' 符号是否代表特殊的操作符](#is-the-'!--'-notation-represents-a-special-operator)                                                       |
+| 137 | [如何给变量指定默认值](#how-do-you-assign-default-values-to-variables)                                                                   |
+| 138 | [如何定义多行字符串](#how-do-you-define-multiline-strings)                                                                                       |
+| 139 | [什么是app shell模型](#what-is-an-app-shell-model)                                                                                                         |
+| 140 | [我们可以为函数定义属性吗](#can-we-define-properties-for-functions)                                                                                 |
+| 141 | [找到函数接收参数数量的方法是什么](#what-is-the-way-to-find-the-number-of-parameters-expected-by-a-function)               |
+| 142 | [什么是polyfill](#what-is-a-polyfill)                                                                                                                         |
+| 143 | [break 和 continue 语句是什么](#what-are-break-and-continue-statements)                                                                                 |
+| 144 | [什么是js labels](#what-are-js-labels)                                                                                                                         |
+| 145 | [保持声明在最顶部的好处是什么](#what-are-the-benefits-of-keeping-declarations-at-the-top)                                             |
+| 146 | [初始化变量的好处是什么](#what-are-the-benefits-of-initializing-variables)                                                               |
+| 147 | [创建新对象的推荐方式什么](#what-are-the-recommendations-to-create-new-object)                                                           |
+| 148 | [如何定义JSON数组](#how-do-you-define-json-arrays)                                                                                                   |
+| 149 | [如何生成随机整数](#how-do-you-generate-random-integers)                                                                                       |
+| 150 | [可以写一个在特定范围内打印随机整数的函数吗](#can-you-write-a-random-integers-function-to-print-integers-with-in-a-range)         |
 | 151 | [What is tree shaking](#what-is-tree-shaking)                                                                                                                     |
 | 152 | [What is the need of tree shaking](#what-is-the-need-of-tree-shaking)                                                                                             |
 | 153 | [Is it recommended to use eval](#is-it-recommended-to-use-eval)                                                                                                   |
@@ -481,105 +481,105 @@ You can download the PDF and Epub version of this repository from the latest run
 
 1. ### What are the possible ways to create objects in JavaScript
 
-  如下所示javascript有许多创建对象的方法
+   		如下所示javascript有许多创建对象的方法
 
-   1. **Object构造函数:**
-
-      最简单的创建空对象的方法就是使用`Object`构造函数。目前此方法不推荐。
-
-      ```javascript
-      var object = new Object();
-      ```
-
-   2. **Object的create方法:**
-
-      通过向`Object`的`create`方法传入对象的原型来创建新对象
-
-      ```javascript
-      var object = Object.create(null);
-      ```
-
-   3. **Object字面量语法:**
-
-      对象字面量语法（或者对象初始化）是由花括号包裹的由逗号分隔的键值对集合
-
-      ```javascript
-      var object = {
-           name: "Sudheer",
-           age: 34
-      };
-
-      对象字面量的属性值可以是任何数据类型，包括数组，方法和嵌套对象
-      ```
-
-      **注意:** 这是最简单的创建对象的方法
-
-   4. **Function构造函数:**
-
-      创建任意函数，并使用`new`操作符来生成对象实例
-
-      ```javascript
-      function Person(name) {
-        this.name = name;
-        this.age = 21;
-      }
-      var object = new Person("Sudheer");
-      ```
-
-   5. **带原型的Function构造函数:**
-   
-      类似于函数构造器，但是使用原型来声明属性和方法
-
-      ```javascript
-      function Person() {}
-      Person.prototype.name = "Sudheer";
-      var object = new Person();
-      ```
-
-      等价于使用函数原型作为参数调用`Object`的`create`方法创建的实例，然后调用对象实例作为参数的`call`方法
-
-      ```javascript
-      function func(x, y, z) {};
-
-      new func(x, y, z);
-      ```
-
-      **(或者)**
-
-      ```javascript
-      // Create a new instance using function prototype.
-      var newInstance = Object.create(func.prototype)
-
-      // Call the function
-      var result = func.call(newInstance, x, y, z),
-
-      // If the result is a non-null object then use it otherwise just use the new instance.
-      console.log(result && typeof result === 'object' ? result : newInstance);
-      ```
-
-   6. **ES6 Class 语法:**
-
-      ES6引入了创建对象的类特性
-
-      ```javascript
-      class Person {
-        constructor(name) {
-          this.name = name;
-        }
-      }
-
-      var object = new Person("Sudheer");
-      ```
-
-   7. **单例模式:**
-
-      单例是只能被实例化一次的对象。重复调用对象的构造函数也只会返回同一个实例，这种方法能够保证不会意外创建多个实例
-
-      ```javascript
-      var object = new (function () {
-        this.name = "Sudheer";
-      })();
-      ```
+		   1. **Object构造函数:**
+		
+		      最简单的创建空对象的方法就是使用`Object`构造函数。目前此方法不推荐。
+		
+		      ```javascript
+		      var object = new Object();
+		      ```
+		
+		   2. **Object的create方法:**
+		
+		      通过向`Object`的`create`方法传入对象的原型来创建新对象
+		
+		      ```javascript
+		      var object = Object.create(null);
+		      ```
+		
+		   3. **Object字面量语法:**
+		
+		      对象字面量语法（或者对象初始化）是由花括号包裹的由逗号分隔的键值对集合
+		
+		      ```javascript
+		      var object = {
+		           name: "Sudheer",
+		           age: 34
+		      };
+		
+		      对象字面量的属性值可以是任何数据类型，包括数组，方法和嵌套对象
+		      ```
+		
+		      **注意:** 这是最简单的创建对象的方法
+		
+		   4. **Function构造函数:**
+		
+		      创建任意函数，并使用`new`操作符来生成对象实例
+		
+		      ```javascript
+		      function Person(name) {
+		        this.name = name;
+		        this.age = 21;
+		      }
+		      var object = new Person("Sudheer");
+		      ```
+		
+		   5. **带原型的Function构造函数:**
+		   
+		      类似于函数构造器，但是使用原型来声明属性和方法
+		
+		      ```javascript
+		      function Person() {}
+		      Person.prototype.name = "Sudheer";
+		      var object = new Person();
+		      ```
+		
+		      等价于使用函数原型作为参数调用`Object`的`create`方法创建的实例，然后调用对象实例作为参数的`call`方法
+		
+		      ```javascript
+		      function func(x, y, z) {};
+		
+		      new func(x, y, z);
+		      ```
+		
+		      **(或者)**
+		
+		      ```javascript
+		      // Create a new instance using function prototype.
+		      var newInstance = Object.create(func.prototype)
+		
+		      // Call the function
+		      var result = func.call(newInstance, x, y, z),
+		
+		      // If the result is a non-null object then use it otherwise just use the new instance.
+		      console.log(result && typeof result === 'object' ? result : newInstance);
+		      ```
+		
+		   6. **ES6 Class 语法:**
+		
+		      ES6引入了创建对象的类特性
+		
+		      ```javascript
+		      class Person {
+		        constructor(name) {
+		          this.name = name;
+		        }
+		      }
+		
+		      var object = new Person("Sudheer");
+		      ```
+		
+		   7. **单例模式:**
+		
+		      单例是只能被实例化一次的对象。重复调用对象的构造函数也只会返回同一个实例，这种方法能够保证不会意外创建多个实例
+		
+		      ```javascript
+		      var object = new (function () {
+		        this.name = "Sudheer";
+		      })();
+		      ```
 
       **[⬆ Back to Top](#table-of-contents)**
 
@@ -1325,7 +1325,6 @@ You can download the PDF and Epub version of this repository from the latest run
 
 46. ### Why do you need web storage
 
-    Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance. Also, the information is never transferred to the server. Hence this is a more recommended approach than Cookies.
     Web storage更安全，可以本地存储大量数据并且不影响网站性能。信息也不会传输到服务端。因此与Cookies相比更推荐使用
 
     **[⬆ Back to Top](#table-of-contents)**
@@ -2110,13 +2109,13 @@ You can download the PDF and Epub version of this repository from the latest run
 
 101. ### Who created javascript
 
-     JavaScript was created by Brendan Eich in 1995 during his time at Netscape Communications. Initially it was developed under the name `Mocha`, but later the language was officially called `LiveScript` when it first shipped in beta releases of Netscape.
+     Brendan Eich在1995年于Netscape Communications工作期间发明了JavaScript语言。最开始是以 `Mocha` 这个名字来开发的，但是后来被Netscape发布beta版时正式命名为`LiveScript`
 
      **[⬆ Back to Top](#table-of-contents)**
 
 102. ### What is the use of preventDefault method
 
-     The preventDefault() method cancels the event if it is cancelable, meaning that the default action or behaviour that belongs to the event will not occur. For example, prevent form submission when clicking on submit button and prevent opening the page URL when clicking on hyperlink are some common use cases.
+     若事件是可以被取消的，preventDefault()方法会取消该事件，意味着属于该事件的默认行为或表现不会发生。例如，一般常用于点击提交按钮时阻止提交，点击超链接时阻止打开页面URL
 
      ```javascript
      document
@@ -2126,13 +2125,14 @@ You can download the PDF and Epub version of this repository from the latest run
        });
      ```
 
-     **Note:** Remember that not all events are cancelable.
+     **注意:** 记住不是所有的事件都是可取消的.
 
      **[⬆ Back to Top](#table-of-contents)**
 
 103. ### What is the use of stopPropagation method
 
-     The stopPropagation method is used to stop the event from bubbling up the event chain. For example, the below nested divs with stopPropagation method prevents default event propagation when clicking on nested div(Div1)
+     stopPropagation方法用于从事件链中阻止向上冒泡。例如，下边带有stopPropagation方法的嵌套div在点击嵌套的div（Div1）时阻止了事件传播
+     	   **译注：** 应该是阻止的是整个事件传递过程中，该节点之后的事件传递，而不仅仅是冒泡阶段
 
      ```javascript
      <p>Click DIV1 Element</p>
@@ -2157,16 +2157,17 @@ You can download the PDF and Epub version of this repository from the latest run
 104. ### What are the steps involved in return false usage
 
      The return false statement in event handlers performs the below steps,
+     事件处理器中返回false的语句如下执行
 
-     1. First it stops the browser's default action or behaviour.
-     2. It prevents the event from propagating the DOM
-     3. Stops callback execution and returns immediately when called.
+     1. 首先会阻止浏览器的默认行为或表现
+     2. 阻止事件从DOM中传播
+     3. 阻止回调执行并在调用时立即返回
 
      **[⬆ Back to Top](#table-of-contents)**
 
 105. ### What is BOM
 
-     The Browser Object Model (BOM) allows JavaScript to "talk to" the browser. It consists of the objects navigator, history, screen, location and document which are children of the window. The Browser Object Model is not standardized and can change based on different browsers.
+     浏览器对象模型(BOM) 允许JavaScript与浏览器“对话”. window的子属性有navigator, history, screen, location 和 document对象. BOM不是标准化的，不同浏览器也可能不一样.
 
      ![Screenshot](images/bom.png)
 
@@ -2174,7 +2175,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 106. ### What is the use of setTimeout
 
-     The setTimeout() method is used to call a function or evaluate an expression after a specified number of milliseconds. For example, let's log a message after 2 seconds using setTimeout method,
+     setTimeout() 方法用于在一个指定的毫秒后调用函数或者执行表达式
 
      ```javascript
      setTimeout(function () {
@@ -2186,7 +2187,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 107. ### What is the use of setInterval
 
-     The setInterval() method is used to call a function or evaluate an expression at specified intervals (in milliseconds). For example, let's log a message after 2 seconds using setInterval method,
+     setInterval() 方法用于在一个指定的时间间隔（毫秒）调用函数或者执行表达式. 例如，让我们使用setInterval方法间隔两秒打印信息
 
      ```javascript
      setInterval(function () {
@@ -2198,15 +2199,15 @@ You can download the PDF and Epub version of this repository from the latest run
 
 108. ### Why is JavaScript treated as Single threaded
 
-     JavaScript is a single-threaded language. Because the language specification does not allow the programmer to write code so that the interpreter can run parts of it in parallel in multiple threads or processes. Whereas languages like java, go, C++ can make multi-threaded and multi-process programs.
+     JavaScript是单线程语言。因为语言标准不允许程序员编写代码，以便解释器可以在多个线程或进程中并行运行部分代码。而像java, go, C++等语言可以制作多线程和多进程的程序
 
      **[⬆ Back to Top](#table-of-contents)**
 
 109. ### What is an event delegation
 
-     Event delegation is a technique for listening to events where you delegate a parent element as the listener for all of the events that happen inside it.
-
-     For example, if you wanted to detect field changes in inside a specific form, you can use event delegation technique,
+     事件委托是一种监听事件的技术，你可以将父元素内部所有发生的事件都委托给父元素来监听。
+     
+	  例如，如果你想检测一个特定表单内的字段改变，你可以使用事件委托技术
 
      ```javascript
      var form = document.querySelector("#registration-form");
@@ -2226,30 +2227,30 @@ You can download the PDF and Epub version of this repository from the latest run
 
 110. ### What is ECMAScript
 
-     ECMAScript is the scripting language that forms the basis of JavaScript. ECMAScript standardized by the ECMA International standards organization in the ECMA-262 and ECMA-402 specifications. The first edition of ECMAScript was released in 1997.
+     ECMAScript是构成JavaScript基础的脚本语言。ECMAScript由ECMA国际化标准组织在ECMA-262 和 ECMA-402标准中标准化。ECMAScript第一版在1997年发布
 
      **[⬆ Back to Top](#table-of-contents)**
 
 111. ### What is JSON
 
-     JSON (JavaScript Object Notation) is a lightweight format that is used for data interchanging. It is based on a subset of JavaScript language in the way objects are built in JavaScript.
+     JSON (JavaScript Object Notation)是用于数据交换的轻量级格式。它基于 JavaScript 语言的一个子集，就像在 JavaScript 中构建对象一样
 
      **[⬆ Back to Top](#table-of-contents)**
 
 112. ### What are the syntax rules of JSON
 
-     Below are the list of syntax rules of JSON
+     下边是JSON的语法规则
 
-     1. The data is in name/value pairs
-     2. The data is separated by commas
-     3. Curly braces hold objects
-     4. Square brackets hold arrays
+     1. 数据是键/值对
+     2. 数据由逗号分隔
+     3. 花括号承载对象
+     4. 方括号承载数组
 
      **[⬆ Back to Top](#table-of-contents)**
 
 113. ### What is the purpose JSON stringify
 
-     When sending data to a web server, the data has to be in a string format. You can achieve this by converting JSON object into a string using stringify() method.
+     当向web服务器发送数据时，数据必须是字符串格式。你可以使用stringify()将JSON对象转换为字符串达到此目的
 
      ```javascript
      var userJSON = { name: "John", age: 31 };
@@ -2261,7 +2262,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 114. ### How do you parse JSON string
 
-     When receiving the data from a web server, the data is always in a string format. But you can convert this string value to a javascript object using parse() method.
+     当从web服务器接收数据时，数据总是字符串。但是你可以使用parse()方法将字符串转换为javascript对象
 
      ```javascript
      var userString = '{"name":"John","age":31}';
@@ -2273,21 +2274,21 @@ You can download the PDF and Epub version of this repository from the latest run
 
 115. ### Why do you need JSON
 
-     When exchanging data between a browser and a server, the data can only be text. Since JSON is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
+     当在浏览器和服务器间交换数据时，数据只能是文本。由于JSON是文本，所以很容易可以从服务器收发数据并被任何编程语言用作一种数据格式。
 
      **[⬆ Back to Top](#table-of-contents)**
 
 116. ### What are PWAs
 
-     Progressive web applications (PWAs) are a type of mobile app delivered through the web, built using common web technologies including HTML, CSS and JavaScript. These PWAs are deployed to servers, accessible through URLs, and indexed by search engines.
+     渐进式web应用 (PWAs) 是一种通过web分发的移动应用类型, 由常用的web技术包括HTML，CSS和JavaScript构建. PWA部署到服务器, 通过URL访问，并被搜索引擎索引
 
      **[⬆ Back to Top](#table-of-contents)**
 
 117. ### What is the purpose of clearTimeout method
 
-     The clearTimeout() function is used in javascript to clear the timeout which has been set by setTimeout()function before that. i.e, The return value of setTimeout() function is stored in a variable and it’s passed into the clearTimeout() function to clear the timer.
+     clearTimeout() 方法在js中用于清理之前被setTimeout()函数设置过的计时器。也就是说，setTimeout()函数的返回值存储在一个变量中，并传给clearTimeout()函数来清除计时器
 
-     For example, the below setTimeout method is used to display the message after 3 seconds. This timeout can be cleared by the clearTimeout() method.
+     例如，下边的setTimeout方法用来在3秒后展示信息。计时器可以被clearTimeout()方法清除
 
      ```javascript
      <script>
@@ -2310,9 +2311,9 @@ You can download the PDF and Epub version of this repository from the latest run
 
 118. ### What is the purpose of clearInterval method
 
-     The clearInterval() function is used in javascript to clear the interval which has been set by setInterval() function. i.e, The return value returned by setInterval() function is stored in a variable and it’s passed into the clearInterval() function to clear the interval.
+     clearInterval() 方法在js中用于清理之前被setInterval()函数设置过的间隔计时器。也就是说，setInterval()函数的返回值存储在一个变量中，并传给clearInterval()函数来清除计时器
 
-     For example, the below setInterval method is used to display the message for every 3 seconds. This interval can be cleared by the clearInterval() method.
+     例如，下边的setInterval方法用来每隔3秒展示信息。间隔计时器可以被clearInterval()方法清除
 
      ```javascript
      <script>
@@ -2335,7 +2336,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 119. ### How do you redirect new page in javascript
 
-     In vanilla javascript, you can redirect to a new page using the `location` property of window object. The syntax would be as follows,
+     在原生javascript中，你可以使用 window对象的`location`属性重定向到新的网页。语法如下
 
      ```javascript
      function redirect() {
@@ -2347,9 +2348,9 @@ You can download the PDF and Epub version of this repository from the latest run
 
 120. ### How do you check whether a string contains a substring
 
-     There are 3 possible ways to check whether a string contains a substring or not,
+     有三种可能的方法检测字符串是否包含子串
 
-     1. **Using includes:** ES6 provided `String.prototype.includes` method to test a string contains a substring
+     1. **使用includes:** ES6 提供了`String.prototype.includes` 方法来检测字符串是否包含一个子串
 
      ```javascript
      var mainString = "hello",
@@ -2357,7 +2358,7 @@ You can download the PDF and Epub version of this repository from the latest run
      mainString.includes(subString);
      ```
 
-     1. **Using indexOf:** In an ES5 or older environment, you can use `String.prototype.indexOf` which returns the index of a substring. If the index value is not equal to -1 then it means the substring exists in the main string.
+     1. **使用indexOf:** 在ES5或更旧的环境中，你可以使用 `String.prototype.indexOf` 返回子串的索引. 如果索引值不为-1则意味着子串存在于字符串中
 
      ```javascript
      var mainString = "hello",
@@ -2365,7 +2366,7 @@ You can download the PDF and Epub version of this repository from the latest run
      mainString.indexOf(subString) !== -1;
      ```
 
-     1. **Using RegEx:** The advanced solution is using Regular expression's test method(`RegExp.test`), which allows for testing for against regular expressions
+     1. **使用正则RegEx:** 更高级的方法是使用正则表达式的test方法(`RegExp.test`), 允许针对正则表达式进行测试
 
      ```javascript
      var mainString = "hello",
@@ -2377,7 +2378,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 121. ### How do you validate an email in javascript
 
-     You can validate an email in javascript using regular expressions. It is recommended to do validations on the server side instead of the client side. Because the javascript can be disabled on the client side.
+     在js中使用正则表达式可以校验邮箱。建议在服务端而不是客户端做校验。因为客户端可能禁用js
 
      ```javascript
      function validateEmail(email) {
@@ -2393,7 +2394,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 122. ### How do you get the current url with javascript
 
-     You can use `window.location.href` expression to get the current url path and you can use the same expression for updating the URL too. You can also use `document.URL` for read-only purposes but this solution has issues in FF.
+     可以使用`window.location.href` 表达式获取当前的url路径也可以使用相同的表达式更新URL。如果只用来读取也可以使用 `document.URL`，但是该方案在FF（Firefox）中有问题
 
      ```javascript
      console.log("location.href", window.location.href); // Returns full URL
@@ -2403,22 +2404,22 @@ You can download the PDF and Epub version of this repository from the latest run
 
 123. ### What are the various url properties of location object
 
-     The below `Location` object properties can be used to access URL components of the page,
+     下边的 `Location` 对象属性可以被用于访问页面的URL组件
 
-     1. href - The entire URL
-     2. protocol - The protocol of the URL
-     3. host - The hostname and port of the URL
-     4. hostname - The hostname of the URL
-     5. port - The port number in the URL
-     6. pathname - The path name of the URL
-     7. search - The query portion of the URL
-     8. hash - The anchor portion of the URL
+     1. href - 整个URL
+     2. protocol - URL的协议
+     3. host - URL的主机名和端口
+     4. hostname - URL的主机名
+     5. port - URL端口
+     6. pathname - URL的路径
+     7. search - URL的查询部分
+     8. hash - URL的锚点部分
 
      **[⬆ Back to Top](#table-of-contents)**
 
 124. ### How do get query string values in javascript
 
-     You can use URLSearchParams to get query string values in javascript. Let's see an example to get the client code value from URL query string,
+     你可以在js中使用URLSearchParams来获得查询字符串。让我们看一个从URL查询字符串中获得clientCode值的例子
 
      ```javascript
      const urlParams = new URLSearchParams(window.location.search);
@@ -2429,27 +2430,27 @@ You can download the PDF and Epub version of this repository from the latest run
 
 125. ### How do you check if a key exists in an object
 
-     You can check whether a key exists in an object or not using three approaches,
+     你可以使用三种方法检测键是否存在于对象上
 
-     1. **Using in operator:** You can use the in operator whether a key exists in an object or not
+     1. **使用in操作符:** 你可以使用in操作符检测键是否存在
 
      ```javascript
      "key" in obj;
      ```
 
-     and If you want to check if a key doesn't exist, remember to use parenthesis,
+     如果想检测键不存在，记住要用取反
 
      ```javascript
      !("key" in obj);
      ```
 
-     1. **Using hasOwnProperty method:** You can use `hasOwnProperty` to particularly test for properties of the object instance (and not inherited properties)
+     1. **使用hasOwnProperty方法:** 特别可以使用 `hasOwnProperty` 来检测属性是否在对象实例上（非继承属性）
 
      ```javascript
      obj.hasOwnProperty("key"); // true
      ```
 
-     1. **Using undefined comparison:** If you access a non-existing property from an object, the result is undefined. Let’s compare the properties against undefined to determine the existence of the property.
+     1. **使用undefined比较:** 如果你访问对象不存在的属性，结果就是undefined. 让我们将属性和undefined来决定属性是否存在
 
      ```javascript
      const user = {
@@ -2464,7 +2465,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 126. ### How do you loop through or enumerate javascript object
 
-     You can use the `for-in` loop to loop through javascript object. You can also make sure that the key you get is an actual property of an object, and doesn't come from the prototype using `hasOwnProperty` method.
+     可以使用 `for-in` 循环来遍历js对象。可以使用 `hasOwnProperty` 方法来确保键是对象本身的属性而非来自原型链。
 
      ```javascript
      var object = {
@@ -2484,21 +2485,21 @@ You can download the PDF and Epub version of this repository from the latest run
 
 127. ### How do you test for an empty object
 
-     There are different solutions based on ECMAScript versions
+     基于ECMAScript版本有不同的方案
 
-     1. **Using Object entries(ECMA 7+):** You can use object entries length along with constructor type.
+     1. **使用Object entries(ECMA 7+):** Object.entries的length和构造器类型一起用
 
      ```javascript
      Object.entries(obj).length === 0 && obj.constructor === Object; // Since date object length is 0, you need to check constructor check as well
      ```
 
-     1. **Using Object keys(ECMA 5+):** You can use object keys length along with constructor type.
+     1. **使用Object keys(ECMA 5+):** Object.keys的length和构造器类型一起用
 
      ```javascript
      Object.keys(obj).length === 0 && obj.constructor === Object; // Since date object length is 0, you need to check constructor check as well
      ```
 
-     1. **Using for-in with hasOwnProperty(Pre-ECMA 5):** You can use a for-in loop along with hasOwnProperty.
+     1. **结合for-in 和 hasOwnProperty(Pre-ECMA 5):** for-in循环和hasOwnProperty一起用.
 
      ```javascript
      function isEmpty(obj) {
@@ -2516,7 +2517,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 128. ### What is an arguments object
 
-     The arguments object is an Array-like object accessible inside functions that contains the values of the arguments passed to that function. For example, let's see how to use arguments object inside sum function,
+     arguments对象是一个在函数内部可访问的类数组对象，包含传给函数的参数值。例如，让我们看看在sum函数中如何使用arguments
 
      ```javascript
      function sum() {
@@ -2530,7 +2531,7 @@ You can download the PDF and Epub version of this repository from the latest run
      sum(1, 2, 3); // returns 6
      ```
 
-     **Note:** You can't apply array methods on arguments object. But you can convert into a regular array as below.
+     **注意:** 你不能对arguments对象使用数组方法。但是你可以像下边一样将它转换为一个数组
 
      ```javascript
      var argsArray = Array.prototype.slice.call(arguments);
@@ -2540,7 +2541,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 129. ### How do you make first letter of the string in an uppercase
 
-     You can create a function which uses a chain of string methods such as charAt, toUpperCase and slice methods to generate a string with the first letter in uppercase.
+     你可以创建一个使用数组方法链如charAt, toUpperCase 和 slice方法的函数来生成首字母是大写的字符串。
 
      ```javascript
      function capitalizeFirstLetter(string) {
@@ -2552,24 +2553,24 @@ You can download the PDF and Epub version of this repository from the latest run
 
 130. ### What are the pros and cons of for loop
 
-     The for-loop is a commonly used iteration syntax in javascript. It has both pros and cons
+     for循环是javascript中最常用的遍历语法。既有优点也有缺点
 
-     #### Pros
+     #### 优点
 
-     1. Works on every environment
-     2. You can use break and continue flow control statements
+     1. 所有环境都能工作
+     2. 可以使用break和continue控制语句流程
 
-     #### Cons
+     #### 缺点
 
-     1. Too verbose
-     2. Imperative
-     3. You might face one-by-off errors
+     1. 太冗长
+     2. 太命令式
+     3. 可能会面临一个接一个的错误
 
      **[⬆ Back to Top](#table-of-contents)**
 
 131. ### How do you display the current date in javascript
 
-     You can use `new Date()` to generate a new Date object containing the current date and time. For example, let's display the current date in mm/dd/yyyy
+     你可以使用 `new Date()` 来生成一个包含当前日期和时间的新的Date对象。例如，让我们以mm/dd/yyyy格式来展示当前日期
 
      ```javascript
      var today = new Date();
@@ -2585,7 +2586,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 132. ### How do you compare two date objects
 
-     You need to use date.getTime() method to compare date values instead of comparison operators (==, !=, ===, and !== operators)
+     需要使用date.getTime() 方法来比较日期值而不是比较运算符(==, !=, ===, 和 !== 运算符)
 
      ```javascript
      var d1 = new Date();
@@ -2598,7 +2599,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 133. ### How do you check if a string starts with another string
 
-     You can use ECMAScript 6's `String.prototype.startsWith()` method to check if a string starts with another string or not. But it is not yet supported in all browsers. Let's see an example to see this usage,
+     你可以使用ECMAScript 6的`String.prototype.startsWith()`方法来检查字符串是否以另一个字符串开头。但是不是所有浏览器都支持。让我们看看如何使用
 
      ```javascript
      "Good morning".startsWith("Good"); // true
@@ -2609,13 +2610,13 @@ You can download the PDF and Epub version of this repository from the latest run
 
 134. ### How do you trim a string in javascript
 
-     JavaScript provided a trim method on string types to trim any whitespaces present at the beginning or ending of the string.
+     JavaScript对字符串类型提供了一个trim方法，能够移除出现在字符串开头或者结尾的任何空格
 
      ```javascript
      "  Hello World   ".trim(); //Hello World
      ```
 
-     If your browser(<IE9) doesn't support this method then you can use below polyfill.
+     如果你的浏览器（<IE9）不支持此方法，可以用以下polyfill
 
      ```javascript
      if (!String.prototype.trim) {
@@ -2633,7 +2634,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 135. ### How do you add a key value pair in javascript
 
-     There are two possible solutions to add new properties to an object. Let's take a simple object to explain these solutions.
+     向对象中添加新的属性有两种犯法。让我们拿一个简单的对象来解释下边的方法
 
      ```javascript
      var object = {
@@ -2642,13 +2643,13 @@ You can download the PDF and Epub version of this repository from the latest run
      };
      ```
 
-     1. **Using dot notation:** This solution is useful when you know the name of the property
+     1. **使用点符号:** 当你知道属性名时此方法很有用
 
      ```javascript
      object.key3 = "value3";
      ```
 
-     1. **Using square bracket notation:** This solution is useful when the name of the property is dynamically determined.
+     1. **使用方括号:** 当属性名时动态的时候此方法很有用
 
      ```javascript
      obj["key3"] = "value3";
@@ -2658,30 +2659,32 @@ You can download the PDF and Epub version of this repository from the latest run
 
 136. ### Is the !-- notation represents a special operator
 
-     No,that's not a special operator. But it is a combination of 2 standard operators one after the other,
+     不是一个特殊的操作符。是两个紧挨着的标准操作符的组合
 
-     1. A logical not (!)
-     2. A prefix decrement (--)
+     1. 逻辑非 (!)
+     2. 自减前缀 (--)
 
-     At first, the value decremented by one and then tested to see if it is equal to zero or not for determining the truthy/falsy value.
+     首先将值减一，然后看它是否等于零，来决定真值/假值
 
      **[⬆ Back to Top](#table-of-contents)**
 
 137. ### How do you assign default values to variables
 
      You can use the logical or operator `||` in an assignment expression to provide a default value. The syntax looks like as below,
+     可以在表达式赋值中使用逻辑或运算符`||`来提供默认值。语法如下
 
      ```javascript
      var a = b || c;
      ```
 
-     As per the above expression, variable 'a 'will get the value of 'c' only if 'b' is falsy (if is null, false, undefined, 0, empty string, or NaN), otherwise 'a' will get the value of 'b'.
+     按照上边的表述，如果 'b' 是假值（如果是null, false, undefined, 0, 空字符串, 或 NaN）则变量 'a'的值会是 'c' ，否则 'a'的值会是 'b'
+     
 
      **[⬆ Back to Top](#table-of-contents)**
 
 138. ### How do you define multiline strings
 
-     You can define multiline string literals using the '\\' character followed by line terminator.
+     您可以使用 '\\' 字符后跟行终止符来定义多行字符串字面量
 
      ```javascript
      var str =
@@ -2690,19 +2693,18 @@ You can download the PDF and Epub version of this repository from the latest run
      sentence!";
      ```
 
-     But if you have a space after the '\\' character, the code will look exactly the same, but it will raise a SyntaxError.
+     但是入果在'\\'字符后有空格，代码看上去一样，实际会产生语法错误。
 
      **[⬆ Back to Top](#table-of-contents)**
 
 139. ### What is an app shell model
 
-     An application shell (or app shell) architecture is one way to build a Progressive Web App that reliably and instantly loads on your users' screens, similar to what you see in native applications. It is useful for getting some initial HTML to the screen fast without a network.
-
+     application shell (or app shell) 架构是一种构建PWA的方法，能够可靠且快速地加载用户的屏幕，类似于原生应用的体验。不需要网络就能获取首屏的初始HTML很有用
      **[⬆ Back to Top](#table-of-contents)**
 
 140. ### Can we define properties for functions
 
-     Yes, We can define properties for functions because functions are also objects.
+     我们可以为函数定义属性，因为函数也是对象
 
      ```javascript
      fn = function (x) {
@@ -2720,7 +2722,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 141. ### What is the way to find the number of parameters expected by a function
 
-     You can use `function.length` syntax to find the number of parameters expected by a function. Let's take an example of `sum` function to calculate the sum of numbers,
+     你可以使用 `function.length` 语法来找出函数预期接收参数的数量。让我们看一个求和函数`sum`的例子
 
      ```javascript
      function sum(num1, num2, num3, num4) {
@@ -2733,13 +2735,13 @@ You can download the PDF and Epub version of this repository from the latest run
 
 142. ### What is a polyfill
 
-     A polyfill is a piece of JS code used to provide modern functionality on older browsers that do not natively support it. For example, Silverlight plugin polyfill can be used to mimic the functionality of an HTML Canvas element on Microsoft Internet Explorer 7.
+     polyfill是一段在无法原生支持新功能的老版浏览器上提供现代化功能的JS代码。例如，Silverlight插件polyfill可以在微软IE7浏览器上用来模仿HTML Canvas元素的功能
 
      **[⬆ Back to Top](#table-of-contents)**
 
 143. ### What are break and continue statements
 
-     The break statement is used to "jump out" of a loop. i.e, It breaks the loop and continues executing the code after the loop.
+     break语句用来 "跳出"循环。即可以中断遍历并继续执行循环后的代码
 
      ```javascript
      for (i = 0; i < 10; i++) {
@@ -2750,7 +2752,7 @@ You can download the PDF and Epub version of this repository from the latest run
      }
      ```
 
-     The continue statement is used to "jump over" one iteration in the loop. i.e, It breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+     continue语句用来 "跳过去" 循环中的一次迭代。即会中断一次迭代（循环中），如果出现指定条件，继续循环中的下一次迭代
 
      ```javascript
      for (i = 0; i < 10; i++) {
@@ -2765,7 +2767,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 144. ### What are js labels
 
-     The label statement allows us to name loops and blocks in JavaScript. We can then use these labels to refer back to the code later. For example, the below code with labels avoids printing the numbers when they are same,
+     label语句允许我们给JS中的循环和代码块命名。后续我们可以引用这些标签。例如，下边的带label的代码在值相同时可以避免打印数字
 
      ```javascript
      var i, j;
@@ -2789,38 +2791,38 @@ You can download the PDF and Epub version of this repository from the latest run
 
 145. ### What are the benefits of keeping declarations at the top
 
-     It is recommended to keep all declarations at the top of each script or function. The benefits of doing this are,
+     建议将所有的声明都放在每个脚本或函数的顶部。好处是：
 
-     1. Gives cleaner code
-     2. It provides a single place to look for local variables
-     3. Easy to avoid unwanted global variables
-     4. It reduces the possibility of unwanted re-declarations
+     1. 代码更整洁
+     2. 只需在一个地方查找局部变量
+     3. 容易避免不想要的全局变量
+     4. 减少了不想要的重复声明的可能性
 
      **[⬆ Back to Top](#table-of-contents)**
 
 146. ### What are the benefits of initializing variables
 
-     It is recommended to initialize variables because of the below benefits,
+     由于以下好处，建议初始化变量
 
-     1. It gives cleaner code
-     2. It provides a single place to initialize variables
-     3. Avoid undefined values in the code
+     1. 代码更整洁
+     2. 只在一个地方初始化变量
+     3. 避免代码中的undefined值
 
      **[⬆ Back to Top](#table-of-contents)**
 
 147. ### What are the recommendations to create new object
 
-     It is recommended to avoid creating new objects using `new Object()`. Instead you can initialize values based on it's type to create the objects.
+     建议避免使用 `new Object()`创建新对象. 相反你可以基于类型来创建对象初始化值
 
-     1. Assign {} instead of new Object()
-     2. Assign "" instead of new String()
-     3. Assign 0 instead of new Number()
-     4. Assign false instead of new Boolean()
-     5. Assign [] instead of new Array()
-     6. Assign /()/ instead of new RegExp()
-     7. Assign function (){} instead of new Function()
+     1. 用{} 而非 new Object()
+     2. 用 "" 而非 new String()
+     3. 用 0 而不是 new Number()
+     4. 用 false 而不是 new Boolean()
+     5. 用 [] 而不是 new Array()
+     6. 用 /()/ 而不是 new RegExp()
+     7. 用 function (){} 而不是 new Function()
 
-     You can define them as an example,
+     你可以像例子一样定义它们
 
      ```javascript
      var v1 = {};
@@ -2836,7 +2838,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 148. ### How do you define JSON arrays
 
-     JSON arrays are written inside square brackets and arrays contain javascript objects. For example, the JSON array of users would be as below,
+     JSON数组是在方括号中书写的，数组包含js对象。例如，下边是users的JSON数组
 
      ```javascript
      "users":[
@@ -2850,20 +2852,20 @@ You can download the PDF and Epub version of this repository from the latest run
 
 149. ### How do you generate random integers
 
-     You can use Math.random() with Math.floor() to return random integers. For example, if you want generate random integers between 1 to 10, the multiplication factor should be 10,
+     你可以使用Math.random()和 Math.floor() 来返回随机的整数.例如，如果你想在1和10间生成随机整数，乘积应该是10
 
      ```javascript
      Math.floor(Math.random() * 10) + 1; // returns a random integer from 1 to 10
      Math.floor(Math.random() * 100) + 1; // returns a random integer from 1 to 100
      ```
 
-     **Note:** Math.random() returns a random number between 0 (inclusive), and 1 (exclusive)
+     **注意:** Math.random() 返回在0（包括）和1（不包括）间的随机数
 
      **[⬆ Back to Top](#table-of-contents)**
 
 150. ### Can you write a random integers function to print integers with in a range
 
-     Yes, you can create a proper random function to return a random number between min and max (both included)
+     可以创建一个在min和max（都包含）间返回随机整数的随机函数
 
      ```javascript
      function randomInteger(min, max) {
