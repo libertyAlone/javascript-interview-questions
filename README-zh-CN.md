@@ -2879,31 +2879,31 @@ You can download the PDF and Epub version of this repository from the latest run
 
 151. ### What is tree shaking
 
-     Tree shaking is a form of dead code elimination. It means that unused modules will not be included in the bundle during the build process and for that it relies on the static structure of ES2015 module syntax,( i.e. import and export). Initially this has been popularized by the ES2015 module bundler `rollup`.
+     Tree Shaking 是消除无用代码的一种形式。意味着在构建的过程中无用的模块不会被包含进打包后的文件，正因如此，这项技术依赖于ES2015模块化语法的静态结构（即import和export）。最初，这被 ES2015 的模块打包器`rollip`推广
 
      **[⬆ Back to Top](#table-of-contents)**
 
 152. ### What is the need of tree shaking
 
-     Tree Shaking can significantly reduce the code size in any application. i.e, The less code we send over the wire the more performant the application will be. For example, if we just want to create a “Hello World” Application using SPA frameworks then it will take around a few MBs, but by tree shaking it can bring down the size to just a few hundred KBs. Tree shaking is implemented in Rollup and Webpack bundlers.
+     Tree Shaking可以显著减少任何应用的代码包大小。也就是说，我们通过网络发送的代码越少，应用程序的性能就越好。例如，如果我们使用SPA框架来创建一个 "Hello World"应用，会占用大概几MB，但是但是通过树摇可以将大小变成仅仅几百KB。Tree shaking在Rollup和Webpack构建起中实现 
 
      **[⬆ Back to Top](#table-of-contents)**
 
 153. ### Is it recommended to use eval
 
-     No, it allows arbitrary code to be run which causes a security problem. As we know that the eval() function is used to run text as code. In most of the cases, it should not be necessary to use it.
+     不建议，这会允许任意代码运行可能引起安全问题。正如我们所知，eval()函数用于将文本当作代码运行，在大多数情况下，没必要这么做
 
      **[⬆ Back to Top](#table-of-contents)**
 
 154. ### What is a Regular Expression
 
-     A regular expression is a sequence of characters that forms a search pattern. You can use this search pattern for searching data in a text. These can be used to perform all types of text search and text replace operations. Let's see the syntax format now,
+     正则表达式是一个搜索模式的一串字符。你可以使用这种搜索模式在文本中检索数据。可以被用于全部类型的文本查找和文本替换操作。让我们看下语法格式
 
      ```javascript
      /pattern/modifiers;
      ```
 
-     For example, the regular expression or search pattern with case-insensitive username would be,
+     例如，大小写敏感的用户名的正则表达式或者搜索模式是
 
      ```javascript
      /John/i;
@@ -2913,15 +2913,15 @@ You can download the PDF and Epub version of this repository from the latest run
 
 155. ### What are the string methods available in Regular expression
 
-     Regular Expressions has two string methods: search() and replace().
-     The search() method uses an expression to search for a match, and returns the position of the match.
+     正则表达式有两个字符串方法：search()和replace()
+     search()方法使用表达式来搜索匹配的值，并返回匹配的位置
 
      ```javascript
      var msg = "Hello John";
      var n = msg.search(/John/i); // 6
      ```
 
-     The replace() method is used to return a modified string where the pattern is replaced.
+     replace()方法用于在模式被替换返回修改后的字符串
 
      ```javascript
      var msg = "Hello John";
@@ -2932,15 +2932,15 @@ You can download the PDF and Epub version of this repository from the latest run
 
 156. ### What are modifiers in regular expression
 
-     Modifiers can be used to perform case-insensitive and global searches. Let's list down some of the modifiers,
+     修饰符被用于执行大小写和全局检索。让我们列举一些修饰符
 
      | Modifier | Description                                             |
      | -------- | ------------------------------------------------------- |
-     | i        | Perform case-insensitive matching                       |
-     | g        | Perform a global match rather than stops at first match |
-     | m        | Perform multiline matching                              |
+     | i        | 不区分大小写的匹配                       |
+     | g        | 进行全局匹配而不是在第一次匹配成功后就停止 |
+     | m        | 进行多行匹配                             |
 
-     Let's take an example of global modifier,
+     让我们看一个全局修饰符的例子
 
      ```javascript
      var text = "Learn JS one by one";
@@ -2952,29 +2952,29 @@ You can download the PDF and Epub version of this repository from the latest run
 
 157. ### What are regular expression patterns
 
-     Regular Expressions provide a group of patterns in order to match characters. Basically they are categorized into 3 types,
+     正则表达式提供了一组模式以匹配字符。基本上分为三种
 
-     1. **Brackets:** These are used to find a range of characters.
-        For example, below are some use cases,
-        1. [abc]: Used to find any of the characters between the brackets(a,b,c)
-        2. [0-9]: Used to find any of the digits between the brackets
-        3. (a|b): Used to find any of the alternatives separated with |
-     2. **Metacharacters:** These are characters with a special meaning
-        For example, below are some use cases,
-        1. \\d: Used to find a digit
-        2. \\s: Used to find a whitespace character
-        3. \\b: Used to find a match at the beginning or ending of a word
-     3. **Quantifiers:** These are useful to define quantities
-        For example, below are some use cases,
-        1. n+: Used to find matches for any string that contains at least one n
-        2. n\*: Used to find matches for any string that contains zero or more occurrences of n
-        3. n?: Used to find matches for any string that contains zero or one occurrences of n
+     1. **括号:** 这些被用于查找一系列字符
+        例如下边是一些用例
+        1. [abc]: 用来查找括号内的任意字符（a,b,c）
+        2. [0-9]: 用来查找括号间的任意数字
+        3. (a|b): 用于查找以 | 分隔的其中之一
+     2. **元字符:** 这些是有特殊意义的字符
+        例如下边是一些用例
+        1. \\d: 用于查找数字
+        2. \\s: 用于查找空白字符
+        3. \\b: 用于查找单词的开头或结尾
+     3. **限定符:** 对于定义数量很有用
+        例如下边是一些用例
+        1. n+: 用于查找任何包含至少一个 n 的字符串的匹配项
+        2. n\*: 用于查找包含零个或多个 n 的任何字符串的匹配项
+        3. n?: 用于查找包含零个或一个 n 的任何字符串的匹配项
 
      **[⬆ Back to Top](#table-of-contents)**
 
 158. ### What is a RegExp object
 
-     RegExp object is a regular expression object with predefined properties and methods. Let's see the simple usage of RegExp object,
+     RegExp对象是有预定义属性和方法的正则表达式对象。让我们看下RegExp对象的简单用法
 
      ```javascript
      var regexp = new RegExp("\\w+");
@@ -2986,7 +2986,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 159. ### How do you search a string for a pattern
 
-     You can use the test() method of regular expression in order to search a string for a pattern, and return true or false depending on the result.
+     你可以使用正则表达式的test()方法来按模式搜索字符串，并依赖结果返回true或false
 
      ```javascript
      var pattern = /you/;
@@ -2997,7 +2997,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 160. ### What is the purpose of exec method
 
-     The purpose of exec method is similar to test method but it executes a search for a match in a specified string and returns a result array, or null instead of returning true/false.
+     exec方法的作用类似于test方法，但是它是为一个明确的字符串执行检索匹配并返回结果数组或者null而不是返回true/false
 
      ```javascript
      var pattern = /you/;
@@ -3008,15 +3008,15 @@ You can download the PDF and Epub version of this repository from the latest run
 
 161. ### How do you change the style of a HTML element
 
-     You can change inline style or classname of a HTML element using javascript
+     可以使用js改变HTML元素的内联样式或者classname
 
-     1. **Using style property:** You can modify inline style using style property
+     1. **使用 style 属性:** 可以使用style属性修改内联样式
 
      ```javascript
      document.getElementById("title").style.fontSize = "30px";
      ```
 
-     1. **Using ClassName property:** It is easy to modify element class using className property
+     1. **使用ClassName属性:** 使用className属性很容易修改元素类名
 
      ```javascript
      document.getElementById("title").className = "custom-title";
@@ -3026,15 +3026,14 @@ You can download the PDF and Epub version of this repository from the latest run
 
 162. ### What would be the result of 1+2+'3'
 
-     The output is going to be `33`. Since `1` and `2` are numeric values, the result of the first two digits is going to be a numeric value `3`. The next digit is a string type value because of that the addition of numeric value `3` and string type value `3` is just going to be a concatenation value `33`.
+     输出是 `33`。由于`1` 和 `2`是数字值，前两个数字的结果就是数字值 `3`。下一个数字是字符串类型的值，因为数字值 `3` 和字符串类型值 `3` 的加法将成为连接后的值 `33`
 
      **[⬆ Back to Top](#table-of-contents)**
 
 163. ### What is a debugger statement
 
-     The debugger statement invokes any available debugging functionality, such as setting a breakpoint. If no debugging functionality is available, this statement has no effect.
-     For example, in the below function a debugger statement has been inserted. So
-     execution is paused at the debugger statement just like a breakpoint in the script source.
+     调试器语句调用任何可用的调试功能，如设置断点。如果没有可用的调试功能，该语句会不起作用
+     例如，下边的函数中插入了一个调试语句。所以执行会像脚本源码中的断点一样在调试语句处暂停
 
      ```javascript
      function getProfile() {
@@ -3048,13 +3047,13 @@ You can download the PDF and Epub version of this repository from the latest run
 
 164. ### What is the purpose of breakpoints in debugging
 
-     You can set breakpoints in the javascript code once the debugger statement is executed and the debugger window pops up. At each breakpoint, javascript will stop executing, and let you examine the JavaScript values. After examining values, you can resume the execution of code using the play button.
+     调试器语句被执行并弹出调试器窗口后，您可以在 javascript 代码中设置断点。每个断点处，js会停止执行，让你检查JS的值。检查过后你可以使用play按钮恢复执行
 
      **[⬆ Back to Top](#table-of-contents)**
 
 165. ### Can I use reserved words as identifiers
 
-     No, you cannot use the reserved words as variables, labels, object or function names. Let's see one simple example,
+     你不可以使用保留的关键字作为变量，标签，对象或者函数名。让我们看一个简单的例子
 
      ```javascript
      var else = "hello"; // Uncaught SyntaxError: Unexpected token else
@@ -3064,7 +3063,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 166. ### How do you detect a mobile browser
 
-     You can use regex which returns a true or false value depending on whether or not the user is browsing with a mobile.
+     你可以使用正则返回true或者false来判断用户是否正在使用移动设备浏览
 
      ```javascript
      window.mobilecheck = function () {
@@ -3088,7 +3087,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 167. ### How do you detect a mobile browser without regexp
 
-     You can detect mobile browsers by simply running through a list of devices and checking if the useragent matches anything. This is an alternative solution for RegExp usage,
+     你可以通过简单地遍历一些设备列表检查useragent是否匹配来判断是否是移动端浏览器。这是正则方法的可替代方案
 
      ```javascript
      function detectmob() {
@@ -3112,7 +3111,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 168. ### How do you get the image width and height using JS
 
-     You can programmatically get the image and check the dimensions(width and height) using Javascript.
+     你可以用js的编程方法获取图片并检查维度（宽和高）
 
      ```javascript
      var img = new Image();
@@ -3127,6 +3126,7 @@ You can download the PDF and Epub version of this repository from the latest run
 169. ### How do you make synchronous HTTP request
 
      Browsers provide an XMLHttpRequest object which can be used to make synchronous HTTP requests from JavaScript
+     浏览器提供了一个XMLHttpRequest对象可以用于在JS中发送同步HTTP请求
 
      ```javascript
      function httpGet(theUrl) {
@@ -3141,7 +3141,8 @@ You can download the PDF and Epub version of this repository from the latest run
 
 170. ### How do you make asynchronous HTTP request
 
-     Browsers provide an XMLHttpRequest object which can be used to make asynchronous HTTP requests from JavaScript by passing the 3rd parameter as true.
+     通过将第三个参数设置为true，浏览器提供了一个XMLHttpRequest对象可以用于在JS中发送异步HTTP请求
+
 
      ```javascript
      function httpGetAsync(theUrl, callback) {
@@ -3159,7 +3160,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 171. ### How do you convert date to another timezone in javascript
 
-     You can use the toLocaleString() method to convert dates in one timezone to another. For example, let's convert current date to British English timezone as below,
+     你可以使用toLocaleString()方法将日期从一个时区转换为另一个时区。例如，让我们像下边一样将当前日期转换为英国时区
 
      ```javascript
      console.log(event.toLocaleString("en-GB", { timeZone: "UTC" })); //29/06/2019, 09:56:00
@@ -3169,7 +3170,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 172. ### What are the properties used to get size of window
 
-     You can use innerWidth, innerHeight, clientWidth, clientHeight properties of windows, document element and document body objects to find the size of a window. Let's use them combination of these properties to calculate the size of a window or document,
+     你可以使用window对象，document元素和document.body对象上的innerWidth, innerHeight, clientWidth, clientHeight这些属性来获取窗口的大小。让我们结合这些属性来计算窗口或文档的大小
 
      ```javascript
      var width =
@@ -3187,7 +3188,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 173. ### What is a conditional operator in javascript
 
-     The conditional (ternary) operator is the only JavaScript operator that takes three operands which acts as a shortcut for if statements.
+     条件 (三元) 运算符是唯一一个采用三个操作数作为 if 语句的快捷方式的 JavaScript 运算符
 
      ```javascript
      var isAuthenticated = false;
@@ -3200,7 +3201,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 174. ### Can you apply chaining on conditional operator
 
-     Yes, you can apply chaining on conditional operators similar to if … else if … else if … else chain. The syntax is going to be as below,
+     你可以在类似于 if ... else if ... else if ... else 链 的条件运算符上条件运算符链
 
      ```javascript
      function traceValue(someParam) {
@@ -3232,7 +3233,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 175. ### What are the ways to execute javascript after page load
 
-     You can execute javascript after page load in many different ways,
+     你可以使用许多不同的方法在页面加载完后执行js
 
      1. **window.onload:**
 
@@ -3256,7 +3257,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 176. ### What is the difference between proto and prototype
 
-     The `__proto__` object is the actual object that is used in the lookup chain to resolve methods, etc. Whereas `prototype` is the object that is used to build `__proto__` when you create an object with new
+    `__proto__` 对象是在查找链中用于解析方法等的实际对象. 而`prototype` 是用于使用 new 创建对象时构建 `__proto__` 的对象，
 
      ```javascript
      new Employee().__proto__ === Employee.prototype;
@@ -3267,7 +3268,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 177. ### Give an example where do you really need semicolon
 
-     It is recommended to use semicolons after every statement in JavaScript. For example, in the below case it throws an error ".. is not a function" at runtime due to missing semicolon.
+     在JS中建议每条语句后使用分号。例如，下边的情形会在运行时由于缺少分号抛出一个错误 ".. 不是一个函数"
 
      ```javascript
      // define a function
@@ -3283,7 +3284,7 @@ You can download the PDF and Epub version of this repository from the latest run
      )();
      ```
 
-     and it will be interpreted as
+     会被当作下边来解释
 
      ```javascript
      var fn = (function () {
@@ -3293,13 +3294,13 @@ You can download the PDF and Epub version of this repository from the latest run
      })();
      ```
 
-     In this case, we are passing the second function as an argument to the first function and then trying to call the result of the first function call as a function. Hence, the second function will fail with a "... is not a function" error at runtime.
+     在此情形下，我们将第二个函数作为一个参数传给了第一个函数，然后尝试调用第一个函数作为函数调用后的结果。因此，第二个函数会以运行时的错误"... is not a function"失败结束。
 
      **[⬆ Back to Top](#table-of-contents)**
 
 178. ### What is a freeze method
 
-     The **freeze()** method is used to freeze an object. Freezing an object does not allow adding new properties to an object,prevents from removing and prevents changing the enumerability, configurability, or writability of existing properties. i.e, It returns the passed object and does not create a frozen copy.
+     **freeze()**方法用来冻结对象。冻结对象不允许向对象中添加新属性，防止删除和修改已存在属性的可枚举型，可配置性或可写性
 
      ```javascript
      const obj = {
@@ -3312,28 +3313,29 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(obj.prop); //100
      ```
 
-     **Note:** It causes a TypeError if the argument passed is not an object.
+     **注意:** 如果传入的参数不是对象会引发TypeError 
 
      **[⬆ Back to Top](#table-of-contents)**
 
 179. ### What is the purpose of freeze method
 
-     Below are the main benefits of using freeze method,
+     下边是使用freeze方法的主要好处
 
-     1. It is used for freezing objects and arrays.
-     2. It is used to make an object immutable.
+     1. 用于冻结对象和数组
+     2. 用于让对象不可变
 
      **[⬆ Back to Top](#table-of-contents)**
 
 180. ### Why do I need to use freeze method
 
-     In the Object-oriented paradigm, an existing API contains certain elements that are not intended to be extended, modified, or re-used outside of their current context. Hence it works as the `final` keyword which is used in various languages.
+     在面对对象范式中，现有 API 包含某些不打算在当前上下文之外扩展、修改或重用的元素。因此它的作用就像许多语言中使用的 `final`关键词一样。
+     
 
      **[⬆ Back to Top](#table-of-contents)**
 
 181. ### How do you detect a browser language preference
 
-     You can use navigator object to detect a browser language preference as below,
+     可以像下边一样使用navigator对象检测语言偏好
 
      ```javascript
      var language =
@@ -3348,7 +3350,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 182. ### How to convert string to title case with javascript
 
-     Title case means that the first letter of each word is capitalized. You can convert a string to title case using the below function,
+     首字母大写就是将每个单词的首字母都变成大写。你可以像下边函数一样将字符串转化首字母大写
 
      ```javascript
      function toTitleCase(str) {
@@ -3363,7 +3365,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 183. ### How do you detect javascript disabled in the page
 
-     You can use the `<noscript>` tag to detect javascript disabled or not. The code block inside `<noscript>` gets executed when JavaScript is disabled, and is typically used to display alternative content when the page generated in JavaScript.
+     你可以使用 `<noscript>` 标签来检测js是否开启。`<noscript>` 内的代码块会在JS被禁用时执行，通常用于在页面是JS生成时展示可选内容
 
      ```javascript
      <script type="javascript">
@@ -3378,20 +3380,20 @@ You can download the PDF and Epub version of this repository from the latest run
 
 184. ### What are various operators supported by javascript
 
-     An operator is capable of manipulating(mathematical and logical computations) a certain value or operand. There are various operators supported by JavaScript as below,
+     操作符能操作（数学和逻辑运算）特定的值或者操作数。如下所示，JS支持很多操作符。
 
-     1. **Arithmetic Operators:** Includes + (Addition),– (Subtraction), \* (Multiplication), / (Division), % (Modulus), + + (Increment) and – – (Decrement)
-     2. **Comparison Operators:** Includes = =(Equal),!= (Not Equal), ===(Equal with type), > (Greater than),> = (Greater than or Equal to),< (Less than),<= (Less than or Equal to)
-     3. **Logical Operators:** Includes &&(Logical AND),||(Logical OR),!(Logical NOT)
-     4. **Assignment Operators:** Includes = (Assignment Operator), += (Add and Assignment Operator), – = (Subtract and Assignment Operator), \*= (Multiply and Assignment), /= (Divide and Assignment), %= (Modules and Assignment)
-     5. **Ternary Operators:** It includes conditional(: ?) Operator
-     6. **typeof Operator:** It uses to find type of variable. The syntax looks like `typeof variable`
+     1. **算数运算符:** 包括 + (加),– (减), \* (乘), / (除), % (取模), ++ (自增) 和 –– (自减)
+     2. **比较运算符:** 包括 = =(相等),!= (不相等), ===(类型相等), > (大于),> = (大于等于),< (小于),<= (小于等于)
+     3. **逻辑运算符:** 包括 &&(逻辑与),||(逻辑或),!(逻辑非)
+     4. **赋值运算符:** 包括 = (赋值运算符), += (加法赋值), –= (减法赋值), \*= (乘法赋值), /= (除法赋值), %= (取模赋值)
+     5. **三元运算符:** 包括条件(: ?) 运算符
+     6. **typeof运算符:** 用于发现变量类型. 语法看上去像 `typeof variable`
 
      **[⬆ Back to Top](#table-of-contents)**
 
 185. ### What is a rest parameter
 
-     Rest parameter is an improved way to handle function parameters which allows us to represent an indefinite number of arguments as an array. The syntax would be as below,
+     剩余参数是一种处理函数参数的改进方法，它允许我们将不定数量的参数表示为数组。语法如下
 
      ```javascript
      function f(a, b, ...theArgs) {
@@ -3399,7 +3401,7 @@ You can download the PDF and Epub version of this repository from the latest run
      }
      ```
 
-     For example, let's take a sum example to calculate on dynamic number of parameters,
+     例如，让我们看一个根据动态参数数量来计算取和的例子
 
      ```javascript
      function total(…args){
@@ -3415,13 +3417,13 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(fun(1,2,3,4,5)); //15
      ```
 
-     **Note:** Rest parameter is added in ES2015 or ES6
+     **注意:** 剩余参数在ES2015或ES6中加入
 
      **[⬆ Back to Top](#table-of-contents)**
 
 186. ### What happens if you do not use rest parameter as a last argument
 
-     The rest parameter should be the last argument, as its job is to collect all the remaining arguments into an array. For example, if you define a function like below it doesn’t make any sense and will throw an error.
+     剩余参数应该是最后一个参数，因为它的工作是将剩余所有的参数收集到一个数组中。例如，如果像下边定义的函数则不会工作并抛出错误
 
      ```javascript
      function someFunc(a,…b,c){
@@ -3434,21 +3436,21 @@ You can download the PDF and Epub version of this repository from the latest run
 
 187. ### What are the bitwise operators available in javascript
 
-     Below are the list of bitwise logical operators used in JavaScript
+     下边是JS中使用的位逻辑运算符列表
 
-     1. Bitwise AND ( & )
-     2. Bitwise OR ( | )
-     3. Bitwise XOR ( ^ )
-     4. Bitwise NOT ( ~ )
-     5. Left Shift ( << )
-     6. Sign Propagating Right Shift ( >> )
-     7. Zero fill Right Shift ( >>> )
+     1. 位运算 与  ( & )
+     2. 位运算 或 ( | )
+     3. 位运算 异或 ( ^ )
+     4. 位运算 非 ( ~ )
+     5. 左移 ( << )
+     6. 带符号的右移 ( >> )
+     7. 填充0的右移 ( >>> )
 
      **[⬆ Back to Top](#table-of-contents)**
 
 188. ### What is a spread operator
 
-     Spread operator allows iterables( arrays / objects / strings ) to be expanded into single arguments/elements. Let's take an example to see this behavior,
+     扩展运算符允许可迭代对象（数组/对象/字符串）扩展为单个参数/元素。让我们看下此行为的例子
 
      ```javascript
      function calculateSum(x, y, z) {
@@ -3464,12 +3466,12 @@ You can download the PDF and Epub version of this repository from the latest run
 
 189. ### How do you determine whether object is frozen or not
 
-     Object.isFrozen() method is used to determine if an object is frozen or not.An object is frozen if all of the below conditions hold true,
+     Object.isFrozen() 方法用来判断一个对象是否冻结。如果下边条件都是true则该对象就是冻结的
 
-     1. If it is not extensible.
-     2. If all of its properties are non-configurable.
-     3. If all its data properties are non-writable.
-        The usage is going to be as follows,
+     1. 不可扩展
+     2. 所有属性都不可配置
+     3. 所有的数据属性都不可写
+        用法如下
 
      ```javascript
      const object = {
@@ -3483,7 +3485,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 190. ### How do you determine two values same or not using object
 
-     The Object.is() method determines whether two values are the same value. For example, the usage with different types of values would be,
+     Object.is()方法用来判断两个值是否是相同值。例如，不同类型的值的用法会是
 
      ```javascript
      Object.is("hello", "hello"); // true
@@ -3491,18 +3493,18 @@ You can download the PDF and Epub version of this repository from the latest run
      Object.is([], []); // false
      ```
 
-     Two values are the same if one of the following holds:
+     如果其中之一成立则值相等
 
-     1. both undefined
-     2. both null
-     3. both true or both false
-     4. both strings of the same length with the same characters in the same order
-     5. both the same object (means both object have same reference)
-     6. both numbers and
-        both +0
-        both -0
-        both NaN
-        both non-zero and both not NaN and both have the same value.
+     1. 都是undefined
+     2. 都是 null
+     3. 都是 true 或者都是 false
+     4. 都是字符串，长度相同，字符顺序也一样
+     5. 同一个对象 (意味着对象有同一个引用)
+     6. 都是数字且
+        都是 +0
+        都是 -0
+        都是 NaN
+        都非0且都不是NaN且都有一样的值
 
      **[⬆ Back to Top](#table-of-contents)**
 
