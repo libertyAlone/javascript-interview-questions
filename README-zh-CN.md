@@ -192,56 +192,56 @@ You can download the PDF and Epub version of this repository from the latest run
 | 148 | [如何定义JSON数组](#how-do-you-define-json-arrays)                                                                                                   |
 | 149 | [如何生成随机整数](#how-do-you-generate-random-integers)                                                                                       |
 | 150 | [可以写一个在特定范围内打印随机整数的函数吗](#can-you-write-a-random-integers-function-to-print-integers-with-in-a-range)         |
-| 151 | [What is tree shaking](#what-is-tree-shaking)                                                                                                                     |
-| 152 | [What is the need of tree shaking](#what-is-the-need-of-tree-shaking)                                                                                             |
-| 153 | [Is it recommended to use eval](#is-it-recommended-to-use-eval)                                                                                                   |
-| 154 | [What is a Regular Expression](#what-is-a-regular-expression)                                                                                                     |
-| 155 | [What are the string methods available in Regular expression](#what-are-the-string-methods-available-in-regular-expression)                                       |
-| 156 | [What are modifiers in regular expression](#what-are-modifiers-in-regular-expression)                                                                             |
-| 157 | [What are regular expression patterns](#what-are-regular-expression-patterns)                                                                                     |
-| 158 | [What is a RegExp object](#what-is-a-regexp-object)                                                                                                               |
-| 159 | [How do you search a string for a pattern](#how-do-you-search-a-string-for-a-pattern)                                                                             |
-| 160 | [What is the purpose of exec method](#what-is-the-purpose-of-exec-method)                                                                                         |
-| 161 | [How do you change style of a HTML element](#how-do-you-change-style-of-a-html-element)                                                                           |
-| 162 | [What would be the result of 1+2+'3'](#what-would-be-the-result-of-1+2+'3')                                                                                       |
-| 163 | [What is a debugger statement](#what-is-a-debugger-statement)                                                                                                     |
-| 164 | [What is the purpose of breakpoints in debugging](#what-is-the-purpose-of-breakpoints-indebugging)                                                                |
-| 165 | [Can I use reserved words as identifiers](#can-i-use-reserved-words-as-identifiers)                                                                               |
-| 166 | [How do you detect a mobile browser](#how-do-you-detect-a-mobile-browser)                                                                                         |
-| 167 | [How do you detect a mobile browser without regexp](#how-do-you-detect-a-mobile-browser-without-regexp)                                                           |
-| 168 | [How do you get the image width and height using JS](#how-do-you-get-the-image-width-and-height-using-js)                                                         |
-| 169 | [How do you make synchronous HTTP request](#how-do-you-make-synchronous-http-request)                                                                             |
-| 170 | [How do you make asynchronous HTTP request](#how-do-you-make-asynchronous-http-request)                                                                           |
-| 171 | [How do you convert date to another timezone in javascript](#how-do-you-convert-date-to-another-timezone-in-javascript)                                           |
-| 172 | [What are the properties used to get size of window](#what-are-the-properties-used-to-get-size-of-window)                                                         |
-| 173 | [What is a conditional operator in javascript](#what-is-a-conditional-operator-in-javascript)                                                                     |
-| 174 | [Can you apply chaining on conditional operator](#Can-you-apply-chaining-on-conditional-operator)                                                                 |
-| 175 | [What are the ways to execute javascript after page load](#what-are-the-ways-to-execute-javascript-after-page-load)                                               |
-| 176 | [What is the difference between proto and prototype](#what-is-the-difference-between-proto-and-prototype)                                                         |
-| 177 | [Give an example where do you really need semicolon](#give-an-example-where-do-you-really-need-semicolon)                                                         |
-| 178 | [What is a freeze method](#what-is-a-freeze-method)                                                                                                               |
-| 179 | [What is the purpose of freeze method](#what-is-the-purpose-of-freeze-method)                                                                                     |
-| 180 | [Why do I need to use freeze method](#why-do-i-need-to-use-freeze-method)                                                                                         |
-| 181 | [How do you detect a browser language preference](#how-do-you-detect-a-browser-language-preference)                                                               |
-| 182 | [How to convert string to title case with javascript](#how-to-convert-string-to-title-case-with-javascript)                                                       |
-| 183 | [How do you detect javascript disabled in the page](#how-do-you-detect-javascript-disabled-in-the-page)                                                           |
-| 184 | [What are various operators supported by javascript](#what-are-various-operators-supported-by-javascript)                                                         |
-| 185 | [What is a rest parameter](#what-is-a-rest-parameter)                                                                                                             |
-| 186 | [What happens if you do not use rest parameter as a last argument](#what-happens-if-you-do-not-use-rest-parameter-as-a-last-argument)                             |
-| 187 | [What are the bitwise operators available in javascript](#what-are-the-bitwise-operators-available-in-javascript)                                                 |
-| 188 | [What is a spread operator](#what-is-a-spread-operator)                                                                                                           |
-| 189 | [How do you determine whether object is frozen or not](#how-do-you-determine-whether-object-is-frozen-or-not)                                                     |
-| 190 | [How do you determine two values same or not using object](#how-do-you-determine-two-values-same-or-not-using-object)                                             |
-| 191 | [What is the purpose of using object is method](#what-is-the-purpose-of-using-object-is-method)                                                                   |
-| 192 | [How do you copy properties from one object to other](#how-do-you-copy-properties-from-one-object-to-other)                                                       |
-| 193 | [What are the applications of assign method](#what-are-the-applications-of-assign-method)                                                                         |
-| 194 | [What is a proxy object](#what-is-a-proxy-object)                                                                                                                 |
-| 195 | [What is the purpose of seal method](#what-is-the-purpose-of-seal-method)                                                                                         |
-| 196 | [What are the applications of seal method](#what-are-the-applications-of-seal-method)                                                                             |
-| 197 | [What are the differences between freeze and seal methods](#what-are-the-differences-between-freeze-and-seal-methods)                                             |
-| 198 | [How do you determine if an object is sealed or not](#how-do-you-determine-if-an-object-is-sealed-or-not)                                                         |
-| 199 | [How do you get enumerable key and value pairs](#how-do-you-get-enumerable-key-and-value-pairs)                                                                   |
-| 200 | [What is the main difference between Object.values and Object.entries method](#what-is-the-main-difference-between-object.values-and-object.entries-method)       |
+| 151 | [什么是tree shaking](#what-is-tree-shaking)                                                                                                                     |
+| 152 | [tree shaking需要什么](#what-is-the-need-of-tree-shaking)                                                                                             |
+| 153 | [推荐使用eval吗](#is-it-recommended-to-use-eval)                                                                                                   |
+| 154 | [什么是正则表达式](#what-is-a-regular-expression)                                                                                                     |
+| 155 | [正则表达式有什么字符串方法](#what-are-the-string-methods-available-in-regular-expression)                                       |
+| 156 | [正则表达式中的修饰符是什么](#what-are-modifiers-in-regular-expression)                                                                             |
+| 157 | [正则表达式模式什么](#what-are-regular-expression-patterns)                                                                                     |
+| 158 | [RegExp对象是什么](#what-is-a-regexp-object)                                                                                                               |
+| 159 | [如何用模式查找字符串](#how-do-you-search-a-string-for-a-pattern)                                                                             |
+| 160 | [exec方法的作用是什么](#what-is-the-purpose-of-exec-method)                                                                                         |
+| 161 | [如何修改HTML元素的样式](#how-do-you-change-style-of-a-html-element)                                                                           |
+| 162 | [1+2+'3'的结果是什么](#what-would-be-the-result-of-1+2+'3')                                                                                       |
+| 163 | [debugger语句是什么](#what-is-a-debugger-statement)                                                                                                     |
+| 164 | [调试中断点的作用是什么](#what-is-the-purpose-of-breakpoints-indebugging)                                                                |
+| 165 | [可以使用保留字作为标识符吗](#can-i-use-reserved-words-as-identifiers)                                                                               |
+| 166 | [如何检测移动端浏览器](#how-do-you-detect-a-mobile-browser)                                                                                         |
+| 167 | [不使用正则如何检测移动端浏览器](#how-do-you-detect-a-mobile-browser-without-regexp)                                                           |
+| 168 | [如何用JS获取图片宽高](#how-do-you-get-the-image-width-and-height-using-js)                                                         |
+| 169 | [如何发起同步HTTP请求](#how-do-you-make-synchronous-http-request)                                                                             |
+| 170 | [如何发起异步HTTP请求](#how-do-you-make-asynchronous-http-request)                                                                           |
+| 171 | [如何在javascript中将日期转换成另一个时区](#how-do-you-convert-date-to-another-timezone-in-javascript)                                           |
+| 172 | [用来获取窗口大小的属性是什么](#what-are-the-properties-used-to-get-size-of-window)                                                         |
+| 173 | [javascript中的条件运算符是什么](#what-is-a-conditional-operator-in-javascript)                                                                     |
+| 174 | [你会使用链式条件运算符吗](#Can-you-apply-chaining-on-conditional-operator)                                                                 |
+| 175 | [在页面加载完后执行js的方法是什么](#what-are-the-ways-to-execute-javascript-after-page-load)                                               |
+| 176 | [proto和prototype的区别是什么](#what-is-the-difference-between-proto-and-prototype)                                                         |
+| 177 | [举个需要分号的例子](#give-an-example-where-do-you-really-need-semicolon)                                                         |
+| 178 | [freeze方法是什么](#what-is-a-freeze-method)                                                                                                               |
+| 179 | [freeze方法的作用是什么](#what-is-the-purpose-of-freeze-method)                                                                                     |
+| 180 | [为什么需要使用freeze方法](#why-do-i-need-to-use-freeze-method)                                                                                         |
+| 181 | [如何检测浏览器语言偏好](#how-do-you-detect-a-browser-language-preference)                                                               |
+| 182 | [如何用js将字符串转换成标题大写](#how-to-convert-string-to-title-case-with-javascript)                                                       |
+| 183 | [如何检测页面禁用了js](#how-do-you-detect-javascript-disabled-in-the-page)                                                           |
+| 184 | [javascript支持的操作符都是什么](#what-are-various-operators-supported-by-javascript)                                                         |
+| 185 | [什么是剩余参数](#what-is-a-rest-parameter)                                                                                                             |
+| 186 | [如果不将剩余参数当做最后一个参数会发生什么](#what-happens-if-you-do-not-use-rest-parameter-as-a-last-argument)                             |
+| 187 | [javascript中可用的位运算符是什么](#what-are-the-bitwise-operators-available-in-javascript)                                                 |
+| 188 | [什么是扩展运算符](#what-is-a-spread-operator)                                                                                                           |
+| 189 | [如何判断对象是否被冻结](#how-do-you-determine-whether-object-is-frozen-or-not)                                                     |
+| 190 | [如何使用对象判断两个值是否一样](#how-do-you-determine-two-values-same-or-not-using-object)                                             |
+| 191 | [使用object的is方法的目的是什么](#what-is-the-purpose-of-using-object-is-method)                                                                   |
+| 192 | [如何从一个对象拷贝属性到另一个对象](#how-do-you-copy-properties-from-one-object-to-other)                                                       |
+| 193 | [assign方法的应用什么](#what-are-the-applications-of-assign-method)                                                                         |
+| 194 | [什么是proxy对象](#what-is-a-proxy-object)                                                                                                                 |
+| 195 | [seal方法的作用是什么](#what-is-the-purpose-of-seal-method)                                                                                         |
+| 196 | [seal方法的应用什么](#what-are-the-applications-of-seal-method)                                                                             |
+| 197 | [freeze和seal方法的区别是什么](#what-are-the-differences-between-freeze-and-seal-methods)                                             |
+| 198 | [如何判断一个对象是否封闭](#how-do-you-determine-if-an-object-is-sealed-or-not)                                                         |
+| 199 | [如何获得可枚举的键值对](#how-do-you-get-enumerable-key-and-value-pairs)                                                                   |
+| 200 | [Object.values 和 Object.entries 方法间的主要区别是什么](#what-is-the-main-difference-between-object.values-and-object.entries-method)       |
 | 201 | [How can you get the list of keys of any object](#how-can-you-get-the-list-of-keys-of-any-object)                                                                 |
 | 202 | [How do you create an object with prototype](#how-do-you-create-an-object-with-prototype)                                                                         |
 | 203 | [What is a WeakSet](#what-is-a-weakset)                                                                                                                           |
@@ -3510,24 +3510,25 @@ You can download the PDF and Epub version of this repository from the latest run
 
 191. ### What is the purpose of using object is method
 
-     Some of the applications of Object's `is` method are follows,
+     下边是object的`is`方法的一些应用
+     
 
-     1. It is used for comparison of two strings.
-     2. It is used for comparison of two numbers.
-     3. It is used for comparing the polarity of two numbers.
-     4. It is used for comparison of two objects.
+     1. 用于比较两个字符串
+     2. 用于比较两个数字
+     3. 用于比较两个数字的极性
+     4. 用于比较两个对象
 
      **[⬆ Back to Top](#table-of-contents)**
 
 192. ### How do you copy properties from one object to other
 
-     You can use the Object.assign() method which is used to copy the values and properties from one or more source objects to a target object. It returns the target object which has properties and values copied from the target object. The syntax would be as below,
+     你可以使用Object.assign()方法用来从一个或多个源对象中向目标对象中拷贝属性和值。返回具有从目标对象复制的属性和值的目标对象。语法如下
 
      ```javascript
      Object.assign(target, ...sources);
      ```
 
-     Let's take example with one source and one target object,
+     让我们看一个有一个源和目标对象的例子
 
      ```javascript
      const target = { a: 1, b: 2 };
@@ -3540,22 +3541,22 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(returnedTarget); // { a: 1, b: 3, c: 4 }
      ```
 
-     As observed in the above code, there is a common property(`b`) from source to target so it's value has been overwritten.
+     如上边代码所示，从源到目标都有属性（`b`）所以值被重写
 
      **[⬆ Back to Top](#table-of-contents)**
 
 193. ### What are the applications of assign method
 
-     Below are the some of main applications of Object.assign() method,
+     下边是Object.assign()方法的主要应用
 
-     1. It is used for cloning an object.
-     2. It is used to merge objects with the same properties.
+     1. 用于拷贝对象
+     2. 用于同名属性合并对象
 
      **[⬆ Back to Top](#table-of-contents)**
 
 194. ### What is a proxy object
 
-     The Proxy object is used to define custom behavior for fundamental operations such as property lookup, assignment, enumeration, function invocation, etc. The syntax would be as follows,
+     Proxy对象用于定义基本操作的自定义行为，如属性查找，赋值，枚举，函数调用等。语法如下
 
      ```javascript
      var p = new Proxy(target, handler);
@@ -3578,13 +3579,13 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log("c" in p, p.c); // false, 100
      ```
 
-     In the above code, it uses `get` handler which define the behavior of the proxy when an operation is performed on it
+     上边代码中，使用了 `get`处理器，定义了操作发生时的代理行为
 
      **[⬆ Back to Top](#table-of-contents)**
 
 195. ### What is the purpose of seal method
 
-     The **Object.seal()** method is used to seal an object, by preventing new properties from being added to it and marking all existing properties as non-configurable. But values of present properties can still be changed as long as they are writable. Let's see the below example to understand more about seal() method
+      **Object.seal()**方法通过防止添加新属性并且标记全部已有的属性为不可配置来封闭一个对象。但是只要已存在属性的值可写则可以被改变。让我们看下面的例子来加深对seal()方法的理解
 
      ```javascript
      const object = {
@@ -3601,27 +3602,27 @@ You can download the PDF and Epub version of this repository from the latest run
 
 196. ### What are the applications of seal method
 
-     Below are the main applications of Object.seal() method,
+     下边是Object.seal()方法的主要应用
 
-     1. It is used for sealing objects and arrays.
-     2. It is used to make an object immutable.
+     1. 用于封闭对象和数组
+     2. 用于使对象不可变
 
      **[⬆ Back to Top](#table-of-contents)**
 
 197. ### What are the differences between freeze and seal methods
 
-     If an object is frozen using the Object.freeze() method then its properties become immutable and no changes can be made in them whereas if an object is sealed using the Object.seal() method then the changes can be made in the existing properties of the object.
+     如果使用Object.freeze()冻结了一个对象，则它的属性变成不可变的，什么都不能改变，而如果使用Object.seal()方法封闭了一个对象，则它的已存在的属性可以发生改变
 
      **[⬆ Back to Top](#table-of-contents)**
 
 198. ### How do you determine if an object is sealed or not
 
-     The Object.isSealed() method is used to determine if an object is sealed or not. An object is sealed if all of the below conditions hold true
+     Object.isSealed()方法用来判断对象是否被封闭。如果下边的条件都满足则对象被封闭
 
-     1. If it is not extensible.
-     2. If all of its properties are non-configurable.
-     3. If it is not removable (but not necessarily non-writable).
-        Let's see it in the action
+     1. 如果不可扩展
+     2. 如果全部属性都是不可配置的
+     3. 但是并非不可写）
+        让我们看下用法
 
      ```javascript
      const object = {
@@ -3637,7 +3638,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 199. ### How do you get enumerable key and value pairs
 
-     The Object.entries() method is used to return an array of a given object's own enumerable string-keyed property [key, value] pairs, in the same order as that provided by a for...in loop. Let's see the functionality of object.entries() method in an example,
+      Object.entries()方法用于返回给定对象自身可枚举字符串形式的属性的[key, value]对，和for...in循环中的顺序一样。让我们看下例子中object.entries()函数的功能
 
      ```javascript
      const object = {
@@ -3657,7 +3658,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 200. ### What is the main difference between Object.values and Object.entries method
 
-     The Object.values() method's behavior is similar to Object.entries() method but it returns an array of values instead [key,value] pairs.
+      Object.values()方法的行为类似于Object.entries()方法，但是会返回值的数组而非[key, value]对
 
      ```javascript
      const object = {
