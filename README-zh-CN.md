@@ -292,26 +292,26 @@ You can download the PDF and Epub version of this repository from the latest run
 | 248 | [如何获得一个模块的元信息](#how-do-you-get-meta-data-of-a-module)                                                                                     |
 | 249 | [什么是逗号运算符](#what-is-a-comma-operator)                                                                                                             |
 | 250 | [逗号运算符的优点是什么](#what-is-the-advantage-of-a-comma-operator)                                                                           |
-| 251 | [What is typescript](#what-is-typescript)                                                                                                                         |
-| 252 | [What are the differences between javascript and typescript](#what-are-the-differences-between-javascript-and-typescript)                                         |
-| 253 | [What are the advantages of typescript over javascript](#what-are-the-advantages-of-typescript-over-javascript)                                                   |
-| 254 | [What is an object initializer](#what-is-an-object-initializer)                                                                                                   |
-| 255 | [What is a constructor method](#what-is-a-constructor-method)                                                                                                     |
-| 256 | [What happens if you write constructor more than once in a class](#what-happens-if-you-write-constructor-more-than-once-in-a-class)                               |
-| 257 | [How do you call the constructor of a parent class](#how-do-you-call-the-constructor-of-a-parent-class)                                                           |
-| 258 | [How do you get the prototype of an object](#how-do-you-get-the-prototype-of-an-object)                                                                           |
-| 259 | [What happens If I pass string type for getPrototype method](#what-happens-if-i-pass-string-type-for-getprototype-method)                                         |
-| 260 | [How do you set prototype of one object to another](#how-do-you-set-prototype-of-one-object-to-another)                                                           |
-| 261 | [How do you check whether an object can be extendable or not](#how-do-you-check-whether-an-object-can-be-extendable-or-not)                                       |
-| 262 | [How do you prevent an object to extend](#how-do-you-prevent-an-object-to-extend)                                                                                 |
-| 263 | [What are the different ways to make an object non-extensible](#what-are-the-different-ways-to-make-an-object-non-extensible)                                     |
-| 264 | [How do you define multiple properties on an object](#how-do-you-define-multiple-properties-on-an-object)                                                         |
-| 265 | [What is MEAN in javascript](#what-is-mean-in-javascript)                                                                                                         |
-| 266 | [What Is Obfuscation in javascript](#what-is-obfuscation-in-javascript)                                                                                           |
-| 267 | [Why do you need Obfuscation](#why-do-you-need-obfuscation)                                                                                                       |
-| 268 | [What is Minification](#what-is-minification)                                                                                                                     |
-| 269 | [What are the advantages of minification](#what-are-the-advantages-of-minification)                                                                               |
-| 270 | [What are the differences between Obfuscation and Encryption](#what-are-the-differences-between-obfuscation-and-encryption)                                       |
+| 251 | [什么是typescript](#what-is-typescript)                                                                                                                         |
+| 252 | [javascript 和 typescript间的区别是什么](#what-are-the-differences-between-javascript-and-typescript)                                         |
+| 253 | [与javascript相比typescript的优点是什么](#what-are-the-advantages-of-typescript-over-javascript)                                                   |
+| 254 | [什么是对象初始化器](#what-is-an-object-initializer)                                                                                                   |
+| 255 | [什么是构造器函数](#what-is-a-constructor-method)                                                                                                     |
+| 256 | [如果在类中写了超过一次的构造器会发生什么](#what-happens-if-you-write-constructor-more-than-once-in-a-class)                               |
+| 257 | [如何调用父类的构造器](#how-do-you-call-the-constructor-of-a-parent-class)                                                           |
+| 258 | [如何获取一个对象的原型](#how-do-you-get-the-prototype-of-an-object)                                                                           |
+| 259 | [如果向 getPrototype 方法传递字符串类型会发生什么](#what-happens-if-i-pass-string-type-for-getprototype-method)                                         |
+| 260 | [你如何将一个对象的原型设置成另一个对象](#how-do-you-set-prototype-of-one-object-to-another)                                                           |
+| 261 | [如何检测对象是否能被扩展](#how-do-you-check-whether-an-object-can-be-extendable-or-not)                                       |
+| 262 | [如何避免对象被扩展](#how-do-you-prevent-an-object-to-extend)                                                                                 |
+| 263 | [使一个对象不可扩展的不同方法都是什么](#what-are-the-different-ways-to-make-an-object-non-extensible)                                     |
+| 264 | [如何在一个对象上定义多个属性](#how-do-you-define-multiple-properties-on-an-object)                                                         |
+| 265 | [在javascript中MEAN是什么](#what-is-mean-in-javascript)                                                                                                         |
+| 266 | [在javascript中混淆是什么](#what-is-obfuscation-in-javascript)                                                                                           |
+| 267 | [为什么需要混淆](#why-do-you-need-obfuscation)                                                                                                       |
+| 268 | [什么是压缩](#what-is-minification)                                                                                                                     |
+| 269 | [压缩的好处是什么](#what-are-the-advantages-of-minification)                                                                               |
+| 270 | [混淆和加密的区别是什么](#what-are-the-differences-between-obfuscation-and-encryption)                                       |
 | 271 | [What are the common tools used for minification](#what-are-the-common-tools-used-for-minification)                                                               |
 | 272 | [How do you perform form validation using javascript](#how-do-you-perform-form-validation-using-javascript)                                                       |
 | 273 | [How do you perform form validation without javascript](#how-do-you-perform-form-validation-without-javascript)                                                   |
@@ -4487,13 +4487,13 @@ You can download the PDF and Epub version of this repository from the latest run
 
 251. ### What is typescript
 
-     TypeScript is a typed superset of JavaScript created by Microsoft that adds optional types, classes, async/await, and many other features, and compiles to plain JavaScript. Angular built entirely in TypeScript and used as a primary language. You can install it globally as
-
+	  TypeScript 是由微软创建的 JavaScript 的类型化超集，它添加了可选类型、类、async/await 和许多其他功能，并编译为纯 JavaScript。Angular完全由TypeScript构建并被用作主要语言。你可以像下边一样全局安装
+	  
      ```bash
      npm install -g typescript
      ```
 
-     Let's see a simple example of TypeScript usage,
+     让我们看一个TypeScript用法的简单例子
 
      ```typescript
      function greeting(name: string): string {
@@ -4505,37 +4505,37 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(greeting(user));
      ```
 
-     The greeting method allows only string type as argument.
+     greeting方法只允许字符串类型的参数
 
      **[⬆ Back to Top](#table-of-contents)**
 
 252. ### What are the differences between javascript and typescript
 
-     Below are the list of differences between javascript and typescript,
+     下边是javascript 和 typescript间一系列差别
 
-     | feature             | typescript                            | javascript                                      |
-     | ------------------- | ------------------------------------- | ----------------------------------------------- |
-     | Language paradigm   | Object oriented programming language  | Scripting language                              |
-     | Typing support      | Supports static typing                | It has dynamic typing                           |
-     | Modules             | Supported                             | Not supported                                   |
-     | Interface           | It has interfaces concept             | Doesn't support interfaces                      |
-     | Optional parameters | Functions support optional parameters | No support of optional parameters for functions |
+     | 特性                 | typescript                            | javascript             |
+     | ------------------- | ------------------------------------- | ---------------------- |
+     | 语言范式              | 面向对象的编程语言                      | 脚本语言                 |
+     | 类型支持              | 支持静态类型                            | 有动态类型              |
+     | 模块化                | 支持                                   | 不支持                 |
+     | 接口                 | 有接口的概念                             | 不支持接口              |
+     | 可选参数               | 函数支持可选参数                        | 函数不支持可选参数        |
 
      **[⬆ Back to Top](#table-of-contents)**
 
 253. ### What are the advantages of typescript over javascript
 
-     Below are some of the advantages of typescript over javascript,
+     下边是与js相比ts的优点
 
-     1. TypeScript is able to find compile time errors at the development time only and it makes sures less runtime errors. Whereas javascript is an interpreted language.
-     2. TypeScript is strongly-typed or supports static typing which allows for checking type correctness at compile time. This is not available in javascript.
-     3. TypeScript compiler can compile the .ts files into ES3,ES4 and ES5 unlike ES6 features of javascript which may not be supported in some browsers.
+     1. TypeScript能在开发时期发现编译时错误，能确保更少的运行时错误。而js是解释型语言
+     2. TypeScript是强类型或支持静态类型从而在编译期允许检查类型正确性。js没有此功能
+     3. TypeScript编译期可以将 .ts 文件编译成ES3,ES4 和 ES5，不像ES6的js功能可能在一些浏览器下不被支持
 
      **[⬆ Back to Top](#table-of-contents)**
 
 254. ### What is an object initializer
 
-     An object initializer is an expression that describes the initialization of an Object. The syntax for this expression is represented as a comma-delimited list of zero or more pairs of property names and associated values of an object, enclosed in curly braces ({}). This is also known as literal notation. It is one of the ways to create an object.
+     对象初始化器是描述了一个对象的初始化的表达式。此表达式的语法表示为以逗号分隔的零对或多对属性名称和对象关联值的列表，用花括号 ({}) 括起来。也叫做字面量符号。是创建对象方法之一
 
      ```javascript
      var initObject = { a: "John", b: 50, c: {} };
@@ -4547,7 +4547,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 255. ### What is a constructor method
 
-     The constructor method is a special method for creating and initializing an object created within a class. If you do not specify a constructor method, a default constructor is used. The example usage of constructor would be as below,
+     构造函数是用于在类内部创建和初始化对象的特殊方法。如果你不指定一个构造函数，默认的构造函数会被使用。下边是构造函数用法的例子
 
      ```javascript
      class Employee {
@@ -4565,7 +4565,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 256. ### What happens if you write constructor more than once in a class
 
-     The "constructor" in a class is a special method and it should be defined only once in a class. i.e, If you write a constructor method more than once in a class it will throw a `SyntaxError` error.
+     类中的 "constructor" 是一个特殊方法，只应该在类中被定义一次。也就是说，如果在类中书写超过一次构造器函数，会抛出一个语法错误 `SyntaxError`
 
      ```javascript
       class Employee {
@@ -4586,7 +4586,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 257. ### How do you call the constructor of a parent class
 
-     You can use the `super` keyword to call the constructor of a parent class. Remember that `super()` must be called before using 'this' reference. Otherwise it will cause a reference error. Let's the usage of it,
+     你可以使用`super`关键字来调用父类的构造函数。记住 `super()` 必须在使用 'this' 引用前调用。否则会引起引用错误。让我们看下用法
 
      ```javascript
      class Square extends Rectangle {
@@ -4609,7 +4609,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 258. ### How do you get the prototype of an object
 
-     You can use the `Object.getPrototypeOf(obj)` method to return the prototype of the specified object. i.e. The value of the internal `prototype` property. If there are no inherited properties then `null` value is returned.
+     你可以使用 `Object.getPrototypeOf(obj)` 方法返回指定对象的原型。即内部的 `prototype`属性值。如果没有继承的属性则返回 `null`值
 
      ```javascript
      const newPrototype = {};
@@ -4622,7 +4622,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 259. ### What happens If I pass string type for getPrototype method
 
-     In ES5, it will throw a TypeError exception if the obj parameter isn't an object. Whereas in ES2015, the parameter will be coerced to an `Object`.
+     在ES5中，如果obj参数不是对象会抛出类型错误。而在ES2015中，参数会被强转成一个 `Object`
 
      ```javascript
      // ES5
@@ -4635,7 +4635,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 260. ### How do you set prototype of one object to another
 
-     You can use the `Object.setPrototypeOf()` method that sets the prototype (i.e., the internal `Prototype` property) of a specified object to another object or null. For example, if you want to set prototype of a square object to rectangle object would be as follows,
+     你可以使用 `Object.setPrototypeOf()` 方法设置一个指定的对象的原型（即内部的 `prototype` 属性）到另一个对象或null。例如，可以像下边一样将square的对象的原型设置为rectangle对象的原型
 
      ```javascript
      Object.setPrototypeOf(Square.prototype, Rectangle.prototype);
@@ -4646,20 +4646,20 @@ You can download the PDF and Epub version of this repository from the latest run
 
 261. ### How do you check whether an object can be extendable or not
 
-     The `Object.isExtensible()` method is used to determine if an object is extendable or not. i.e, Whether it can have new properties added to it or not.
+     `Object.isExtensible()`方法用来判断对象是否可扩展。即是否能添加新属性
 
      ```javascript
      const newObject = {};
      console.log(Object.isExtensible(newObject)); //true
      ```
 
-     **Note:** By default, all the objects are extendable. i.e, The new properties can be added or modified.
+     **注意:** 默认全部对象都是可扩展的。即可以先加或修改新属性
 
      **[⬆ Back to Top](#table-of-contents)**
 
 262. ### How do you prevent an object to extend
 
-     The `Object.preventExtensions()` method is used to prevent new properties from ever being added to an object. In other words, it prevents future extensions to the object. Let's see the usage of this property,
+     `Object.preventExtensions()`方法用来防止新属性添加到对象上。换句话说，他会防止未来对对象的扩展。让我们看下这个属性的用法
 
      ```javascript
      const newObject = {};
@@ -4679,7 +4679,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 263. ### What are the different ways to make an object non-extensible
 
-     You can mark an object non-extensible in 3 ways,
+     你可以使用三种方法将对象标记为不可扩展
 
      1. Object.preventExtensions
      2. Object.seal
@@ -4702,7 +4702,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 264. ### How do you define multiple properties on an object
 
-     The `Object.defineProperties()` method is used to define new or modify existing properties directly on an object and returning the object. Let's define multiple properties on an empty object,
+     `Object.defineProperties()`方法用来直接在对象上定义新的或者修改已有属性并返回此对象。让我们在空对象上定义多个属性
 
      ```javascript
      const newObject = {};
@@ -4720,14 +4720,14 @@ You can download the PDF and Epub version of this repository from the latest run
 
 265. ### What is MEAN in javascript
 
-     The MEAN (MongoDB, Express, AngularJS, and Node.js) stack is the most popular open-source JavaScript software tech stack available for building dynamic web apps where you can write both the server-side and client-side halves of the web project entirely in JavaScript.
+       MEAN（MongoDB、Express、AngularJS 和 Node.js）技术栈是最流行的开源 JavaScript 软件技术堆栈，可用于构建动态 Web 应用程序，可以在其中全都使用JavaScript编写 Web 项目的服务器端和客户端部分
 
      **[⬆ Back to Top](#table-of-contents)**
 
 266. ### What Is Obfuscation in javascript
 
-     Obfuscation is the deliberate act of creating obfuscated javascript code(i.e, source or machine code) that is difficult for humans to understand. It is something similar to encryption, but a machine can understand the code and execute it.
-     Let's see the below function before Obfuscation,
+     混淆是故意创造人类难以理解的混淆过的 javascript 代码（即源代码或机器代码）的行为。类似于加密，但机器可以理解代码并执行
+     下边让我们看一个混淆前的函数
 
      ```javascript
      function greeting() {
@@ -4735,7 +4735,7 @@ You can download the PDF and Epub version of this repository from the latest run
      }
      ```
 
-     And after the code Obfuscation, it would be appeared as below,
+     代码混淆后，长下边这样
 
      ```javascript
      eval(
@@ -4778,39 +4778,40 @@ You can download the PDF and Epub version of this repository from the latest run
 
 267. ### Why do you need Obfuscation
 
-     Below are the few reasons for Obfuscation,
+     下边是需要混淆的几个原因
 
-     1. The Code size will be reduced. So data transfers between server and client will be fast.
-     2. It hides the business logic from outside world and protects the code from others
-     3. Reverse engineering is highly difficult
-     4. The download time will be reduced
+     1. 减少代码大小。所以服务端和客户端的数据传输会更快
+     2. 它向外界隐藏业务逻辑并保护代码免受其他人的影响
+     3. 逆向工程会更困难
+     4. 减少下载时间
 
      **[⬆ Back to Top](#table-of-contents)**
 
 268. ### What is Minification
 
-     Minification is the process of removing all unnecessary characters(empty spaces are removed) and variables will be renamed without changing it's functionality. It is also a type of obfuscation .
+     压缩是删除所有不必要的字符（删除空格）的过程，并且重命名变量而不改变其功能。这也是一种混淆
 
      **[⬆ Back to Top](#table-of-contents)**
 
 269. ### What are the advantages of minification
 
      Normally it is recommended to use minification for heavy traffic and intensive requirements of resources. It reduces file sizes with below benefits,
+     通常建议使用压缩来处理大流量和密集的资源需求。它减少了文件大小，具有以下好处
 
-     1. Decreases loading times of a web page
-     2. Saves bandwidth usages
+     1. 减少网页加载时间
+     2. 节省宽带使用
 
      **[⬆ Back to Top](#table-of-contents)**
 
 270. ### What are the differences between Obfuscation and Encryption
 
-     Below are the main differences between Obfuscation and Encryption,
+     下边是混淆和加密间的主要区别
 
-     | Feature            | Obfuscation                                     | Encryption                                                              |
-     | ------------------ | ----------------------------------------------- | ----------------------------------------------------------------------- |
-     | Definition         | Changing the form of any data in any other form | Changing the form of information to an unreadable format by using a key |
-     | A key to decode    | It can be decoded without any key               | It is required                                                          |
-     | Target data format | It will be converted to a complex form          | Converted into an unreadable format                                     |
+     | 特性                          | 混淆                            | 压缩                                                 |
+     | ------------------------- ---| ------------------------------- | -------------------------------------------------- |
+     | 定义                          | 改变任意数据形式                 | 使用密钥将信息的形式变成不可读的格式                                        |
+     | 解码的密钥                     | 不需要密钥就能解码               | 需要密钥                                              |
+     | 目标数据格式                   | 会变成更复杂的形式                | 转换成不可读的格式                                     |
 
      **[⬆ Back to Top](#table-of-contents)**
 
