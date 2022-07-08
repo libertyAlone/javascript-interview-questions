@@ -242,56 +242,56 @@ You can download the PDF and Epub version of this repository from the latest run
 | 198 | [如何判断一个对象是否封闭](#how-do-you-determine-if-an-object-is-sealed-or-not)                                                         |
 | 199 | [如何获得可枚举的键值对](#how-do-you-get-enumerable-key-and-value-pairs)                                                                   |
 | 200 | [Object.values 和 Object.entries 方法间的主要区别是什么](#what-is-the-main-difference-between-object.values-and-object.entries-method)       |
-| 201 | [How can you get the list of keys of any object](#how-can-you-get-the-list-of-keys-of-any-object)                                                                 |
-| 202 | [How do you create an object with prototype](#how-do-you-create-an-object-with-prototype)                                                                         |
-| 203 | [What is a WeakSet](#what-is-a-weakset)                                                                                                                           |
-| 204 | [What are the differences between WeakSet and Set](#what-are-the-differences-between-weakset-and-set)                                                             |
-| 205 | [List down the collection of methods available on WeakSet](#list-down-the-collection-of-methods-available-on-weakset)                                             |
-| 206 | [What is a WeakMap](#what-is-a-weakmap)                                                                                                                           |
-| 207 | [What are the differences between WeakMap and Map](#what-are-the-differences-between-weakmap-and-map)                                                             |
-| 208 | [List down the collection of methods available on WeakMap](#list-down-the-collection-of-methods-available-on-weakmap)                                             |
-| 209 | [What is the purpose of uneval](#what-is-the-purpose-of-uneval)                                                                                                   |
-| 210 | [How do you encode an URL](#how-do-you-encode-an-url)                                                                                                             |
-| 211 | [How do you decode an URL](#how-do-you-decode-an-url)                                                                                                             |
-| 212 | [How do you print the contents of web page](#how-do-you-print-the-contents-of-web-page)                                                                           |
-| 213 | [What is the difference between uneval and eval](#what-is-the-difference-between-uneval-and-eval)                                                                 |
-| 214 | [What is an anonymous function](#what-is-an-anonymous-function)                                                                                                   |
-| 215 | [What is the precedence order between local and global variables](#what-is-the-precedence-order-between-local-and-global-variables)                               |
-| 216 | [What are javascript accessors](#what-are-javascript-accessors)                                                                                                   |
-| 217 | [How do you define property on Object constructor](#how-do-you-define-property-on-object-constructor)                                                             |
-| 218 | [What is the difference between get and defineProperty](#what-is-the-difference-between-get-and-defineproperty)                                                   |
-| 219 | [What are the advantages of Getters and Setters](#what-are-the-advantages-of-getters-and-setters)                                                                 |
-| 220 | [Can I add getters and setters using defineProperty method](#can-i-add-getters-and-setters-using-defineproperty-method)                                           |
-| 221 | [What is the purpose of switch-case](#what-is-the-purpose-of-switch-case)                                                                                         |
-| 222 | [What are the conventions to be followed for the usage of swtich case](#what-are-the-conventions-to-be-followed-for-the-usage-of-swtich-case)                     |
-| 223 | [What are primitive data types](#what-are-primitive-data-types)                                                                                                   |
-| 224 | [What are the different ways to access object properties](#what-are-the-different-ways-to-access-object-properties)                                               |
-| 225 | [What are the function parameter rules](#what-are-the-function-parameter-rules)                                                                                   |
-| 226 | [What is an error object](#what-is-an-error-object)                                                                                                               |
-| 227 | [When you get a syntax error](#when-you-get-a-syntax-error)                                                                                                       |
-| 228 | [What are the different error names from error object](#what-are-the-different-error-names-from-error-object)                                                     |
-| 229 | [What are the various statements in error handling](#what-are-the-various-statements-in-error-handling)                                                           |
-| 230 | [What are the two types of loops in javascript](#what-are-the-two-types-of-loops-in-javascript)                                                                   |
-| 231 | [What is nodejs](#what-is-nodejs)                                                                                                                                 |
-| 232 | [What is an Intl object](#what-is-an-intl-object)                                                                                                                 |
-| 233 | [How do you perform language specific date and time formatting](#how-do-you-perform-language-specific-date-and-time-formatting)                                   |
+| 201 | [如何获得任意对象的键列表](#how-can-you-get-the-list-of-keys-of-any-object)                                                                 |
+| 202 | [如何用原型创建一个对象](#how-do-you-create-an-object-with-prototype)                                                                         |
+| 203 | [什么是WeakSet](#what-is-a-weakset)                                                                                                                           |
+| 204 | [WeakSet 和 Set间的区别是什么](#what-are-the-differences-between-weakset-and-set)                                                             |
+| 205 | [列举WeakSet上可用方法的集合](#list-down-the-collection-of-methods-available-on-weakset)                                             |
+| 206 | [什么是WeakMap](#what-is-a-weakmap)                                                                                                                           |
+| 207 | [WeakMap 和 Map间的区别是什么](#what-are-the-differences-between-weakmap-and-map)                                                             |
+| 208 | [列举WeakMap上可用方法的集合](#list-down-the-collection-of-methods-available-on-weakmap)                                             |
+| 209 | [uneval的作用是什么](#what-is-the-purpose-of-uneval)                                                                                                   |
+| 210 | [如何编码URL](#how-do-you-encode-an-url)                                                                                                             |
+| 211 | [如何解码URL](#how-do-you-decode-an-url)                                                                                                             |
+| 212 | [如何打印网页内容](#how-do-you-print-the-contents-of-web-page)                                                                           |
+| 213 | [uneval 和 eval间的区别是什么](#what-is-the-difference-between-uneval-and-eval)                                                                 |
+| 214 | [什么是匿名函数](#what-is-an-anonymous-function)                                                                                                   |
+| 215 | [局部变量和全局变量间的优先级顺序是什么](#what-is-the-precedence-order-between-local-and-global-variables)                               |
+| 216 | [js访问器是什么](#what-are-javascript-accessors)                                                                                                   |
+| 217 | [在Object构造函数上如何定义属性](#how-do-you-define-property-on-object-constructor)                                                             |
+| 218 | [get 和 defineProperty间的区别是什么](#what-is-the-difference-between-get-and-defineproperty)                                                   |
+| 219 | [Getters 和 Setters的优点是什么](#what-are-the-advantages-of-getters-and-setters)                                                                 |
+| 220 | [可以使用defineProperty方法新增getter和setter吗](#can-i-add-getters-and-setters-using-defineproperty-method)                                           |
+| 221 | [switch-case的作用是什么](#what-is-the-purpose-of-switch-case)                                                                                         |
+| 222 | [swtich case使用需要遵守的约定是什么](#what-are-the-conventions-to-be-followed-for-the-usage-of-swtich-case)                     |
+| 223 | [什么是原始数据类型](#what-are-primitive-data-types)                                                                                                   |
+| 224 | [访问对象属性的不同方法是什么](#what-are-the-different-ways-to-access-object-properties)                                               |
+| 225 | [函数参数规则是什么](#what-are-the-function-parameter-rules)                                                                                   |
+| 226 | [什么是error对象](#what-is-an-error-object)                                                                                                               |
+| 227 | [什么时候会遇到语法错误](#when-you-get-a-syntax-error)                                                                                                       |
+| 228 | [error对象中不同的错误名字都是什么](#what-are-the-different-error-names-from-error-object)                                                     |
+| 229 | [错误处理中的语句都是什么](#what-are-the-various-statements-in-error-handling)                                                           |
+| 230 | [javascript中两种循环是什么](#what-are-the-two-types-of-loops-in-javascript)                                                                   |
+| 231 | [什么是nodejs](#what-is-nodejs)                                                                                                                                 |
+| 232 | [什么是Intl对象](#what-is-an-intl-object)                                                                                                                 |
+| 233 | [如何执行特定语言的日期和时间格式化](#how-do-you-perform-language-specific-date-and-time-formatting)                                   |
 | 234 | [What is an Iterator](#what-is-an-iterator)                                                                                                                       |
-| 235 | [How does synchronous iteration works](#how-does-synchronous-iteration-works)                                                                                     |
-| 236 | [What is an event loop](#what-is-an-event-loop)                                                                                                                   |
-| 237 | [What is call stack](#what-is-call-stack)                                                                                                                         |
-| 238 | [What is an event queue](#what-is-an-event-queue)                                                                                                                 |
-| 239 | [What is a decorator](#what-is-a-decorator)                                                                                                                       |
-| 240 | [What are the properties of Intl object](#what-are-the-properties-of-intl-object)                                                                                 |
-| 241 | [What is an Unary operator](#what-is-an-unary-operator)                                                                                                           |
-| 242 | [How do you sort elements in an array](#how-do-you-sort-elements-in-an-array)                                                                                     |
-| 243 | [What is the purpose of compareFunction while sorting arrays](#what-is-the-purpose-of-comparefunction-while-sorting-arrays)                                       |
-| 244 | [How do you reversing an array](#how-do-you-reversing-an-array)                                                                                                   |
-| 245 | [How do you find min and max value in an array](#how-do-you-find-min-and-max-value-in-an-array)                                                                   |
-| 246 | [How do you find min and max values without Math functions](#how-do-you-find-min-and-max-values-without--math-functions)                                          |
-| 247 | [What is an empty statement and purpose of it](#what-is-an-empty-statement-and-purpose-of-it)                                                                     |
-| 248 | [How do you get meta data of a module](#how-do-you-get-meta-data-of-a-module)                                                                                     |
-| 249 | [What is a comma operator](#what-is-a-comma-operator)                                                                                                             |
-| 250 | [What is the advantage of a comma operator](#what-is-the-advantage-of-a-comma-operator)                                                                           |
+| 235 | [同步的迭代如何工作](#how-does-synchronous-iteration-works)                                                                                     |
+| 236 | [什么是事件循环](#what-is-an-event-loop)                                                                                                                   |
+| 237 | [什么是调用栈](#what-is-call-stack)                                                                                                                         |
+| 238 | [什么是事件队列](#what-is-an-event-queue)                                                                                                                 |
+| 239 | [什么是装饰器](#what-is-a-decorator)                                                                                                                       |
+| 240 | [Intl对象的属性是什么](#what-are-the-properties-of-intl-object)                                                                                 |
+| 241 | [什么是一元运算符](#what-is-an-unary-operator)                                                                                                           |
+| 242 | [如何对数组元素排序](#how-do-you-sort-elements-in-an-array)                                                                                     |
+| 243 | [对数组排序时compareFunction作用是什么](#what-is-the-purpose-of-comparefunction-while-sorting-arrays)                                       |
+| 244 | [如何反转数组](#how-do-you-reversing-an-array)                                                                                                   |
+| 245 | [如何在数组中找到最小值和最大值](#how-do-you-find-min-and-max-value-in-an-array)                                                                   |
+| 246 | [不使用Math函数如何找到最小值和最大值](#how-do-you-find-min-and-max-values-without--math-functions)                                          |
+| 247 | [空语句是什么用处是什么](#what-is-an-empty-statement-and-purpose-of-it)                                                                     |
+| 248 | [如何获得一个模块的元信息](#how-do-you-get-meta-data-of-a-module)                                                                                     |
+| 249 | [什么是逗号运算符](#what-is-a-comma-operator)                                                                                                             |
+| 250 | [逗号运算符的优点是什么](#what-is-the-advantage-of-a-comma-operator)                                                                           |
 | 251 | [What is typescript](#what-is-typescript)                                                                                                                         |
 | 252 | [What are the differences between javascript and typescript](#what-are-the-differences-between-javascript-and-typescript)                                         |
 | 253 | [What are the advantages of typescript over javascript](#what-are-the-advantages-of-typescript-over-javascript)                                                   |
@@ -3676,7 +3676,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 201. ### How can you get the list of keys of any object
 
-     You can use the `Object.keys()` method which is used to return an array of a given object's own property names, in the same order as we get with a normal loop. For example, you can get the keys of a user object,
+     你可以使用`Object.keys()`方法用来返回给定对象自有属性名字的数组，和正常遍历一个顺序。例如，你可以获得user对象的键
 
      ```javascript
      const user = {
@@ -3692,7 +3692,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 202. ### How do you create an object with prototype
 
-     The Object.create() method is used to create a new object with the specified prototype object and properties. i.e, It uses an existing object as the prototype of the newly created object. It returns a new object with the specified prototype object and properties.
+     Object.create()方法用来创建指定原型对象和属性的新对象。即，它会用已存在的对象作为新创建对象的原型。会返回指定原型对象和属性的新对象
 
      ```javascript
      const user = {
@@ -3713,13 +3713,13 @@ You can download the PDF and Epub version of this repository from the latest run
 
 203. ### What is a WeakSet
 
-     WeakSet is used to store a collection of weakly(weak references) held objects. The syntax would be as follows,
+     WeakSet用来存储弱（弱引用）持有对象的集合。语法如下
 
      ```javascript
      new WeakSet([iterable]);
      ```
 
-     Let's see the below example to explain it's behavior,
+     让我们看下边例子来解释其行为
 
      ```javascript
      var ws = new WeakSet();
@@ -3734,25 +3734,25 @@ You can download the PDF and Epub version of this repository from the latest run
 
 204. ### What are the differences between WeakSet and Set
 
-     The main difference is that references to objects in Set are strong while references to objects in WeakSet are weak. i.e, An object in WeakSet can be garbage collected if there is no other reference to it.
-     Other differences are,
+     主要区别是Set中对于对象的引用是强引用而WeakSet中的是弱引用。也就是说，WeakSet中的对象在没有其他引用时会被垃圾回收
+     其他区别是
 
-     1. Sets can store any value Whereas WeakSets can store only collections of objects
-     2. WeakSet does not have size property unlike Set
-     3. WeakSet does not have methods such as clear, keys, values, entries, forEach.
-     4. WeakSet is not iterable.
+     1. Set可以存储任意值而WeakSet只能存储对象集合
+     2. WeakSet不像Set一样，没有set属性
+     3. WeakSet没有像clear, keys, values, entries, forEach这些方法
+     4. WeakSet不可迭代
 
      **[⬆ Back to Top](#table-of-contents)**
 
 205. ### List down the collection of methods available on WeakSet
 
-     Below are the list of methods available on WeakSet,
+     下边是WeakSet上的可用方法
 
-     1. add(value): A new object is appended with the given value to the weakset
-     2. delete(value): Deletes the value from the WeakSet collection.
-     3. has(value): It returns true if the value is present in the WeakSet Collection, otherwise it returns false.
+     1. add(value): 用给定的值向weakset中追加新对象
+     2. delete(value): 从WeakSet集合中删除值
+     3. has(value): 如果WeakSet集合中存在则返回true，否则返回false
 
-     Let's see the functionality of all the above methods in an example,
+     让我们用例子看下上边方法的作用
 
      ```javascript
      var weakSetObject = new WeakSet();
@@ -3769,13 +3769,13 @@ You can download the PDF and Epub version of this repository from the latest run
 
 206. ### What is a WeakMap
 
-     The WeakMap object is a collection of key/value pairs in which the keys are weakly referenced. In this case, keys must be objects and the values can be arbitrary values. The syntax is looking like as below,
+     WeakMap对象是键/值对的集合，其中键是弱引用。其中键必须是对象值可以是任意值。语法如下
 
      ```javascript
      new WeakMap([iterable]);
      ```
 
-     Let's see the below example to explain it's behavior,
+     让我们看下边例子来解释它的行为
 
      ```javascript
      var ws = new WeakMap();
@@ -3790,25 +3790,25 @@ You can download the PDF and Epub version of this repository from the latest run
 
 207. ### What are the differences between WeakMap and Map
 
-     The main difference is that references to key objects in Map are strong while references to key objects in WeakMap are weak. i.e, A key object in WeakMap can be garbage collected if there is no other reference to it.
-     Other differences are,
+     主要区别在于 Map 中对键对象的引用是强引用，而 WeakMap 中key对象的引用是弱引用。也就是说，WeakMap中的键对象在没有其他引用时可以被垃圾回收
+     其他区别是
 
-     1. Maps can store any key type Whereas WeakMaps can store only collections of key objects
-     2. WeakMap does not have size property unlike Map
-     3. WeakMap does not have methods such as clear, keys, values, entries, forEach.
-     4. WeakMap is not iterable.
+     1. Map可以存储任意键类型而WeakMap只能存储键对象的集合
+     2. WeakMap不像Map一样，没有size属性
+     3. WeakMap没有像clear, keys, values, entries, forEach一样的方法
+     4. WeakMap不可迭代
 
      **[⬆ Back to Top](#table-of-contents)**
 
 208. ### List down the collection of methods available on WeakMap
 
-     Below are the list of methods available on WeakMap,
+     下边是WeakMap上的可用方法
 
-     1. set(key, value): Sets the value for the key in the WeakMap object. Returns the WeakMap object.
-     2. delete(key): Removes any value associated to the key.
-     3. has(key): Returns a Boolean asserting whether a value has been associated to the key in the WeakMap object or not.
-     4. get(key): Returns the value associated to the key, or undefined if there is none.
-        Let's see the functionality of all the above methods in an example,
+     1. set(key, value): 在WeakMap对象上为键设置值。返回WeakMap对象
+     2. delete(key): 删除键关联的任意值
+     3. has(key): 返回WeakMap对象上是否有与键关联的值的布尔判断
+     4. get(key): 返回与键关联的值，如果没有返回undefined
+        让我们通过例子看下上边方法的功能
 
      ```javascript
      var weakMapObject = new WeakMap();
@@ -3826,7 +3826,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 209. ### What is the purpose of uneval
 
-     The uneval() is an inbuilt function which is used to create a string representation of the source code of an Object. It is a top-level function and is not associated with any object. Let's see the below example to know more about it's functionality,
+     uneval()是内置的函数用来创建一个代表源代码对象的字符串。它是顶级函数不和任何对象关联。让我们看下边的例子来了解更多用法
 
      ```javascript
      var a = 1;
@@ -3838,7 +3838,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 210. ### How do you encode an URL
 
-     The encodeURI() function is used to encode complete URI which has special characters except (, / ? : @ & = + $ #) characters.
+     encodeURI()函数用来编码整个带特殊字符除了（, / ? : @ & = + $ #）的URI
 
      ```javascript
      var uri = "https://mozilla.org/?x=шеллы";
@@ -3850,7 +3850,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 211. ### How do you decode an URL
 
-     The decodeURI() function is used to decode a Uniform Resource Identifier (URI) previously created by encodeURI().
+     decodeURI()函数用来解码之前由encodeURI()创建的统一资源定位符 (URI)
 
      ```javascript
      var uri = "https://mozilla.org/?x=шеллы";
@@ -3868,19 +3868,19 @@ You can download the PDF and Epub version of this repository from the latest run
 
 212. ### How do you print the contents of web page
 
-     The window object provided a print() method which is used to print the contents of the current window. It opens a Print dialog box which lets you choose between various printing options. Let's see the usage of print method in an example,
+     window对象提供了一个print()方法用来打印当前窗口的内容。会打开一个打印对话框会让你在不同打印选项中选择。让我们看一个print方法用法的例子
 
      ```html
      <input type="button" value="Print" onclick="window.print()" />
      ```
 
-     **Note:** In most browsers, it will block while the print dialog is open.
+     **注意:** 在多数浏览器中，打印对话框打开时会阻塞
 
      **[⬆ Back to Top](#table-of-contents)**
 
 213. ### What is the difference between uneval and eval
 
-     The `uneval` function returns the source of a given object; whereas the `eval` function does the opposite, by evaluating that source code in a different memory area. Let's see an example to clarify the difference,
+     `uneval`函数返回给定对象的源码；而`eval`函数则相反，会在不同内存区中执行那段源代码。让我们看一个表明区别的例子
 
      ```javascript
      var msg = uneval(function greeting() {
@@ -3894,7 +3894,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 214. ### What is an anonymous function
 
-     An anonymous function is a function without a name! Anonymous functions are commonly assigned to a variable name or used as a callback function. The syntax would be as below,
+     匿名函数是没有名字的函数！匿名函数通常赋值给一个变量名或者用作回调函数。语法如下
 
      ```javascript
      function (optionalParameters) {
@@ -3910,7 +3910,7 @@ You can download the PDF and Epub version of this repository from the latest run
      });
      ```
 
-     Let's see the above anonymous function in an example,
+     让我们看下上边匿名函数的例子
 
      ```javascript
      var x = function (a, b) {
@@ -3924,7 +3924,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 215. ### What is the precedence order between local and global variables
 
-     A local variable takes precedence over a global variable with the same name. Let's see this behavior in an example.
+     同名的局部变量优先级高于全局变量。让我们看一个例子
 
      ```javascript
      var msg = "Good morning";
@@ -3939,7 +3939,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 216. ### What are javascript accessors
 
-     ECMAScript 5 introduced javascript object accessors or computed properties through getters and setters. Getters uses the `get` keyword whereas Setters uses the `set` keyword.
+     ECMAScript 5引入了对象访问器或通过getter和setter的计算属性。Getter使用`get`关键字而setter使用`set`关键字
 
      ```javascript
      var user = {
@@ -3962,7 +3962,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 217. ### How do you define property on Object constructor
 
-     The Object.defineProperty() static method is used to define a new property directly on an object, or modify an existing property on an object, and returns the object. Let's see an example to know how to define property,
+     Object.defineProperty()静态方法用来在一个对象上直接定义新属性，或者修改对象上已有的属性，返回该对象。让我们看个例子来学习如何定义属性
 
      ```javascript
      const newObject = {};
@@ -3981,26 +3981,26 @@ You can download the PDF and Epub version of this repository from the latest run
 
 218. ### What is the difference between get and defineProperty
 
-     Both have similar results until unless you use classes. If you use `get` the property will be defined on the prototype of the object whereas using `Object.defineProperty()` the property will be defined on the instance it is applied to.
+     除非你使用类，否则两者有类似的结果。如果使用 `get` 属性将在对象的原型上定义，而使用 `Object.defineProperty()` 属性将在它应用到的实例上定义
 
      **[⬆ Back to Top](#table-of-contents)**
 
 219. ### What are the advantages of Getters and Setters
 
-     Below are the list of benefits of Getters and Setters,
+     下边是getter和setter的好处
 
-     1. They provide simpler syntax
-     2. They are used for defining computed properties, or accessors in JS.
-     3. Useful to provide equivalence relation between properties and methods
-     4. They can provide better data quality
-     5. Useful for doing things behind the scenes with the encapsulated logic.
+     1. 提供了更简单的语法
+     2. 用来定义计算属性或者JS中的访问器
+     3. 有助于提供属性和方法之间的等价关系
+     4. 可以提供更好的数据质量
+     5. 有助于使用封装后的逻辑在幕后做事
 
      **[⬆ Back to Top](#table-of-contents)**
 
 220. ### Can I add getters and setters using defineProperty method
 
-     Yes, You can use the `Object.defineProperty()` method to add Getters and Setters. For example, the below counter object uses increment, decrement, add and subtract properties,
-
+     你可以使用`Object.defineProperty()`方法增加getter和setter。例如，下边的计数器对象使用了increment, decrement, add 和 subtract 属性
+     
      ```javascript
      var obj = { counter: 0 };
 
@@ -4038,7 +4038,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 221. ### What is the purpose of switch-case
 
-     The switch case statement in JavaScript is used for decision making purposes. In a few cases, using the switch case statement is going to be more convenient than if-else statements. The syntax would be as below,
+     JS中的switch case语句用于决策。在只有几个case的情况下，使用switch case语句比if-else语句更方便。语法如下
 
      ```javascript
      switch (expression)
@@ -4059,25 +4059,26 @@ You can download the PDF and Epub version of this repository from the latest run
      }
      ```
 
-     The above multi-way branch statement provides an easy way to dispatch execution to different parts of code based on the value of the expression.
+     上边的多路分支语句在表达式值的基础上提供了调度执行不同代码部分的简单方法
 
      **[⬆ Back to Top](#table-of-contents)**
 
 222. ### What are the conventions to be followed for the usage of switch case
 
-     Below are the list of conventions should be taken care,
+     以下是英注意的注意事项
+     
 
-     1. The expression can be of type either number or string.
-     2. Duplicate values are not allowed for the expression.
-     3. The default statement is optional. If the expression passed to switch does not match with any case value then the statement within default case will be executed.
-     4. The break statement is used inside the switch to terminate a statement sequence.
-     5. The break statement is optional. But if it is omitted, the execution will continue on into the next case.
+     1. 表达式是数字或字符串类型
+     2. 重复的值不能用于表达式
+     3. default语句是可选的。如果传给switch的表达式不匹配任何case值，则default中的语句会被执行
+     4. break语句用来在switch内部终止语句序列
+     5. break语句是可选的。如果忽略，则会在下个case中继续执行
 
      **[⬆ Back to Top](#table-of-contents)**
 
 223. ### What are primitive data types
 
-     A primitive data type is data that has a primitive value (which has no properties or methods). There are 7 types of primitive data types.
+     原始数据类型是有原始值（没有属性或方法）的数组。有7种原始数据类型
 
      1. string
      2. number
@@ -4091,21 +4092,21 @@ You can download the PDF and Epub version of this repository from the latest run
 
 224. ### What are the different ways to access object properties
 
-     There are 3 possible ways for accessing the property of an object.
+     有3中方法访问对象属性
 
-     1. **Dot notation:** It uses dot for accessing the properties
+     1. **.符号:** 使用符号.来访问属性
 
      ```javascript
      objectName.property;
      ```
 
-     1. **Square brackets notation:** It uses square brackets for property access
+     2. **方括号符号:** 使用方括号访问属性
 
      ```javascript
      objectName["property"];
      ```
 
-     1. **Expression notation:** It uses expression in the square brackets
+     3. **表达式符号:** 使用方括号中的表达式
 
      ```javascript
      objectName[expression];
@@ -4115,12 +4116,12 @@ You can download the PDF and Epub version of this repository from the latest run
 
 225. ### What are the function parameter rules
 
-     JavaScript functions follow below rules for parameters,
+     JS函数参数遵循以下规则
 
-     1. The function definitions do not specify data types for parameters.
-     2. Do not perform type checking on the passed arguments.
-     3. Do not check the number of arguments received.
-        i.e, The below function follows the above rules,
+     1. 函数定义不给参数指定数据类型
+     2. 传入的参数不进行类型检查
+     3. 不检查接收参数的数量
+        即下边的函数遵循上边的规则
 
      ```javascript
      function functionName(parameter1, parameter2, parameter3) {
@@ -4133,7 +4134,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 226. ### What is an error object
 
-     An error object is a built in error object that provides error information when an error occurs. It has two properties: name and message. For example, the below function logs error details,
+     error对象是内置的错误对象，当产生错误时提供错误信息。有两个属性：name和message。例如，下边的函数打印了错误详情
 
      ```javascript
      try {
@@ -4147,7 +4148,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 227. ### When you get a syntax error
 
-     A SyntaxError is thrown if you try to evaluate code with a syntax error. For example, the below missing quote for the function parameter throws a syntax error
+     当你尝试运行有语法错误时会抛出SyntaxError。例如，下边的函数参数缺少引号会抛出语法错误
 
      ```javascript
      try {
@@ -4161,51 +4162,52 @@ You can download the PDF and Epub version of this repository from the latest run
 
 228. ### What are the different error names from error object
 
-     There are 6 different types of error names returned from error object,
-     | Error Name | Description |
+     从错误对象返回的错误名称有 6 种不同类型
+     
+     | error名字 | 描述 |
      |---- | ---------
-     | EvalError | An error has occurred in the eval() function |
-     | RangeError | An error has occurred with a number "out of range" |
-     | ReferenceError | An error due to an illegal reference|
-     | SyntaxError | An error due to a syntax error|
-     | TypeError | An error due to a type error |
-     | URIError | An error due to encodeURI() |
+     | EvalError | eval()函数中产生的错误 |
+     | RangeError | 数字"越界"时产生的错误 |
+     | ReferenceError | 非法引用产生的错误|
+     | SyntaxError | 语法错误|
+     | TypeError | 类型错误 |
+     | URIError | 由encodeURI()产生的错误 |
 
      **[⬆ Back to Top](#table-of-contents)**
 
 229. ### What are the various statements in error handling
 
-     Below are the list of statements used in an error handling,
+     下边是错误处理中用到的语句
 
-     1. **try:** This statement is used to test a block of code for errors
-     2. **catch:** This statement is used to handle the error
-     3. **throw:** This statement is used to create custom errors.
-     4. **finally:** This statement is used to execute code after try and catch regardless of the result.
+     1. **try:** 此语句用于测试错误的代码块
+     2. **catch:** 此语句用于处理错误
+     3. **throw:** 此语句用于创建自定义错误
+     4. **finally:** 此语句用于在try catch后不管结果如何都执行代码
 
      **[⬆ Back to Top](#table-of-contents)**
 
 230. ### What are the two types of loops in javascript
 
-     1. **Entry Controlled loops:** In this kind of loop type, the test condition is tested before entering the loop body. For example, For Loop and While Loop comes under this category.
-     2. **Exit Controlled Loops:** In this kind of loop type, the test condition is tested or evaluated at the end of the loop body. i.e, the loop body will execute at least once irrespective of test condition true or false. For example, do-while loop comes under this category.
-
+     1. **入口控制循环:** 此循环类型中，测试条件在进入循环体前检测。例如，for和while都是这种遍历
+     2. **出口控制循环:** 此循环类型中，测试条件在执行完循环体后检测。即循环体无论检测条件是true还是false都会执行至少一次。例如，do-while是这种遍历
+ 
      **[⬆ Back to Top](#table-of-contents)**
 
 231. ### What is nodejs
 
-     Node.js is a server-side platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. It is an event-based, non-blocking, asynchronous I/O runtime that uses Google's V8 JavaScript engine and libuv library.
+     Node.js是建立在Chrome的JavaScript运行时之上的平台，用于能简单地构建快速且可扩展的网络应用。是在Google的V8 JS引擎和libuv库之上的基于事件，非阻塞，异步I/0的运行时
 
      **[⬆ Back to Top](#table-of-contents)**
 
 232. ### What is an Intl object
 
-     The Intl object is the namespace for the ECMAScript Internationalization API, which provides language sensitive string comparison, number formatting, and date and time formatting. It provides access to several constructors and language sensitive functions.
+     Intl对象是ECMAScript国际化API的命名空间，提供语言敏感的字符串比较、数字格式化以及日期和时间格式化。提供了访问几种构造函数和语言敏感函数的功能
 
      **[⬆ Back to Top](#table-of-contents)**
 
 233. ### How do you perform language specific date and time formatting
 
-     You can use the `Intl.DateTimeFormat` object which is a constructor for objects that enable language-sensitive date and time formatting. Let's see this behavior with an example,
+     你可以使用`Intl.DateTimeFormat`对象，它是启用语言敏感日期和时间格式化的对象的构造函数。让我们用例子看下用法
 
      ```javascript
      var date = new Date(Date.UTC(2019, 07, 07, 3, 0, 0));
@@ -4217,19 +4219,19 @@ You can download the PDF and Epub version of this repository from the latest run
 
 234. ### What is an Iterator
 
-     An iterator is an object which defines a sequence and a return value upon its termination. It implements the Iterator protocol with a `next()` method which returns an object with two properties: `value` (the next value in the sequence) and `done` (which is true if the last value in the sequence has been consumed).
+     迭代器是一个定义了一个序列的对象，也是在终止时返回的值。实现了Iterator协议的`next()`方法，会返回有两个属性的对象：`value`（序列中的下一个值）和 `done`（如果序列中的最后一个值被消费掉则是true）。
 
      **[⬆ Back to Top](#table-of-contents)**
 
 235. ### How does synchronous iteration works
 
-     Synchronous iteration was introduced in ES6 and it works with below set of components,
+     同步迭代在ES6中引入，由以下组件一起组成工作。
 
-     **Iterable:** It is an object which can be iterated over via a method whose key is Symbol.iterator.
-     **Iterator:** It is an object returned by invoking `[Symbol.iterator]()` on an iterable. This iterator object wraps each iterated element in an object and returns it via `next()` method one by one.
-     **IteratorResult:** It is an object returned by `next()` method. The object contains two properties; the `value` property contains an iterated element and the `done` property determines whether the element is the last element or not.
+     **Iterable:** 它是一个可以通过键为 Symbol.iterator 的方法进行迭代的对象
+     **Iterator:** 它是通过在可迭代对象上调用 `[Symbol.iterator]()` 返回的对象。这个迭代器对象将每个被迭代的元素包装在一个对象中，并通过 `next()` 方法一一返回
+     **IteratorResult:** 是由`next()`方法返回的对象。对象包括两个属性；`value` 属性包含一个被迭代的元素，而 `done` 属性确定该元素是否是最后一个元素
 
-     Let's demonstrate synchronous iteration with an array as below,
+     下边让我们用一个数组来解释同步迭代
 
      ```javascript
      const iterable = ["one", "two", "three"];
@@ -4244,19 +4246,20 @@ You can download the PDF and Epub version of this repository from the latest run
 
 236. ### What is an event loop
 
-     The Event Loop is a queue of callback functions. When an async function executes, the callback function is pushed into the queue. The JavaScript engine doesn't start processing the event loop until the async function has finished executing the code.
-     **Note:** It allows Node.js to perform non-blocking I/O operations even though JavaScript is single-threaded.
+     事件循环是回调函数的队列。当异步函数执行时，回调函数入队。JavaScript引擎在异步函数执行完代码前不会开始处理事件循环
+     **注意:** 即使JS是单线程的也允许Node.js执行非阻塞的I/O操作
 
      **[⬆ Back to Top](#table-of-contents)**
 
 237. ### What is call stack
 
-     Call Stack is a data structure for javascript interpreters to keep track of function calls(creates execution context) in the program. It has two major actions,
+     调用栈是js在程序中追踪函数执行（创建执行上下文）的数据结构。主要有两个行为
 
-     1. Whenever you call a function for its execution, you are pushing it to the stack.
-     2. Whenever the execution is completed, the function is popped out of the stack.
+     1. 无论何时调用函数执行时，会将函数入栈
+     2. 无论何时函数执行完毕，此函数都会出栈
 
-     Let's take an example and it's state representation in a diagram format
+     让我们举个例子，它是图表形式的状态表示
+     
 
      ```javascript
      function hungry() {
@@ -4270,12 +4273,12 @@ You can download the PDF and Epub version of this repository from the latest run
      hungry();
      ```
 
-     The above code processed in a call stack as below,
+     上边代码在调用栈的处理过程如下
 
-     1. Add the `hungry()` function to the call stack list and execute the code.
-     2. Add the `eatFruits()` function to the call stack list and execute the code.
-     3. Delete the `eatFruits()` function from our call stack list.
-     4. Delete the `hungry()` function from the call stack list since there are no items anymore.
+     1. 将`hungry()`函数加入调用栈列表并执行代码
+     2. 将`eatFruits()`函数加入调用栈列表并执行代码
+     3. 从调用栈列表中删除`eatFruits()`函数
+     4. 从调用栈列表中删除`hungry()`函数，因此调用栈中没东西了
 
      ![Screenshot](images/call-stack.png)
 
@@ -4287,7 +4290,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 239. ### What is a decorator
 
-     A decorator is an expression that evaluates to a function and that takes the target, name, and decorator descriptor as arguments. Also, it optionally returns a decorator descriptor to install on the target object. Let's define admin decorator for user class at design time,
+     装饰器是一个表达式，它等价于一个将目标、名称和装饰器描述符作为参数的函数。此外，它还可以选择返回一个装饰器描述符以安装在目标对象上。让我们在设计时为user类定义admin装饰器
 
      ```javascript
      function admin(isAdmin) {
@@ -4311,20 +4314,20 @@ You can download the PDF and Epub version of this repository from the latest run
 
 240. ### What are the properties of Intl object
 
-     Below are the list of properties available on Intl object,
+     下边是Intl对象上可用的属性
 
-     1. **Collator:** These are the objects that enable language-sensitive string comparison.
-     2. **DateTimeFormat:** These are the objects that enable language-sensitive date and time formatting.
-     3. **ListFormat:** These are the objects that enable language-sensitive list formatting.
-     4. **NumberFormat:** Objects that enable language-sensitive number formatting.
-     5. **PluralRules:** Objects that enable plural-sensitive formatting and language-specific rules for plurals.
-     6. **RelativeTimeFormat:** Objects that enable language-sensitive relative time formatting.
+     1. **Collator:** 这些是开启语言敏感的字符串比较的对象
+     2. **DateTimeFormat:** 这些是开启语言敏感日期和时间格式化的对象
+     3. **ListFormat:** 这些是开启语言敏感列表格式化的对象
+     4. **NumberFormat:** 开启语言敏感的数字格式化的对象
+     5. **PluralRules:** 启用复数敏感格式和特定​​语言规则的对象
+     6. **RelativeTimeFormat:** 开启语言敏感相对时间格式化的对象
 
      **[⬆ Back to Top](#table-of-contents)**
 
 241. ### What is an Unary operator
 
-     The unary(+) operator is used to convert a variable to a number.If the variable cannot be converted, it will still become a number but with the value NaN. Let's see this behavior in an action.
+     一元（+）运算符用来将变量转换为数字。如果变量不能被转换，则会成为值是NaN的数字。让我们在指令中看下此行为
 
      ```javascript
      var x = "100";
@@ -4340,7 +4343,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 242. ### How do you sort elements in an array
 
-     The sort() method is used to sort the elements of an array in place and returns the sorted array. The example usage would be as below,
+     sort()方法用来对数组元素进行原地排序并返回排序后的数组。例子用法如下
 
      ```javascript
      var months = ["Aug", "Sep", "Jan", "June"];
@@ -4352,7 +4355,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 243. ### What is the purpose of compareFunction while sorting arrays
 
-     The compareFunction is used to define the sort order. If omitted, the array elements are converted to strings, then sorted according to each character's Unicode code point value. Let's take an example to see the usage of compareFunction,
+     compareFunction用于定义排序顺序。如果忽略，则数组元素将被转换成字符串，然后根据每个字符的Unicode码点值进行排序。让我们看个例子的用法
 
      ```javascript
      let numbers = [1, 2, 5, 3, 4];
@@ -4364,7 +4367,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 244. ### How do you reversing an array
 
-     You can use the reverse() method to reverse the elements in an array. This method is useful to sort an array in descending order. Let's see the usage of reverse() method in an example,
+     你可以使用reverse()方法来对数组元素进行反转。此方法对于降序数组很有用，让我们看看例子中reverse()方法的用法。
 
      ```javascript
      let numbers = [1, 2, 5, 3, 4];
@@ -4377,7 +4380,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 245. ### How do you find min and max value in an array
 
-     You can use `Math.min` and `Math.max` methods on array variables to find the minimum and maximum elements within an array. Let's create two functions to find the min and max value with in an array,
+     你可以对数组变量使用`Math.min` 和 `Math.max`方法找到数组内的最大值和最小值。让我们创建两个找数组中最大值和最小值的函数
 
      ```javascript
      var marks = [50, 20, 70, 60, 45, 30];
@@ -4396,7 +4399,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 246. ### How do you find min and max values without Math functions
 
-     You can write functions which loop through an array comparing each value with the lowest value or highest value to find the min and max values. Let's create those functions to find min and max values,
+     您可以编写循环遍历数组的函数，将每个值与最小值或最大值进行比较，以找到最小值和最大值。让我们创建找最小值和最大值的函数
 
      ```javascript
      var marks = [50, 20, 70, 60, 45, 30];
@@ -4430,7 +4433,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 247. ### What is an empty statement and purpose of it
 
-     The empty statement is a semicolon (;) indicating that no statement will be executed, even if JavaScript syntax requires one. Since there is no action with an empty statement you might think that it's usage is quite less, but the empty statement is occasionally useful when you want to create a loop that has an empty body. For example, you can initialize an array with zero values as below,
+     空语句是一个分号（;）表明没有语句要执行，即使JavaScript需要一个。因为空语句没有指令执行你可能认为没啥用，但是空语句在当你创建一个空循环体的循环时有时很有用。例如，你可以像下边一样用0来初始化数组
 
      ```javascript
      // Initialize an array a
@@ -4441,7 +4444,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 248. ### How do you get metadata of a module
 
-     You can use the `import.meta` object which is a meta-property exposing context-specific meta data to a JavaScript module. It contains information about the current module, such as the module's URL. In browsers, you might get different meta data than NodeJS.
+     您可以使用 `import.meta` 对象，它是一种将特定上下文的元数据暴露给 JavaScript 模块的元属性。它包含当前模块的信息，例如模块的URL。浏览器中，你可以获得与NodeJS不同的元信息。
 
      ```javascript
      <script type="module" src="welcome-module.js"></script>;
@@ -4452,7 +4455,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 249. ### What is a comma operator
 
-     The comma operator is used to evaluate each of its operands from left to right and returns the value of the last operand. This is totally different from comma usage within arrays, objects, and function arguments and parameters. For example, the usage for numeric expressions would be as below,
+     逗号运算符用于从左到右计算每个操作数并返回最后一个操作数的值。这和数组，对象和函数参数中的逗号完全不一样。例如，数字表达式的用法如下
 
      ```javascript
      var x = 1;
@@ -4465,13 +4468,13 @@ You can download the PDF and Epub version of this repository from the latest run
 
 250. ### What is the advantage of a comma operator
 
-     It is normally used to include multiple expressions in a location that requires a single expression. One of the common usages of this comma operator is to supply multiple parameters in a `for` loop. For example, the below for loop uses multiple expressions in a single location using comma operator,
+     它通常用于在需要单个表达式的位置包含多个表达式。逗号运算符常见的用法之一是在`for`循环中提供多个参数。例如，下边的循环在一个地方中用逗号表达式使用了多个表达式
 
      ```javascript
      for (var a = 0, b =10; a <= 10; a++, b--)
      ```
 
-     You can also use the comma operator in a return statement where it processes before returning.
+     您还可以在 return 语句中使用逗号运算符，它会在返回之前进行处理
 
      ```javascript
      function myFunction() {
