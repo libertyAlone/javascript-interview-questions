@@ -312,36 +312,36 @@ You can download the PDF and Epub version of this repository from the latest run
 | 268 | [什么是压缩](#what-is-minification)                                                                                                                     |
 | 269 | [压缩的好处是什么](#what-are-the-advantages-of-minification)                                                                               |
 | 270 | [混淆和加密的区别是什么](#what-are-the-differences-between-obfuscation-and-encryption)                                       |
-| 271 | [What are the common tools used for minification](#what-are-the-common-tools-used-for-minification)                                                               |
-| 272 | [How do you perform form validation using javascript](#how-do-you-perform-form-validation-using-javascript)                                                       |
-| 273 | [How do you perform form validation without javascript](#how-do-you-perform-form-validation-without-javascript)                                                   |
-| 274 | [What are the DOM methods available for constraint validation](#what-are-the-dom-methods-available-for-constraint-validation)                                     |
-| 275 | [What are the available constraint validation DOM properties](#what-are-the-available-constraint-validation-dom-properties)                                       |
-| 276 | [What are the list of validity properties](#what-are-the-list-of-validity-properties)                                                                             |
-| 277 | [Give an example usage of rangeOverflow property](#give-an-example-usage-of-rangeoverflow-property)                                                               |
-| 278 | [Is enums feature available in javascript](#is-enums-feature-available-in-javascript)                                                                             |
-| 279 | [What is an enum](#What-is-an-enum)                                                                                                                               |
-| 280 | [How do you list all properties of an object](#how-do-you-list-all-properties-of-an-object)                                                                       |
-| 281 | [How do you get property descriptors of an object](#how-do-you-get-property-descriptors-of-an-object)                                                             |
-| 282 | [What are the attributes provided by a property descriptor](#what-are-the-attributes-provided-by-a-property-descriptor)                                           |
-| 283 | [How do you extend classes](#how-do-you-extend-classes)                                                                                                           |
-| 284 | [How do I modify the url without reloading the page](#how-do-i-modify-the-url-without-reloading-the-page)                                                         |
-| 285 | [How do you check whether an array includes a particular value or not](#how-do-you-check-whether-an-array-includes-a-particular-value-or-not)                     |
-| 286 | [How do you compare scalar arrays](#how-do-you-compare-scalar-arrays)                                                                                             |
-| 287 | [How to get the value from get parameters](#how-to-get-the-value-from-get-parameters)                                                                             |
-| 288 | [How do you print numbers with commas as thousand separators](#how-do-you-print-numbers-with-commas-as-thousand-separators)                                       |
-| 289 | [What is the difference between java and javascript](#what-is-the-difference-between-java-and-javascript)                                                         |
-| 290 | [Does javascript supports namespace](#does-javascript-supports-namespace)                                                                                         |
-| 291 | [How do you declare namespace](#how-do-you-declare-namespace)                                                                                                     |
-| 292 | [How do you invoke javascript code in an iframe from parent page](#how-do-you-invoke-javascript-code-in-an-iframe-from-parent-page)                               |
-| 293 | [How do get the timezone offset from date](#how-do-get-the-timezone-offset-from-date)                                                                             |
-| 294 | [How do you load CSS and JS files dynamically](#how-do-you-load-css-and-js-files-dynamically)                                                                     |
-| 295 | [What are the different methods to find HTML elements in DOM](#what-are-the-different-methods-to-find-html-elements-in-dom)                                       |
-| 296 | [What is jQuery](#what-is-jquery)                                                                                                                                 |
-| 297 | [What is V8 JavaScript engine](#what-is-v8-javascript-engine)                                                                                                     |
-| 298 | [Why do we call javascript as dynamic language](#why-do-we-call-javascript-as-dynamic-language)                                                                   |
-| 299 | [What is a void operator](#what-is-a-void-operator)                                                                                                               |
-| 300 | [How to set the cursor to wait](#how-to-set-the-cursor-to-wait)                                                                                                   |
+| 271 | [用来压缩的常用工具是什么](#what-are-the-common-tools-used-for-minification)                                                               |
+| 272 | [如何使用javascript进行表单校验](#how-do-you-perform-form-validation-using-javascript)                                                       |
+| 273 | [不使用javascript如何进行表单校验](#how-do-you-perform-form-validation-without-javascript)                                                   |
+| 274 | [DOM上用于约束性校验的方法有什么](#what-are-the-dom-methods-available-for-constraint-validation)                                     |
+| 275 | [DOM属性上用于约束性校验的属性是什么](#what-are-the-available-constraint-validation-dom-properties)                                       |
+| 276 | [validity属性是什么](#what-are-the-list-of-validity-properties)                                                                             |
+| 277 | [举一个rangeOverflow属性用法的例子](#give-an-example-usage-of-rangeoverflow-property)                                                               |
+| 278 | [在javascript中是否支持枚举特性](#is-enums-feature-available-in-javascript)                                                                             |
+| 279 | [什么是枚举](#What-is-an-enum)                                                                                                                               |
+| 280 | [如何列举一个对象的全部属性](#how-do-you-list-all-properties-of-an-object)                                                                       |
+| 281 | [如何获得一个对象的属性描述符](#how-do-you-get-property-descriptors-of-an-object)                                                             |
+| 282 | [属性描述符提供的属性都是什么](#what-are-the-attributes-provided-by-a-property-descriptor)                                           |
+| 283 | [如何扩展类](#how-do-you-extend-classes)                                                                                                           |
+| 284 | [不重载页面如何修改url](#how-do-i-modify-the-url-without-reloading-the-page)                                                         |
+| 285 | [如何检查数组是否包含一个特定的值](#how-do-you-check-whether-an-array-includes-a-particular-value-or-not)                     |
+| 286 | [如何比较标量数组](#how-do-you-compare-scalar-arrays)                                                                                             |
+| 287 | [如何从get参数中获得值](#how-to-get-the-value-from-get-parameters)                                                                             |
+| 288 | [如何打印用逗号作为千位分隔符的数字](#how-do-you-print-numbers-with-commas-as-thousand-separators)                                       |
+| 289 | [java 和 javascript间的区别是什么](#what-is-the-difference-between-java-and-javascript)                                                         |
+| 290 | [javascript支持命名空间吗](#does-javascript-supports-namespace)                                                                                         |
+| 291 | [如何声明命名空间](#how-do-you-declare-namespace)                                                                                                     |
+| 292 | [如何从父页面中调用iframe中的javascrpt代码](#how-do-you-invoke-javascript-code-in-an-iframe-from-parent-page)                               |
+| 293 | [如何从日期中获取时差](#how-do-get-the-timezone-offset-from-date)                                                                             |
+| 294 | [如何动态加载CSS和JS](#how-do-you-load-css-and-js-files-dynamically)                                                                     |
+| 295 | [用DOM找到HTML元素的不同方法是什么](#what-are-the-different-methods-to-find-html-elements-in-dom)                                       |
+| 296 | [什么是jQuery](#what-is-jquery)                                                                                                                                 |
+| 297 | [什么是V8 JavaScript引擎](#what-is-v8-javascript-engine)                                                                                                     |
+| 298 | [为什么把javascript叫动态语言](#why-do-we-call-javascript-as-dynamic-language)                                                                   |
+| 299 | [什么是void操作符](#what-is-a-void-operator)                                                                                                               |
+| 300 | [如何将光标设置为等待](#how-to-set-the-cursor-to-wait)                                                                                                   |
 | 301 | [How do you create an infinite loop](#how-do-you-create-an-infinite-loop)                                                                                         |
 | 302 | [Why do you need to avoid with statement](#why-do-you-need-to-avoid-with-statement)                                                                               |
 | 303 | [What is the output of below for loops](#what-is-the-output-of-below-for-loops)                                                                                   |
@@ -4817,7 +4817,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 271. ### What are the common tools used for minification
 
-     There are many online/offline tools to minify the javascript files,
+     有许多在线/离线工具可以压缩js文件
 
      1. Google's Closure Compiler
      2. UglifyJS2
@@ -4829,8 +4829,8 @@ You can download the PDF and Epub version of this repository from the latest run
 
 272. ### How do you perform form validation using javascript
 
-     JavaScript can be used to perform HTML form validation. For example, if the form field is empty, the function needs to notify, and return false, to prevent the form being submitted.
-     Lets' perform user login in an html form,
+     JS可以用来进行HTML表单校验。例如，如果表单字段为空，函数需要通知并返回false来防止表单被提交
+    	   让我们用html表单进行用户登录
 
      ```html
      <form name="myForm" onsubmit="return validateForm()" method="post">
@@ -4839,7 +4839,7 @@ You can download the PDF and Epub version of this repository from the latest run
      </form>
      ```
 
-     And the validation on user login is below,
+     用户登录的校验如下
 
      ```javascript
      function validateForm() {
@@ -4855,7 +4855,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 273. ### How do you perform form validation without javascript
 
-     You can perform HTML form validation automatically without using javascript. The validation enabled by applying the `required` attribute to prevent form submission when the input is empty.
+     不使用js也可以自动进行HTML表单校验。通过应用 `required` 属性启用验证，以防止在输入为空时提交表单
 
      ```html
      <form method="post">
@@ -4864,17 +4864,17 @@ You can download the PDF and Epub version of this repository from the latest run
      </form>
      ```
 
-     **Note:** Automatic form validation does not work in Internet Explorer 9 or earlier.
+     **注意:** 自动化的表单校验在IE9或之前版本不会生效
 
      **[⬆ Back to Top](#table-of-contents)**
 
 274. ### What are the DOM methods available for constraint validation
 
-     The below DOM methods are available for constraint validation on an invalid input,
+     以下 DOM 方法可用于对无效输入进行约束验证
 
-     1. checkValidity(): It returns true if an input element contains valid data.
-     2. setCustomValidity(): It is used to set the validationMessage property of an input element.
-        Let's take an user login form with DOM validations
+     1. checkValidity(): 如果输入框元素包含合法数据会返回true
+     2. setCustomValidity(): It is used to set the validationMessage property of an input element.用于向输入框元素设置validationMessage属性
+        让我们使用带有 DOM 验证的用户登录表单
 
      ```javascript
      function myFunction() {
@@ -4893,33 +4893,34 @@ You can download the PDF and Epub version of this repository from the latest run
 
 275. ### What are the available constraint validation DOM properties
 
-     Below are the list of some of the constraint validation DOM properties available,
+     下面是一些可用的约束校验 DOM 属性的列表
 
-     1. validity: It provides a list of boolean properties related to the validity of an input element.
-     2. validationMessage: It displays the message when the validity is false.
-     3. willValidate: It indicates if an input element will be validated or not.
+     1. validity: 提供了一系列与输入框元素有效性相关的布尔属性
+     2. validationMessage: 校验为false时展示消息
+     3. willValidate: 表明一个输入框元素是否会被校验
 
      **[⬆ Back to Top](#table-of-contents)**
 
 276. ### What are the list of validity properties
 
-     The validity property of an input element provides a set of properties related to the validity of data.
+     输入框元素的validity属性提供了一组与数据有效性相关的属性
 
-     1. customError: It returns true, if a custom validity message is set.
-     2. patternMismatch: It returns true, if an element's value does not match its pattern attribute.
-     3. rangeOverflow: It returns true, if an element's value is greater than its max attribute.
-     4. rangeUnderflow: It returns true, if an element's value is less than its min attribute.
-     5. stepMismatch: It returns true, if an element's value is invalid according to step attribute.
-     6. tooLong: It returns true, if an element's value exceeds its maxLength attribute.
-     7. typeMismatch: It returns true, if an element's value is invalid according to type attribute.
-     8. valueMissing: It returns true, if an element with a required attribute has no value.
-     9. valid: It returns true, if an element's value is valid.
+     1. customError: 如果设置了自定义的有效性消息则返回true
+     2. patternMismatch: 若元素的值不匹配pattern属性则返回true
+     3. rangeOverflow: 如果元素值大于max属性则返回true
+     4. rangeUnderflow: 如果元素值小于min属性则返回true
+
+     5. stepMismatch: 如果元素值根据step属性不合法则返回true
+     6. tooLong: 若元素值超出maxLength属性则返回true
+     7. typeMismatch: 如果元素值根据type属性不合法则返回true
+     8. valueMissing: 如果带required属性的元素没有值则返回true
+     9. valid: 如果元素值非法，则返回true
 
      **[⬆ Back to Top](#table-of-contents)**
 
 277. ### Give an example usage of rangeOverflow property
 
-     If an element's value is greater than its max attribute then rangeOverflow property returns true. For example, the below form submission throws an error if the value is more than 100,
+     如果一个元素值大于它的max属性则rangeOverflow属性会返回true。例如，如果值大于100下边的表单提交会抛出一个错误
 
      ```html
      <input id="age" type="number" max="100" />
@@ -4938,7 +4939,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 278. ### Is enums feature available in javascript
 
-     No, javascript does not natively support enums. But there are different kinds of solutions to simulate them even though they may not provide exact equivalents. For example, you can use freeze or seal on object,
+     js本身不支持枚举。但是有许多不同的方案来模拟，即使可能不完全等价。例如，你可以freeze或seal一个对象
 
      ```javascript
      var DaysEnum = Object.freeze({"monday":1, "tuesday":2, "wednesday":3, ...})
@@ -4948,7 +4949,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 279. ### What is an enum
 
-     An enum is a type restricting variables to one value from a predefined set of constants. JavaScript has no enums but typescript provides built-in enum support.
+     枚举是一种将变量限制为一组预定义常量中的一个值的类型。 JavaScript 没有枚举，但 typescript 提供内置的枚举支持
 
      ```javascript
      enum Color {
@@ -4960,7 +4961,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 280. ### How do you list all properties of an object
 
-     You can use the `Object.getOwnPropertyNames()` method which returns an array of all properties found directly in a given object. Let's the usage of it in an example,
+     你可以使用`Object.getOwnPropertyNames()`方法返回给定对象上本身拥有的全部属性。让我们用一个例子看下用法
 
      ```javascript
      const newObject = {
@@ -4977,7 +4978,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 281. ### How do you get property descriptors of an object
 
-     You can use the `Object.getOwnPropertyDescriptors()` method which returns all own property descriptors of a given object. The example usage of this method is below,
+     你可以使用`Object.getOwnPropertyDescriptors()`方法返回给定对象的全部属性描述符。此方法的事例用法如下
 
      ```javascript
      const newObject = {
@@ -4996,26 +4997,26 @@ You can download the PDF and Epub version of this repository from the latest run
 
 282. ### What are the attributes provided by a property descriptor
 
-     A property descriptor is a record which has the following attributes
+     属性描述符是拥有如下属性的记录
 
-     1. value: The value associated with the property
-     2. writable: Determines whether the value associated with the property can be changed or not
-     3. configurable: Returns true if the type of this property descriptor can be changed and if the property can be deleted from the corresponding object.
-     4. enumerable: Determines whether the property appears during enumeration of the properties on the corresponding object or not.
-     5. set: A function which serves as a setter for the property
-     6. get: A function which serves as a getter for the property
+     1. value: 与属性相关联的值
+     2. writable: 决定与属性相关的值是否能被改变
+     3. configurable: 如果属性描述符可以被改变且属性可以从相应的对象中删除，则返回true
+     4. enumerable: 决定在枚举相应对象的属性期间是否出现该属性
+     5. set: 提供给此属性的setter函数
+     6. get: 提供给此属性的getter函数
 
      **[⬆ Back to Top](#table-of-contents)**
 
 283. ### How do you extend classes
 
-     The `extends` keyword is used in class declarations/expressions to create a class which is a child of another class. It can be used to subclass custom classes as well as built-in objects. The syntax would be as below,
+     `extends` 关键字在类声明/表达式中用于创建一个类，该类是另一个类的子类。它可用于子类化自定义类以及内置对象。语法如下
 
      ```javascript
      class ChildClass extends ParentClass { ... }
      ```
 
-     Let's take an example of Square subclass from Polygon parent class,
+     让我们看一个从Rectangle父类中继承来的Square子类
 
      ```javascript
      class Square extends Rectangle {
@@ -5038,7 +5039,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 284. ### How do I modify the url without reloading the page
 
-     The `window.location.url` property will be helpful to modify the url but it reloads the page. HTML5 introduced the `history.pushState()` and `history.replaceState()` methods, which allow you to add and modify history entries, respectively. For example, you can use pushState as below,
+     `window.location.url`属性修改url很有用但是会重载页面。HTML5引入了`history.pushState()`和`history.replaceState()`方法，允许你分别添加和修改历史条目。例如，你可以像下边一样使用pushState
 
      ```javascript
      window.history.pushState("page2", "Title", "/page2.html");
@@ -5048,8 +5049,8 @@ You can download the PDF and Epub version of this repository from the latest run
 
 285. ### How do you check whether an array includes a particular value or not
 
-     The `Array#includes()` method is used to determine whether an array includes a particular value among its entries by returning either true or false. Let's see an example to find an element(numeric and string) within an array.
-
+     `Array#includes()`方法通过返回true或者false用来判断数组是否包含特定的值。让我们看一个在数组内部找到一个元素（数字和字符串）的例子
+     
      ```javascript
      var numericArray = [1, 2, 3, 4];
      console.log(numericArray.includes(3)); // true
@@ -5062,7 +5063,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 286. ### How do you compare scalar arrays
 
-     You can use length and every method of arrays to compare two scalar(compared directly using ===) arrays. The combination of these expressions can give the expected result,
+     你可以使用数组的length和every方法比较两个标量数组（直接使用 ===）。这些表达式的组合可以给出预期的结果
 
      ```javascript
      const arrayFirst = [1, 2, 3, 4, 5];
@@ -5073,7 +5074,7 @@ You can download the PDF and Epub version of this repository from the latest run
      ); // true
      ```
 
-     If you would like to compare arrays irrespective of order then you should sort them before,
+     如果想比较数组而不考虑顺序，那么应该先对它们进行排序
 
      ```javascript
      const arrayFirst = [2, 3, 1, 4, 5];
@@ -5088,7 +5089,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 287. ### How to get the value from get parameters
 
-     The `new URL()` object accepts the url string and `searchParams` property of this object can be used to access the get parameters. Remember that you may need to use polyfill or `window.location` to access the URL in older browsers(including IE).
+      `new URL()` 对象接收url字符串，该对象的`searchParams`属性可以用来访问get参数。记住，你需要在老式i浏览器（包括IE）中使用polyfill或者 `window.location`来访问URL
 
      ```javascript
      let urlString = "http://www.some-domain.com/about.html?x=1&y=2&z=3"; //window.location.href
@@ -5101,7 +5102,8 @@ You can download the PDF and Epub version of this repository from the latest run
 
 288. ### How do you print numbers with commas as thousand separators
 
-     You can use the `Number.prototype.toLocaleString()` method which returns a string with a language-sensitive representation such as thousand separator,currency etc of this number.
+
+     你可以使用`Number.prototype.toLocaleString()`方法返回一个带有语言敏感表示的字符串，例如该数字的千位分隔符、货币等
 
      ```javascript
      function convertToThousandFormat(x) {
@@ -5115,20 +5117,20 @@ You can download the PDF and Epub version of this repository from the latest run
 
 289. ### What is the difference between java and javascript
 
-     Both are totally unrelated programming languages and no relation between them. Java is statically typed, compiled, runs on its own VM. Whereas Javascript is dynamically typed, interpreted, and runs in a browser and nodejs environments. Let's see the major differences in a tabular format,
-     | Feature | Java | JavaScript |
+     两者是完全不相关的编程语言，它们之间没有关系。 Java 是静态类型的、编译语言、在它自己的VM上运行。而 Javascript 是在浏览器和 nodejs 环境中动态类型、解释和运行的。让我们用表格格式看看主要区别
+     | 特性 | Java | JavaScript |
      |---- | ---- | -----
-     | Typed | It's a strongly typed language | It's a dynamic typed language |
-     | Paradigm | Object oriented programming | Prototype based programming |
-     | Scoping | Block scoped | Function-scoped |
-     | Concurrency | Thread based | event based |
-     | Memory | Uses more memory | Uses less memory. Hence it will be used for web pages |
+     | 类型 | 强类型语言 | 动态类型语言 |
+     | 范式 | 面对对象编程 | 基于原型的编程 |
+     | 作用域 | 块作用域 | 函数作用域 |
+     | 并发性 | 基于线程 | 基于事件 |
+     | 内存 | 使用更多的内存 | 使用更少的内存。因此被用于网页 |
 
      **[⬆ Back to Top](#table-of-contents)**
 
 290. ### Does JavaScript supports namespace
 
-     JavaScript doesn’t support namespace by default. So if you create any element(function, method, object, variable) then it becomes global and pollutes the global namespace. Let's take an example of defining two functions without any namespace,
+     JavaScript默认不支持命名空间。所以如果创建任何元素（函数，方法，对象，变量），则会变成全局的并污染全局命名空间。让我们看一个没有命名空间定义两个函数的例子
 
      ```javascript
      function func1() {
@@ -5140,15 +5142,15 @@ You can download the PDF and Epub version of this repository from the latest run
      func1(); // This is a second definition
      ```
 
-     It always calls the second function definition. In this case, namespace will solve the name collision problem.
+     总是会调用第二个函数定义。此种情况，命名空间会解决名字冲突问题
 
      **[⬆ Back to Top](#table-of-contents)**
 
 291. ### How do you declare namespace
 
-     Even though JavaScript lacks namespaces, we can use Objects , IIFE to create namespaces.
+     尽管JavaScript缺少命名空间，我们可以使用对象，IIEF创建命名空间
 
-     1. **Using Object Literal Notation:** Let's wrap variables and functions inside an Object literal which acts as a namespace. After that you can access them using object notation
+     1. **使用对象字面量符号:** 让我们将变量和函数包裹在对象字面量语法中，表现就和命名空间一样。之后就可以使用对象符号来访问
 
      ```javascript
      var namespaceOne = {
@@ -5165,7 +5167,7 @@ You can download the PDF and Epub version of this repository from the latest run
      namespaceTwo.func1(); // This is a second definition
      ```
 
-     1. **Using IIFE (Immediately invoked function expression):** The outer pair of parentheses of IIFE creates a local scope for all the code inside of it and makes the anonymous function a function expression. Due to that, you can create the same function in two different function expressions to act as a namespace.
+     1. **使用 IIFE (立即执行函数表达式):** IIFE外层的括号为内部所有代码创建了一个局部作用域，并使得匿名函数成为一个函数表达式。因此，您可以在两个不同的函数表达式中创建相同的函数来充当命名空间
 
      ```javascript
      (function () {
@@ -5183,7 +5185,7 @@ You can download the PDF and Epub version of this repository from the latest run
      })();
      ```
 
-     1. **Using a block and a let/const declaration:** In ECMAScript 6, you can simply use a block and a let declaration to restrict the scope of a variable to a block.
+     1. **使用块和 let/const声明:** 在ECMAScript 6中，你可以简单使用块和let声明将变量的作用域限制到块内
 
      ```javascript
      {
@@ -5207,7 +5209,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 292. ### How do you invoke javascript code in an iframe from parent page
 
-     Initially iFrame needs to be accessed using either `document.getElementBy` or `window.frames`. After that `contentWindow` property of iFrame gives the access for targetFunction
+     最初需要使用 `document.getElementBy` 或 `window.frames` 访问 iFrame。之后 iFrame 的 `contentWindow` 属性提供了对 targetFunction 的访问权限
 
      ```javascript
      document.getElementById("targetFrame").contentWindow.targetFunction();
@@ -5218,7 +5220,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 293. ### How do get the timezone offset from date
 
-     You can use the `getTimezoneOffset` method of the date object. This method returns the time zone difference, in minutes, from current locale (host system settings) to UTC
+     可以使用日期对象的 `getTimezoneOffset` 方法。此方法返回从当前时区（主机系统设置）到 UTC 时区的以分钟为单位的差值
 
      ```javascript
      var offset = new Date().getTimezoneOffset();
@@ -5229,7 +5231,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 294. ### How do you load CSS and JS files dynamically
 
-     You can create both link and script elements in the DOM and append them as child to head tag. Let's create a function to add script and style resources as below,
+     可以在 DOM 中创建链接和脚本元素，并将它们作为子元素append到 head 标签。让我们创建一个函数来添加脚本和样式资源，如下所示
 
      ```javascript
      function loadAssets(filename, filetype) {
@@ -5254,7 +5256,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 295. ### What are the different methods to find HTML elements in DOM
 
-     If you want to access any element in an HTML page, you need to start with accessing the document object. Later you can use any of the below methods to find the HTML element,
+     如果想在HTML页面中访问任何元素，需要从访问document对象开始。之后就可以使用下边任意一种方法找到HTML元素
 
      1. document.getElementById(id): It finds an element by Id
      2. document.getElementsByTagName(name): It finds an element by tag name
@@ -5264,7 +5266,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 296. ### What is jQuery
 
-     jQuery is a popular cross-browser JavaScript library that provides Document Object Model (DOM) traversal, event handling, animations and AJAX interactions by minimizing the discrepancies across browsers. It is widely famous with its philosophy of “Write less, do more”. For example, you can display welcome message on the page load using jQuery as below,
+     jQuery 是一个流行的跨浏览器 JavaScript 库，它通过最小化跨浏览器的差异来提供文档对象模型 (DOM) 遍历、事件处理、动画和 AJAX 交互。它以“Write less, do more”的理念而广为人知。例如，您可以使用 jQuery 在页面加载时显示欢迎消息，如下所示
 
      ```javascript
      $(document).ready(function () {
@@ -5279,14 +5281,14 @@ You can download the PDF and Epub version of this repository from the latest run
 
 297. ### What is V8 JavaScript engine
 
-     V8 is an open source high-performance JavaScript engine used by the Google Chrome browser, written in C++. It is also being used in the node.js project. It implements ECMAScript and WebAssembly, and runs on Windows 7 or later, macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors.
-     **Note:** It can run standalone, or can be embedded into any C++ application.
+     V8 是 Google Chrome 浏览器使用的开源高性能 JavaScript 引擎，用 C++ 编写。它也被用于 node.js 项目。它实现了 ECMAScript 和 WebAssembly，并在 Windows 7 或更高版本、macOS 10.12+ 以及使用 x64、IA-32、ARM 或 MIPS 处理器的 Linux 系统上运行
+     **注意:** 可以独立运行，或者可以被嵌入到任意C++应用中
 
      **[⬆ Back to Top](#table-of-contents)**
 
 298. ### Why do we call javascript as dynamic language
 
-     JavaScript is a loosely typed or a dynamic language because variables in JavaScript are not directly associated with any particular value type, and any variable can be assigned/reassigned with values of all types.
+     JavaScript 是一种松散类型或动态语言，因为 JavaScript 中的变量不直接与任何特定的值类型相关联，并且任何变量都可以分配/重新分配所有类型的值
 
      ```javascript
      let age = 50; // age is a number now
@@ -5298,14 +5300,14 @@ You can download the PDF and Epub version of this repository from the latest run
 
 299. ### What is a void operator
 
-     The `void` operator evaluates the given expression and then returns undefined(i.e, without returning value). The syntax would be as below,
+     `void` 运算符对给定表达式求值，然后返回 undefined（即，没有返回值）。语法如下
 
      ```javascript
      void expression;
      void expression;
      ```
 
-     Let's display a message without any redirection or reload
+     让我们不用任何重定向或重载展示一条消息
 
      ```javascript
      <a href="javascript:void(alert('Welcome to JS world'))">
@@ -5313,13 +5315,13 @@ You can download the PDF and Epub version of this repository from the latest run
      </a>
      ```
 
-     **Note:** This operator is often used to obtain the undefined primitive value, using "void(0)".
+     **注意:** T该运算符通常使用“void(0)”获取undefined原始值，
 
      **[⬆ Back to Top](#table-of-contents)**
 
 300. ### How to set the cursor to wait
 
-     The cursor can be set to wait in JavaScript by using the property "cursor". Let's perform this behavior on page load using the below function.
+     可以在JavaScript中使用“cursor”属性将光标设置为wait。让我们使用以下函数在页面加载时执行此行为
 
      ```javascript
      function myFunction() {
@@ -5327,7 +5329,7 @@ You can download the PDF and Epub version of this repository from the latest run
      }
      ```
 
-     and this function invoked on page load
+     此函数在页面加载完毕后执行
 
      ```html
      <body onload="myFunction()"></body>
