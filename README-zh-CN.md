@@ -132,7 +132,7 @@ You can download the PDF and Epub version of this repository from the latest run
 | 88  | [如何用JavaScript提交表单](#how-do-you-submit-a-form-using-javascript)                                                                           |
 | 89  | [如何找到操作系统的详情](#how-do-you-find-operating-system-details)                                                                             |
 | 90  | [文档 load 和 DOMContentLoaded事件之间的区别是什么](#what-is-the-difference-between-document-load-and-domcontentloaded-events)             |
-| 91  | [原生，宿主和用户对象间的区别是什么](#what-is-the-difference-between-native,-host-and-user-objects)                                     |
+| 91  | [原生，宿主和用户对象间的区别是什么](#what-is-the-difference-between-native-host-and-user-objects)                                     |
 | 92  | [调试JavaScript代码的工具或技术是什么](#what-are-the-tools-or-techniques-used-for-debugging-javascript-code)                       |
 | 93  | [与回调相比promise的优缺点是什么](#what-are-the-pros-and-cons-of-promises-over-callbacks)                                                   |
 | 94  | [attribute 和 property之间的区别是什么](#what-is-the-difference-between-an-attribute-and-a-property)                                         |
@@ -275,7 +275,7 @@ You can download the PDF and Epub version of this repository from the latest run
 | 231 | [什么是nodejs](#what-is-nodejs)                                                                                                                                 |
 | 232 | [什么是Intl对象](#what-is-an-intl-object)                                                                                                                 |
 | 233 | [如何执行特定语言的日期和时间格式化](#how-do-you-perform-language-specific-date-and-time-formatting)                                   |
-| 234 | [What is an Iterator](#what-is-an-iterator)                                                                                                                       |
+| 234 | [什么是迭代器](#what-is-an-iterator)                                                                                                                       |
 | 235 | [同步的迭代如何工作](#how-does-synchronous-iteration-works)                                                                                     |
 | 236 | [什么是事件循环](#what-is-an-event-loop)                                                                                                                   |
 | 237 | [什么是调用栈](#what-is-call-stack)                                                                                                                         |
@@ -342,26 +342,26 @@ You can download the PDF and Epub version of this repository from the latest run
 | 298 | [为什么把javascript叫动态语言](#why-do-we-call-javascript-as-dynamic-language)                                                                   |
 | 299 | [什么是void操作符](#what-is-a-void-operator)                                                                                                               |
 | 300 | [如何将光标设置为等待](#how-to-set-the-cursor-to-wait)                                                                                                   |
-| 301 | [How do you create an infinite loop](#how-do-you-create-an-infinite-loop)                                                                                         |
-| 302 | [Why do you need to avoid with statement](#why-do-you-need-to-avoid-with-statement)                                                                               |
-| 303 | [What is the output of below for loops](#what-is-the-output-of-below-for-loops)                                                                                   |
-| 304 | [List down some of the features of ES6](#list-down-some-of-the-features-of-es6)                                                                                   |
-| 305 | [What is ES6](#what-is-es6)                                                                                                                                       |
-| 306 | [Can I redeclare let and const variables](#can-I-redeclare-let-and-const-variables)                                                                               |
-| 307 | [Is const variable makes the value immutable](#is-const-variable-makes-the-value-immutable)                                                                       |
-| 308 | [What are default parameters](#what-are-default-parameters)                                                                                                       |
-| 309 | [What are template literals](#what-are-template-literals)                                                                                                         |
-| 310 | [How do you write multi-line strings in template literals](#how-do-you-write-multi-line-strings-in-template-literals)                                             |
-| 311 | [What are nesting templates](#what-are-nesting-templates)                                                                                                         |
-| 312 | [What are tagged templates](#what-are-tagged-templates)                                                                                                           |
-| 313 | [What are raw strings](#what-are-raw-strings)                                                                                                                     |
-| 314 | [What is destructuring assignment](#what-is-destructuring-assignment)                                                                                             |
-| 315 | [What are default values in destructuring assignment](#what-are-default-values-in-destructuring-assignment)                                                       |
-| 316 | [How do you swap variables in destructuring assignment](#how-do-you-swap-variables-in-destructuring-assignment)                                                   |
-| 317 | [What are enhanced object literals](#what-are-enhanced-object-literals)                                                                                           |
-| 318 | [What are dynamic imports](#what-are-dynamic-imports)                                                                                                             |
-| 319 | [What are the use cases for dynamic imports](#what-are-the-use-cases-for-dynamic-imports)                                                                         |
-| 320 | [What are typed arrays](#what-are-typed-arrays)                                                                                                                   |
+| 301 | [如何创建一个无限循环](#how-do-you-create-an-infinite-loop)                                                                                         |
+| 302 | [为什么需要避免with语句](#why-do-you-need-to-avoid-with-statement)                                                                               |
+| 303 | [下边for循环的输出是什么](#what-is-the-output-of-below-for-loops)                                                                                   |
+| 304 | [列举一些ES6的特点](#list-down-some-of-the-features-of-es6)                                                                                   |
+| 305 | [什么是ES6](#what-is-es6)                                                                                                                                       |
+| 306 | [可以重复声明let 和 const变量吗](#can-I-redeclare-let-and-const-variables)                                                                               |
+| 307 | [变量会使值不可变吗](#is-const-variable-makes-the-value-immutable)                                                                       |
+| 308 | [默认参数是什么](#what-are-default-parameters)                                                                                                       |
+| 309 | [什么是模板字面量](#what-are-template-literals)                                                                                                         |
+| 310 | [如何用模板字面量写多行字符串](#how-do-you-write-multi-line-strings-in-template-literals)                                             |
+| 311 | [什么是嵌套模板](#what-are-nesting-templates)                                                                                                         |
+| 312 | [什么是带标签的模板](#what-are-tagged-templates)                                                                                                           |
+| 313 | [什么是原始字符串](#what-are-raw-strings)                                                                                                                     |
+| 314 | [什么是解构赋值](#what-is-destructuring-assignment)                                                                                             |
+| 315 | [结构赋值中的默认值是什么](#what-are-default-values-in-destructuring-assignment)                                                       |
+| 316 | [如何用解构赋值来交换变量](#how-do-you-swap-variables-in-destructuring-assignment)                                                   |
+| 317 | [什么是增强的对象字面量](#what-are-enhanced-object-literals)                                                                                           |
+| 318 | [什么是动态导入](#what-are-dynamic-imports)                                                                                                             |
+| 319 | [动态导入的用例是什么](#what-are-the-use-cases-for-dynamic-imports)                                                                         |
+| 320 | [什么是类型数组](#what-are-typed-arrays)                                                                                                                   |
 | 321 | [What are the advantages of module loaders](#what-are-the-advantages-of-module-loaders)                                                                           |
 | 322 | [What is collation](#what-is-collation)                                                                                                                           |
 | 323 | [What is for...of statement](#what-is-for...of-statement)                                                                                                         |
@@ -5339,7 +5339,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 301. ### How do you create an infinite loop
 
-     You can create infinite loops using for and while loops without using any expressions. The for loop construct or syntax is better approach in terms of ESLint and code optimizer tools,
+     你可以使用不带任何表达式的for和while循环来创建无限循环。对于ESLint和代码优化工具而言，for 循环解构或语法是更好的方法
 
      ```javascript
      for (;;) {}
@@ -5350,14 +5350,14 @@ You can download the PDF and Epub version of this repository from the latest run
 
 302. ### Why do you need to avoid with statement
 
-     JavaScript's with statement was intended to provide a shorthand for writing recurring accesses to objects. So it can help reduce file size by reducing the need to repeat a lengthy object reference without performance penalty. Let's take an example where it is used to avoid redundancy when accessing an object several times.
+     JavaScript的with语句旨在为编写对对象的重复访问提供简写。因此，它可以通过减少重复冗长的对象引用来帮助减小文件大小，而不会降低性能。我们举个例子，它用于在多次访问一个对象时避免冗余
 
      ```javascript
      a.b.c.greeting = "welcome";
      a.b.c.age = 32;
      ```
 
-     Using `with` it turns this into:
+     使用 `with` 会变成：
 
      ```javascript
      with (a.b.c) {
@@ -5366,7 +5366,7 @@ You can download the PDF and Epub version of this repository from the latest run
      }
      ```
 
-     But this `with` statement creates performance problems since one cannot predict whether an argument will refer to a real variable or to a property inside the with argument.
+     但是 `with` 语句会产生性能问题，因为我们无法预测一个参数是引用一个真实的变量还是引用 with 参数中的一个属性
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -5384,48 +5384,48 @@ You can download the PDF and Epub version of this repository from the latest run
      }
      ```
 
-     The output of the above for loops is 4 4 4 4 and 0 1 2 3
+     上边的for循环输出是 4 4 4 4 和 0 1 2 3
 
-     **Explanation:** Due to the event queue/loop of javascript, the `setTimeout` callback function is called after the loop has been executed. Since the variable i is declared with the `var` keyword it became a global variable and the value was equal to 4 using iteration when the time `setTimeout` function is invoked. Hence, the output of the first loop is `4 4 4 4`.
+     **解释:** 由于 javascript 的事件队列/循环，在循环执行后会调用 `setTimeout` 回调函数。由于变量 i 是使用 `var` 关键字声明的，因此它成为全局变量，并且在调用 `setTimeout` 函数时迭代值等于 4。因此，第一个循环的输出是`4 4 4 4`
 
-     Whereas in the second loop, the variable i is declared as the `let` keyword it becomes a block scoped variable and it holds a new value(0, 1 ,2 3) for each iteration. Hence, the output of the first loop is `0 1 2 3`.
+     而在第二个循环中，变量 i 被声明是 `let` 关键字声明的，它成为块级作用域的变量，并且每次迭代都保存一个新值（0, 1, 2, 3）。因此，第一个循环的输出是`0 1 2 3`
 
      **[⬆ Back to Top](#table-of-contents)**
 
 304. ### List down some of the features of ES6
 
-     Below are the list of some new features of ES6,
+     下边是一些ES6特性
 
-     1. Support for constants or immutable variables
-     2. Block-scope support for variables, constants and functions
-     3. Arrow functions
-     4. Default parameters
-     5. Rest and Spread Parameters
-     6. Template Literals
-     7. Multi-line Strings
-     8. Destructuring Assignment
-     9. Enhanced Object Literals
+     1. 支持常量或不可变变量
+     2. 支持块级作用域的变量，常量和函数
+     3. 箭头函数
+     4. 默认函数
+     5. 剩余和扩展参数
+     6. 模板字面量
+     7. 多行字符串
+     8. 解构赋值
+     9. 增强对象字面量
      10. Promises
-     11. Classes
-     12. Modules
+     11. 类
+     12. 模块
 
      **[⬆ Back to Top](#table-of-contents)**
 
 305. ### What is ES6
 
-     ES6 is the sixth edition of the javascript language and it was released in June 2015. It was initially known as ECMAScript 6 (ES6) and later renamed to ECMAScript 2015. Almost all the modern browsers support ES6 but for the old browsers there are many transpilers, like Babel.js etc.
+     ES6 是 JavaScript 语言的第六版，于 2015 年 6 月发布。最初称为 ECMAScript 6 (ES6)，后来更名为 ECMAScript 2015。几乎所有现代浏览器都支持 ES6，但对于旧浏览器，有许多转译器，如 Babel.js 等
 
      **[⬆ Back to Top](#table-of-contents)**
 
 306. ### Can I redeclare let and const variables
 
-     No, you cannot redeclare let and const variables. If you do, it throws below error
+     不可以重复声明let和const变量。如果这么做会抛出下边的错误。
 
      ```bash
      Uncaught SyntaxError: Identifier 'someVariable' has already been declared
      ```
 
-     **Explanation:** The variable declaration with `var` keyword refers to a function scope and the variable is treated as if it were declared at the top of the enclosing scope due to hoisting feature. So all the multiple declarations contributing to the same hoisted variable without any error. Let's take an example of re-declaring variables in the same scope for both var and let/const variables.
+     **解释:** `var` 关键字声明的变量作用在函数作用域，并且由于变量提升特性，该变量被视为在封闭作用域的顶部声明。因此，所有对同一个提升变量的多个声明都不会有任何错误。让我们举一个例子，为 var 和 let/const 变量在同一作用域内重新声明变量
 
      ```javascript
      var name = "John";
@@ -5456,7 +5456,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 307. ### Is const variable makes the value immutable
 
-     No, the const variable doesn't make the value immutable. But it disallows subsequent assignments(i.e, You can declare with assignment but can't assign another value later)
+     const变量不会使值不可变。但是会禁止接下来的赋值（即可以在声明时赋值但是之后不可以赋另一个值）
 
      ```javascript
      const userList = [];
@@ -5468,7 +5468,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 308. ### What are default parameters
 
-     In E5, we need to depend on logical OR operators to handle default values of function parameters. Whereas in ES6, Default function parameters feature allows parameters to be initialized with default values if no value or undefined is passed. Let's compare the behavior with an examples,
+     在IS5中，我们需要依赖逻辑或运算符处理函数参数的默认值。然而在ES6中，默认的函数参数特性允许在没有值传入或者是undefined时用默认值来初始化。让我们用例子来比较该行为
 
      ```javascript
      //ES5
@@ -5481,7 +5481,7 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(calculateArea()); //300
      ```
 
-     The default parameters makes the initialization more simpler,
+     默认参数让初始化更简单
 
      ```javascript
      //ES6
@@ -5496,14 +5496,14 @@ You can download the PDF and Epub version of this repository from the latest run
 
 309. ### What are template literals
 
-     Template literals or template strings are string literals allowing embedded expressions. These are enclosed by the back-tick (`) character instead of double or single quotes.
-     In E6, this feature enables using dynamic expressions as below,
+     模板字面量或者模板字符串是允许嵌入表达式的字符串字面量。这些用反引号 (`) 字符而不是双引号或单引号括起来
+     在ES6中，此功能允许使用如下动态表达式
 
      ```javascript
      var greeting = `Welcome to JS World, Mr. ${firstName} ${lastName}.`;
      ```
 
-     In ES5, you need break string like below,
+     在ES5中，你需要像下边一样分割字符串
 
      ```javascript
      var greeting = 'Welcome to JS World, Mr. ' + firstName + ' ' + lastName.`
@@ -5515,13 +5515,13 @@ You can download the PDF and Epub version of this repository from the latest run
 
 310. ### How do you write multi-line strings in template literals
 
-     In ES5, you would have to use newline escape characters('\\n') and concatenation symbols(+) in order to get multi-line strings.
+     在ES5中，必须使用换行符转义字符（'\\n'）和连接符号（+）才能得到多行字符串
 
      ```javascript
      console.log("This is string sentence 1\n" + "This is string sentence 2");
      ```
 
-     Whereas in ES6, You don't need to mention any newline sequence character,
+     而在ES6中，无需使用任何换行符
 
      ```javascript
      console.log(`This is string sentence
@@ -5532,7 +5532,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 311. ### What are nesting templates
 
-     The nesting template is a feature supported within template literals syntax to allow inner backticks inside a placeholder ${ } within the template. For example, the below nesting template is used to display the icons based on user permissions whereas outer template checks for platform type,
+     嵌套模板是模板字面量语法中支持的一项功能，允许在模板内占位符 ${ } 内使用内部反引号。例如，下面的嵌套模板用于根据用户权限显示图标，而外部模板检查平台类型
 
      ```javascript
      const iconStyles = `icon ${
@@ -5542,7 +5542,7 @@ You can download the PDF and Epub version of this repository from the latest run
      }`;
      ```
 
-     You can write the above use case without nesting template features as well. However, the nesting template feature is more compact and readable.
+     也可以在不嵌套模板功能的情况下编写上述用例。但是，嵌套模板功能更加紧凑和可读
 
      ```javascript
      //Without nesting templates
@@ -5554,7 +5554,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 312. ### What are tagged templates
 
-     Tagged templates are the advanced form of templates in which tags allow you to parse template literals with a function. The tag function accepts the first parameter as an array of strings and remaining parameters as expressions. This function can also return manipulated strings based on parameters. Let's see the usage of this tagged template behavior of an IT professional skill set in an organization,
+         带标签的模板是模板的高级形式，其中标签允许使用函数解析模板字面量。 tag 函数接受第一个参数作为字符串数组，其余参数作为表达式。此函数还可以返回基于参数的操作字符串。让我们看看组织中 IT 专业技能集的这种标记模板行为的用法
 
      ```javascript
      var user1 = "John";
@@ -5593,16 +5593,16 @@ You can download the PDF and Epub version of this repository from the latest run
 
 313. ### What are raw strings
 
-     ES6 provides a raw strings feature using the `String.raw()` method which is used to get the raw string form of template strings. This feature allows you to access the raw strings as they were entered, without processing escape sequences. For example, the usage would be as below,
+     ES6 使用 `String.raw()` 方法提供了原始字符串功能，用于获取模板字符串的原始字符串形式。此功能允许您在输入原始字符串时访问它们，而无需处理转义序列。例如，用法如下
 
      ```javascript
      var calculationString = String.raw`The sum of numbers is \n${
        1 + 2 + 3 + 4
      }!`;
-     console.log(calculationString); // The sum of numbers is 10
+     console.log(calculationString); // The sum of numbers is \\n10!
      ```
 
-     If you don't use raw strings, the newline character sequence will be processed by displaying the output in multiple lines
+     如果不使用原始字符串，换行字符将被显示在多行的输出中
 
      ```javascript
      var calculationString = `The sum of numbers is \n${1 + 2 + 3 + 4}!`;
@@ -5611,7 +5611,7 @@ You can download the PDF and Epub version of this repository from the latest run
      // 10
      ```
 
-     Also, the raw property is available on the first argument to the tag function
+     并且，raw属性可以通过标签函数中的第一个参数访问
 
      ```javascript
      function tag(strings) {
@@ -5623,8 +5623,8 @@ You can download the PDF and Epub version of this repository from the latest run
 
 314. ### What is destructuring assignment
 
-     The destructuring assignment is a JavaScript expression that makes it possible to unpack values from arrays or properties from objects into distinct variables.
-     Let's get the month values from an array using destructuring assignment
+     解构赋值是一个 JavaScript 表达式，它可以将数组中的值或对象中的属性拆包到不同的变量中
+     让我们使用结构赋值从数组中获得月份值
 
      ```javascript
      var [one, two, three] = ["JAN", "FEB", "MARCH"];
@@ -5634,7 +5634,7 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(three); // "MARCH"
      ```
 
-     and you can get user properties of an object using destructuring assignment,
+     可以使用解构赋值获得对象中的用户属性
 
      ```javascript
      var { name, age } = { name: "John", age: 32 };
@@ -5647,9 +5647,9 @@ You can download the PDF and Epub version of this repository from the latest run
 
 315. ### What are default values in destructuring assignment
 
-     A variable can be assigned a default value when the value unpacked from the array or object is undefined during destructuring assignment. It helps to avoid setting default values separately for each assignment. Let's take an example for both arrays and object use cases,
+     当解构赋值时从数组或对象解包的值为undefined时，可以为变量分配默认值。它有助于避免为每个赋值单独设置默认值。让我们以数组和对象用例为例
 
-     **Arrays destructuring:**
+     **数组结构:**
 
      ```javascript
      var x, y, z;
@@ -5660,7 +5660,7 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(z); // 6
      ```
 
-     **Objects destructuring:**
+     **对象结构:**
 
      ```javascript
      var { x = 2, y = 4, z = 6 } = { x: 10 };
@@ -5675,6 +5675,7 @@ You can download the PDF and Epub version of this repository from the latest run
 316. ### How do you swap variables in destructuring assignment
 
      If you don't use destructuring assignment, swapping two values requires a temporary variable. Whereas using a destructuring feature, two variable values can be swapped in one destructuring expression. Let's swap two number variables in array destructuring assignment,
+     如果不使用解构赋值，交换两个变量需要一个临时变量。而使用解构赋值功能，一个结构表达式就可以交换两个变量。
 
      ```javascript
      var x = 10,
@@ -5689,7 +5690,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 317. ### What are enhanced object literals
 
-     Object literals make it easy to quickly create objects with properties inside the curly braces. For example, it provides shorter syntax for common object property definition as below.
+     对象字面量通过花括号内的属性很容易快速创建对象。例如，下边为一般的对象属性定义提供了简写语法
 
      ```javascript
      //ES6
@@ -5708,8 +5709,8 @@ You can download the PDF and Epub version of this repository from the latest run
 
 318. ### What are dynamic imports
 
-     The dynamic imports using `import()` function syntax allows us to load modules on demand by using promises or the async/await syntax. Currently this feature is in [stage4 proposal](https://github.com/tc39/proposal-dynamic-import). The main advantage of dynamic imports is reduction of our bundle's sizes, the size/payload response of our requests and overall improvements in the user experience.
-     The syntax of dynamic imports would be as below,
+     使用 `import()` 函数语法的动态导入允许我们使用 Promise 或 async/await 语法按需加载模块。目前，此功能在[stage4 proposal](https://github.com/tc39/proposal-dynamic-import)。动态导入的主要优点是减少打包后的文件大小，请求的响应的大小/载荷以及在用户体验上的整体改进
+     动态导入的语法如下
 
      ```javascript
      import("./Module").then((Module) => Module.method());
@@ -5719,9 +5720,9 @@ You can download the PDF and Epub version of this repository from the latest run
 
 319. ### What are the use cases for dynamic imports
 
-     Below are some of the use cases of using dynamic imports over static imports,
+     下边是使用动态导入而非静态导入的一些用例
 
-     1. Import a module on-demand or conditionally. For example, if you want to load a polyfill on legacy browser
+     1. 按需或有条件地导入一个模块。例如，如果想在老式浏览器中加载polyfill
 
      ```javascript
      if (isLegacyBrowser()) {
@@ -5730,30 +5731,30 @@ You can download the PDF and Epub version of this repository from the latest run
      }
      ```
 
-     1. Compute the module specifier at runtime. For example, you can use it for internationalization.
+     2. 运行时计算模块名字。例如你可以用来进行国际化
 
      ```javascript
      import(`messages_${getLocale()}.js`).then(···);
      ```
 
-     1. Import a module from within a regular script instead a module.
+     3. 从常规脚本而非模块中导入模块
 
      **[⬆ Back to Top](#table-of-contents)**
 
 320. ### What are typed arrays
 
-     Typed arrays are array-like objects from ECMAScript 6 API for handling binary data. JavaScript provides 8 Typed array types,
+     类型化数组是ECMAScript 6 API中用于处理二进制数据的类数组对象。JavaScript提供了8种类型化数组类型
 
-     1. Int8Array: An array of 8-bit signed integers
-     2. Int16Array: An array of 16-bit signed integers
-     3. Int32Array: An array of 32-bit signed integers
-     4. Uint8Array: An array of 8-bit unsigned integers
-     5. Uint16Array: An array of 16-bit unsigned integers
-     6. Uint32Array: An array of 32-bit unsigned integers
-     7. Float32Array: An array of 32-bit floating point numbers
-     8. Float64Array: An array of 64-bit floating point numbers
-
-     For example, you can create an array of 8-bit signed integers as below
+     1. Int8Array: 8位有符号整数数组
+     2. Int16Array: 16位有符号整数数组
+     3. Int32Array: 32位有符号整数数组
+     4. Uint8Array: 8位无符号整数数组
+     5. Uint16Array: 16位无符号整数数组
+     6. Uint32Array: 32位无符号整数数组
+     7. Float32Array: 32位浮点型数字数组
+     8. Float64Array: 64位浮点型数字数组
+ 
+     例如，可以像下边一样创建一个8位有符号整数数组
 
      ```javascript
      const a = new Int8Array();
