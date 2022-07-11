@@ -382,16 +382,16 @@ You can download the PDF and Epub version of this repository from the latest run
 | 338 | [Error对象的作用是什么](#what-is-the-purpose-of-error-object)                                                                                       |
 | 339 | [EvalError对象的作用是什么](#what-is-the-purpose-of-evalerror-object)                                                                               |
 | 340 | [案例中从非严格模式到严格模式抛出的错误是什么](#what-are-the-list-of-cases-error-thrown-from-non-strict-mode-to-strict-mode)       |
-| 341 | [Do all objects have prototypes](#do-all-objects-have-prototypes)                                                                                                 |
-| 342 | [What is the difference between a parameter and an argument](#what-is-the-difference-between-a-parameter-and-an-argument)                                         |
-| 343 | [What is the purpose of some method in arrays](#what-is-the-purpose-of-some-method-in-arrays)                                                                     |
-| 344 | [How do you combine two or more arrays](#how-do-you-combine-two-or-more-arrays)                                                                                   |
-| 345 | [What is the difference between Shallow and Deep copy](#what-is-the-difference-between-shallow-and-deep-copy)                                                     |
-| 346 | [How do you create specific number of copies of a string](#how-do-you-create-specific-number-of-copies-of-a-string)                                               |
-| 347 | [How do you return all matching strings against a regular expression](#how-do-you-return-all-matching-strings-against-a-regular-expression)                       |
-| 348 | [How do you trim a string at the beginning or ending](#how-do-you-trim-a-string-at-the-beginning-or-ending)                                                       |
-| 349 | [What is the output of below console statement with unary operator](#what-is-the-output-of-below-console-statement-with-unary-operator)                           |
-| 350 | [Does javascript uses mixins](#does-javascript-uses-mixins)                                                                                                       |
+| 341 | [所有的对象都有原型吗](#do-all-objects-have-prototypes)                                                                                                 |
+| 342 | [形参和实参的区别](#what-is-the-difference-between-a-parameter-and-an-argument)                                         |
+| 343 | [数组中some方法的作用是什么](#what-is-the-purpose-of-some-method-in-arrays)                                                                     |
+| 344 | [如何合并两个或多个数组](#how-do-you-combine-two-or-more-arrays)                                                                                   |
+| 345 | [浅拷贝和深拷贝之间的区别是什么](#what-is-the-difference-between-shallow-and-deep-copy)                                                     |
+| 346 | [如何创建特定数量的字符串副本](#how-do-you-create-specific-number-of-copies-of-a-string)                                               |
+| 347 | [如何针对正则表达式返回所有匹配的字符串](#how-do-you-return-all-matching-strings-against-a-regular-expression)                       |
+| 348 | [如何在开头或结尾去除字符串空格](#how-do-you-trim-a-string-at-the-beginning-or-ending)                                                       |
+| 349 | [下边一元运算符的console语句输出是什么](#what-is-the-output-of-below-console-statement-with-unary-operator)                           |
+| 350 | [javascript使用mixin吗](#does-javascript-uses-mixins)                                                                                                       |
 | 351 | [What is a thunk function](#what-is-a-thunk-function)                                                                                                             |
 | 352 | [What are asynchronous thunks](#what-are-asynchronous-thunks)                                                                                                     |
 | 353 | [What is the output of below function calls](#what-is-the-output-of-below-function-calls)                                                                         |
@@ -6025,13 +6025,13 @@ You can download the PDF and Epub version of this repository from the latest run
 
 341. ### Do all objects have prototypes
 
-     No. All objects have prototypes except for the base object which is created by the user, or an object that is created using the new keyword.
+     不是的。所有对象都有原型，除了由用户创建的基本对象或者由new关键字创建的对象
 
      **[⬆ Back to Top](#table-of-contents)**
 
 342. ### What is the difference between a parameter and an argument
 
-     Parameter is the variable name of a function definition whereas an argument represents the value given to a function when it is invoked. Let's explain this with a simple function
+     形参是函数定义的变量名字，而实参代表函数调用时传给函数的值。让我们用一个简单函数来解释
 
      ```javascript
      function myFunction(parameter1, parameter2, parameter3) {
@@ -6046,7 +6046,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 343. ### What is the purpose of some method in arrays
 
-     The some() method is used to test whether at least one element in the array passes the test implemented by the provided function. The method returns a boolean value. Let's take an example to test for any odd elements,
+     some() 方法用于测试数组中的至少一个元素是否通过了提供的函数实现的测试。该方法返回一个布尔值。让我们举个例子来测试是否有奇数
 
      ```javascript
      var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -6060,13 +6060,13 @@ You can download the PDF and Epub version of this repository from the latest run
 
 344. ### How do you combine two or more arrays
 
-     The concat() method is used to join two or more arrays by returning a new array containing all the elements. The syntax would be as below,
+     concat()方法用来拼接两个或多个数组，返回一个包含所有元素的新数组。语法如下
 
      ```javascript
      array1.concat(array2, array3, ..., arrayX)
      ```
 
-     Let's take an example of array's concatenation with veggies and fruits arrays,
+     让我们看一个veggies和fruits数组拼接的例子
 
      ```javascript
      var veggies = ["Tomato", "Carrot", "Cabbage"];
@@ -6079,12 +6079,12 @@ You can download the PDF and Epub version of this repository from the latest run
 
 345. ### What is the difference between Shallow and Deep copy
 
-     There are two ways to copy an object,
+     有两种拷贝对象的方法。
 
-     **Shallow Copy:**
-     Shallow copy is a bitwise copy of an object. A new object is created that has an exact copy of the values in the original object. If any of the fields of the object are references to other objects, just the reference addresses are copied i.e., only the memory address is copied.
+     **浅拷贝:**
+     浅拷贝是对象的按位拷贝。创建一个新对象，该对象具有原始对象中值的完整副本。如果对象的任何字段是对其他对象的引用，则仅复制引用地址，即仅复制内存地址
 
-     **Example**
+     **例子**
 
      ```javascript
      var empDetails = {
@@ -6094,24 +6094,24 @@ You can download the PDF and Epub version of this repository from the latest run
      };
      ```
 
-     to create a duplicate
+     创建一个复本
 
      ```javascript
      var empDetailsShallowCopy = empDetails; //Shallow copying!
      ```
 
-     if we change some property value in the duplicate one like this:
+     如果我们像这样修改复本中的属性值
 
      ```javascript
      empDetailsShallowCopy.name = "Johnson";
      ```
 
-     The above statement will also change the name of `empDetails`, since we have a shallow copy. That means we're losing the original data as well.
+     由于是浅复制，上边的语句也会修改`empDetails`的name。意味着我们也失去了原始数据
 
-     **Deep copy:**
-     A deep copy copies all fields, and makes copies of dynamically allocated memory pointed to by the fields. A deep copy occurs when an object is copied along with the objects to which it refers.
+     **深拷贝:**
+     深拷贝复制所有字段，并复制字段指向的动态分配内存。当一个对象连同它所引用的对象一起被复制时，就会发生深拷贝
 
-     **Example**
+     **例子**
 
      ```javascript
      var empDetails = {
@@ -6121,7 +6121,7 @@ You can download the PDF and Epub version of this repository from the latest run
      };
      ```
 
-     Create a deep copy by using the properties from the original object into new variable
+     通过将原始对象的属性用于新变量来创建深拷贝
 
      ```javascript
      var empDetailsDeepCopy = {
@@ -6131,14 +6131,14 @@ You can download the PDF and Epub version of this repository from the latest run
      };
      ```
 
-     Now if you change `empDetailsDeepCopy.name`, it will only affect `empDetailsDeepCopy` & not `empDetails`
+     现在如果修改 `empDetailsDeepCopy.name`, 只会影响 `empDetailsDeepCopy` 且不会影响 `empDetails`
 
      **[⬆ Back to Top](#table-of-contents)**
 
 346. ### How do you create specific number of copies of a string
 
-     The `repeat()` method is used to construct and return a new string which contains the specified number of copies of the string on which it was called, concatenated together. Remember that this method has been added to the ECMAScript 2015 specification.
-     Let's take an example of Hello string to repeat it 4 times,
+     `repeat()` 方法用于构造并返回一个新字符串，该字符串包含调用它的字符串的指定数量连接在一起的副本。记住此方法已添加到 ECMAScript 2015 规范中
+     让我们看一个Hello重复4次的字符串
 
      ```javascript
      "Hello".repeat(4); // 'HelloHelloHelloHello'
@@ -6146,7 +6146,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 347. ### How do you return all matching strings against a regular expression
 
-     The `matchAll()` method can be used to return an iterator of all results matching a string against a regular expression. For example, the below example returns an array of matching string results against a regular expression,
+     `matchAll()` 方法可用于返回与正则表达式匹配字符串的所有结果的迭代器。例如，下面的示例返回一个与正则表达式匹配的字符串结果数组
 
      ```javascript
      let regexp = /Hello(\d?))/g;
@@ -6163,7 +6163,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 348. ### How do you trim a string at the beginning or ending
 
-     The `trim` method of string prototype is used to trim on both sides of a string. But if you want to trim especially at the beginning or ending of the string then you can use `trimStart/trimLeft` and `trimEnd/trimRight` methods. Let's see an example of these methods on a greeting message,
+     字符串原型上的 `trim` 方法用于去除字符串两侧的空白。但是特别如果你想在字符串的开头或结尾进行去除，则可以使用 `trimStart/trimLeft` 和 `trimEnd/trimRight` 方法。让我们看一下greeting消息中这些方法的示例
 
      ```javascript
      var greeting = "   Hello, Goodmorning!   ";
@@ -6180,23 +6180,23 @@ You can download the PDF and Epub version of this repository from the latest run
 
 349. ### What is the output of below console statement with unary operator
 
-     Let's take console statement with unary operator as given below,
+     让我们看个给出的一元运算符的console语句
 
      ```javascript
      console.log(+"Hello");
      ```
 
-     The output of the above console log statement returns NaN. Because the element is prefixed by the unary operator and the JavaScript interpreter will try to convert that element into a number type. Since the conversion fails, the value of the statement results in NaN value.
+     上述console.log语句的输出返回 NaN。因为元素以一元运算符为前缀，JavaScript 解释器会尝试将该元素转换为数字类型。由于转换失败，语句的值导致 NaN 值
 
      **[⬆ Back to Top](#table-of-contents)**
 
 350. ### Does javascript uses mixins
 
-     Mixin is a generic object-oriented programming term - is a class containing methods that can be used by other classes without a need to inherit from it. In JavaScript we can only inherit from a single object. ie. There can be only one `[[prototype]]` for an object.
+     Mixin 是一个通用的面向对象编程术语 - 是一个包含方法的类，其他类可以使用这些方法而无需从它继承。在 JavaScript 中，我们只能从单个对象继承。即一个对象只能有一个 `[[prototype]]`
 
-     But sometimes we require to extend more than one, to overcome this we can use Mixin which helps to copy methods to the prototype of another class.
+     但有时我们需要继承多个，为了克服这个问题，我们可以使用 Mixin 帮助将方法复制到另一个类的原型
 
-     Say for instance, we've two classes `User` and `CleanRoom`. Suppose we need to add `CleanRoom` functionality to `User`, so that user can clean the room at demand. Here's where concept called mixins comes into picture.
+     例如，我们有两个类 `User` 和 `CleanRoom`。假设我们需要在 `User` 中添加 `CleanRoom` 功能，以便用户可以按需打扫房间。这就是名为 mixins 的概念出现的地方
 
      ```javascript
      // mixin
