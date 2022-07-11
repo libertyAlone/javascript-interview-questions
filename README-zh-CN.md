@@ -362,26 +362,26 @@ You can download the PDF and Epub version of this repository from the latest run
 | 318 | [什么是动态导入](#what-are-dynamic-imports)                                                                                                             |
 | 319 | [动态导入的用例是什么](#what-are-the-use-cases-for-dynamic-imports)                                                                         |
 | 320 | [什么是类型数组](#what-are-typed-arrays)                                                                                                                   |
-| 321 | [What are the advantages of module loaders](#what-are-the-advantages-of-module-loaders)                                                                           |
-| 322 | [What is collation](#what-is-collation)                                                                                                                           |
-| 323 | [What is for...of statement](#what-is-for...of-statement)                                                                                                         |
-| 324 | [What is the output of below spread operator array](#what-is-the-output-of-below-spread-operator-array)                                                           |
-| 325 | [Is PostMessage secure](#is-postmessage-secure)                                                                                                                   |
-| 326 | [What are the problems with postmessage target origin as wildcard](#what-are-the-problems-with-postmessage-target-origin-as-wildcard)                             |
-| 327 | [How do you avoid receiving postMessages from attackers](#how-do-you-avoid-receiving-postmessages-from-attackers)                                                 |
-| 328 | [Can I avoid using postMessages completely](#can-i-avoid-using-postmessages-completely)                                                                           |
-| 329 | [Is postMessages synchronous](#is-postmessages-synchronous)                                                                                                       |
-| 330 | [What paradigm is Javascript](#what-paradigm-is-javascript)                                                                                                       |
-| 331 | [What is the difference between internal and external javascript](#what-is-the-difference-between-internal-and-external-javascript)                               |
-| 332 | [Is JavaScript faster than server side script](#is-javascript-faster-than-server-side-script)                                                                     |
-| 333 | [How do you get the status of a checkbox](#how-do-you-get-the-status-of-a-checkbox)                                                                               |
-| 334 | [What is the purpose of double tilde operator](#what-is-the-purpose-of-double-tilde-operator)                                                                     |
-| 335 | [How do you convert character to ASCII code](#how-do-you-convert-character-to-ascii-code)                                                                         |
-| 336 | [What is ArrayBuffer](#what-is-arraybuffer)                                                                                                                       |
-| 337 | [What is the output of below string expression](#what-is-the-output-of-below-string-expression)                                                                   |
-| 338 | [What is the purpose of Error object](#what-is-the-purpose-of-error-object)                                                                                       |
-| 339 | [What is the purpose of EvalError object](#what-is-the-purpose-of-evalerror-object)                                                                               |
-| 340 | [What are the list of cases error thrown from non-strict mode to strict mode](#what-are-the-list-of-cases-error-thrown-from-non-strict-mode-to-strict-mode)       |
+| 321 | [模块加载器的优点是什么](#what-are-the-advantages-of-module-loaders)                                                                           |
+| 322 | [什么是collation](#what-is-collation)                                                                                                                           |
+| 323 | [什么是for...of语句](#what-is-for...of-statement)                                                                                                         |
+| 324 | [下边数组的展开运算符的输出是什么](#what-is-the-output-of-below-spread-operator-array)                                                           |
+| 325 | [PostMessage安全吗](#is-postmessage-secure)                                                                                                                   |
+| 326 | [postmessage的目标源为通配符的问题是什么](#what-are-the-problems-with-postmessage-target-origin-as-wildcard)                             |
+| 327 | [如何避免从攻击者处接收postMessages](#how-do-you-avoid-receiving-postmessages-from-attackers)                                                 |
+| 328 | [可以完全避免使用postMessages吗](#can-i-avoid-using-postmessages-completely)                                                                           |
+| 329 | [postMessages是同步的吗](#is-postmessages-synchronous)                                                                                                       |
+| 330 | [Javascript是什么范式](#what-paradigm-is-javascript)                                                                                                       |
+| 331 | [内部和外部javascript间的区别是什么](#what-is-the-difference-between-internal-and-external-javascript)                               |
+| 332 | [JavaScript比服务端脚本快吗](#is-javascript-faster-than-server-side-script)                                                                     |
+| 333 | [如何获得复选框的状态](#how-do-you-get-the-status-of-a-checkbox)                                                                               |
+| 334 | [双波浪操作符的作用是什么](#what-is-the-purpose-of-double-tilde-operator)                                                                     |
+| 335 | [如何将字符转换成ASCII码](#how-do-you-convert-character-to-ascii-code)                                                                         |
+| 336 | [什么是ArrayBuffer](#what-is-arraybuffer)                                                                                                                       |
+| 337 | [下边字符串表达式的输出是什么](#what-is-the-output-of-below-string-expression)                                                                   |
+| 338 | [Error对象的作用是什么](#what-is-the-purpose-of-error-object)                                                                                       |
+| 339 | [EvalError对象的作用是什么](#what-is-the-purpose-of-evalerror-object)                                                                               |
+| 340 | [案例中从非严格模式到严格模式抛出的错误是什么](#what-are-the-list-of-cases-error-thrown-from-non-strict-mode-to-strict-mode)       |
 | 341 | [Do all objects have prototypes](#do-all-objects-have-prototypes)                                                                                                 |
 | 342 | [What is the difference between a parameter and an argument](#what-is-the-difference-between-a-parameter-and-an-argument)                                         |
 | 343 | [What is the purpose of some method in arrays](#what-is-the-purpose-of-some-method-in-arrays)                                                                     |
@@ -5767,21 +5767,21 @@ You can download the PDF and Epub version of this repository from the latest run
 
 321. ### What are the advantages of module loaders
 
-     The module loaders provides the below features,
+     模块加载器提供了下边的特性
 
-     1. Dynamic loading
-     2. State isolation
-     3. Global namespace isolation
-     4. Compilation hooks
-     5. Nested virtualization
+     1. 动态加载
+     2. 状态隔离
+     3. 全局命名空间隔离
+     4. 编译hooks
+     5. 嵌套虚拟化
 
      **[⬆ Back to Top](#table-of-contents)**
 
 322. ### What is collation
 
-     Collation is used for sorting a set of strings and searching within a set of strings. It is parameterized by locale and aware of Unicode. Let's take comparison and sorting features,
+     排序规则用于对一组字符串进行排序并在一组字符串中进行搜索。它由语言环境参数化并知道Unicode。让我们看下比较和排序功能
 
-     1. **Comparison:**
+     1. **比较:**
 
      ```javascript
      var list = ["ä", "a", "z"]; // In German,  "ä" sorts with "a" Whereas in Swedish, "ä" sorts after "z"
@@ -5791,7 +5791,7 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(l10nSV.compare("ä", "z") === +1); // true
      ```
 
-     1. **Sorting:**
+     1. **排序:**
 
      ```javascript
      var list = ["ä", "a", "z"]; // In German,  "ä" sorts with "a" Whereas in Swedish, "ä" sorts after "z"
@@ -5805,7 +5805,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 323. ### What is for...of statement
 
-     The for...of statement creates a loop iterating over iterable objects or elements such as built-in String, Array, Array-like objects (like arguments or NodeList), TypedArray, Map, Set, and user-defined iterables. The basic usage of for...of statement on arrays would be as below,
+     for...of 语句创建一个循环迭代可迭代对象或元素，例如内置字符串、数组、类数组对象（如arguments或 NodeList）、TypedArray、Map、Set 和用户定义的可迭代对象。数组for...of语句的基本用法如下
 
      ```javascript
      let arrayIterable = [10, 20, 30, 40, 50];
@@ -5824,20 +5824,20 @@ You can download the PDF and Epub version of this repository from the latest run
      [..."John Resig"];
      ```
 
-     The output of the array is ['J', 'o', 'h', 'n', '', 'R', 'e', 's', 'i', 'g']
-     **Explanation:** The string is an iterable type and the spread operator within an array maps every character of an iterable to one element. Hence, each character of a string becomes an element within an Array.
+     数组的输出是 ['J', 'o', 'h', 'n', '', 'R', 'e', 's', 'i', 'g']
+     **解释:** 字符串是可迭代类型，数组中的展开运算符将可迭代的每个字符映射为一个元素。因此，字符串的每个字符都成为数组中的一个元素
 
      **[⬆ Back to Top](#table-of-contents)**
 
 325. ### Is PostMessage secure
 
-     Yes, postMessages can be considered very secure as long as the programmer/developer is careful about checking the origin and source of an arriving message. But if you try to send/receive a message without verifying its source will create cross-site scripting attacks.
+     是的，只要程序员/开发人员仔细检查收到的消息源的源头，postMessages 就可以被认为是非常安全的。但是，如果尝试在未验证其来源的情况下发送/接收消息，则会产生跨站点脚本攻击
 
      **[⬆ Back to Top](#table-of-contents)**
 
 326. ### What are the problems with postmessage target origin as wildcard
 
-     The second argument of postMessage method specifies which origin is allowed to receive the message. If you use the wildcard “\*” as an argument then any origin is allowed to receive the message. In this case, there is no way for the sender window to know if the target window is at the target origin when sending the message. If the target window has been navigated to another origin, the other origin would receive the data. Hence, this may lead to XSS vulnerabilities.
+     postMessage 方法的第二个参数指定允许哪个源接收消息。如果您使用通配符 “\*” 作为参数，那么任何源都可以接收消息。在这种情况下，发送者窗口在发送消息时无法知道目标窗口是否是目标源。如果目标窗口已导航到另一个源，则另一个源将接收数据。因此，这可能会导致 XSS 漏洞
 
      ```javascript
      targetWindow.postMessage(message, "*");
@@ -5847,7 +5847,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 327. ### How do you avoid receiving postMessages from attackers
 
-     Since the listener listens for any message, an attacker can trick the application by sending a message from the attacker’s origin, which gives an impression that the receiver received the message from the actual sender’s window. You can avoid this issue by validating the origin of the message on the receiver's end using the “message.origin” attribute. For examples, let's check the sender's origin [http://www.some-sender.com](http://www.some-sender.com) on receiver side [www.some-receiver.com](www.some-receiver.com),
+     由于监听器监听任何消息，因此攻击者可以通过从攻击者的源发送消息来欺骗应用程序，这给人的感觉就是接收者从实际发送者的窗口接收到消息。您可以通过使用 “message.origin” 属性在接收端验证消息的源来避免此问题。例如，让我们在接收方 [www.some-receiver.com](www.some-receiver.com)检查发送方的源[http://www.some-sender.com](http://www.some-sender.com)
 
      ```javascript
      //Listener on http://www.some-receiver.com/
@@ -5862,38 +5862,38 @@ You can download the PDF and Epub version of this repository from the latest run
 
 328. ### Can I avoid using postMessages completely
 
-     You cannot avoid using postMessages completely(or 100%). Even though your application doesn’t use postMessage considering the risks, a lot of third party scripts use postMessage to communicate with the third party service. So your application might be using postMessage without your knowledge.
+     无法完全（或 100%）避免使用 postMessages。尽管考虑到风险，您的应用程序不使用 postMessage，但许多第三方脚本使用 postMessage 与第三方服务进行通信。因此，您的应用程序可能会在您不知情的情况下使用 postMessage
 
      **[⬆ Back to Top](#table-of-contents)**
 
 329. ### Is postMessages synchronous
 
-     The postMessages are synchronous in IE8 browser but they are asynchronous in IE9 and all other modern browsers (i.e, IE9+, Firefox, Chrome, Safari).Due to this asynchronous behaviour, we use a callback mechanism when the postMessage is returned.
+     postMessage在IE8中是同步的但是在IE9和其他现代浏览器（即IE9+, Firefox, Chrome, Safari）是异步的。由于这种异步行为，我们在返回 postMessage 时使用回调机制
 
      **[⬆ Back to Top](#table-of-contents)**
 
 330. ### What paradigm is Javascript
 
-     JavaScript is a multi-paradigm language, supporting imperative/procedural programming, Object-Oriented Programming and functional programming. JavaScript supports Object-Oriented Programming with prototypical inheritance.
+     JavaScript 是一种多范式语言，支持命令式/过程式编程、面向对象编程和函数式编程。 JavaScript 支持具有原型继承的面向对象编程
 
      **[⬆ Back to Top](#table-of-contents)**
 
 331. ### What is the difference between internal and external javascript
 
-     **Internal JavaScript:** It is the source code within the script tag.
-     **External JavaScript:** The source code is stored in an external file(stored with .js extension) and referred with in the tag.
+     **内部JavaScript:** .在script标签中的源代码
+     **外部JavaScript:** 存储在外部文件中的源代码(以.js扩展名存储) 并在标签中被引用
 
      **[⬆ Back to Top](#table-of-contents)**
 
 332. ### Is JavaScript faster than server side script
 
-     Yes, JavaScript is faster than server side script. Because JavaScript is a client-side script it does not require any web server’s help for its computation or calculation. So JavaScript is always faster than any server-side script like ASP, PHP, etc.
+     是的，JavaScript 比服务器端脚本快。因为 JavaScript 是一个客户端脚本，它的计算或计算不需要任何 Web 服务器的帮助。因此 JavaScript 总是比任何服务器端脚本（如 ASP、PHP 等）都快
 
      **[⬆ Back to Top](#table-of-contents)**
 
 333. ### How do you get the status of a checkbox
 
-     You can apply the `checked` property on the selected checkbox in the DOM. If the value is `True` means the checkbox is checked otherwise it is unchecked. For example, the below HTML checkbox element can be access using javascript as below,
+     可以在 DOM 中的选中的复选框上应用 `checked` 属性。如果值为 `True`，则表示复选框已选中，否则未选中。例如，可以使用 javascript 访问下面的 HTML 复选框元素，如下所示
 
      ```html
      <input type="checkbox" name="checkboxname" value="Agree" /> Agree the
@@ -5908,19 +5908,19 @@ You can download the PDF and Epub version of this repository from the latest run
 
 334. ### What is the purpose of double tilde operator
 
-     The double tilde operator(~~) is known as double NOT bitwise operator. This operator is going to be a quicker substitute for Math.floor().
+     双波浪号运算符 (~~) 称为双非按位运算符。该运算符将更快地替代 Math.floor()
 
      **[⬆ Back to Top](#table-of-contents)**
 
 335. ### How do you convert character to ASCII code
 
-     You can use the `String.prototype.charCodeAt()` method to convert string characters to ASCII numbers. For example, let's find ASCII code for the first letter of 'ABC' string,
+     你可以使用 `String.prototype.charCodeAt()` 方法将字符串字符转换为ASCII数字。例如，让我们获取 'ABC' 字符串中第一个字母的ASCII码
 
      ```javascript
      "ABC".charCodeAt(0); // returns 65
      ```
 
-     Whereas `String.fromCharCode()` method converts numbers to equal ASCII characters.
+     而 `String.fromCharCode()` 方法将数字转化成相等的ASCII字符
 
      ```javascript
      String.fromCharCode(65, 66, 67); // returns 'ABC'
@@ -5930,14 +5930,14 @@ You can download the PDF and Epub version of this repository from the latest run
 
 336. ### What is ArrayBuffer
 
-     An ArrayBuffer object is used to represent a generic, fixed-length raw binary data buffer. You can create it as below,
+       ArrayBuffer 对象用于表示一个通用的、固定长度的原始二进制数据缓冲区。您可以按如下方式创建它
 
      ```javascript
      let buffer = new ArrayBuffer(16); // create a buffer of length 16
      alert(buffer.byteLength); // 16
      ```
 
-     To manipulate an ArrayBuffer, we need to use a “view” object.
+     为了操作ArrayBuffer，我们需要使用 "视图" 对象
 
      ```javascript
      //Create a DataView referring to the buffer
@@ -5952,20 +5952,20 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log("Welcome to JS world"[0]);
      ```
 
-     The output of the above expression is "W".
-     **Explanation:** The bracket notation with specific index on a string returns the character at a specific location. Hence, it returns the character "W" of the string. Since this is not supported in IE7 and below versions, you may need to use the .charAt() method to get the desired result.
+     上边表达式的输出是 "W".
+     **解释:** 字符串上具有特定索引的括号标记会返回特定位置的字符。因此，它返回字符串的字符“W”。由于 IE7 及以下版本不支持此功能，您可能需要使用 .charAt() 方法来获得所需的结果
 
      **[⬆ Back to Top](#table-of-contents)**
 
 338. ### What is the purpose of Error object
 
-     The Error constructor creates an error object and the instances of error objects are thrown when runtime errors occur. The Error object can also be used as a base object for user-defined exceptions. The syntax of error object would be as below,
-
+     Error 构造函数创建一个错误对象，并在发生运行时错误时抛出错误对象的实例。 Error 对象也可以用作用户自定义异常的基础对象。错误对象的语法如下
+     
      ```javascript
      new Error([message[, fileName[, lineNumber]]])
      ```
 
-     You can throw user defined exceptions or errors using Error object in try...catch block as below,
+     可以使用 try...catch 块中的 Error 对象引发用户定义的异常或错误，如下所示
 
      ```javascript
      try {
@@ -5980,7 +5980,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 339. ### What is the purpose of EvalError object
 
-     The EvalError object indicates an error regarding the global `eval()` function. Even though this exception is not thrown by JavaScript anymore, the EvalError object remains for compatibility. The syntax of this expression would be as below,
+     EvalError 对象表示有关全局 `eval()` 函数的错误。尽管 JavaScript 不再抛出此异常，但 EvalError 对象仍保持兼容性。这个表达式的语法如下
 
      ```javascript
      new EvalError([message[, fileName[, lineNumber]]])
@@ -5999,19 +5999,19 @@ You can download the PDF and Epub version of this repository from the latest run
 
 340. ### What are the list of cases error thrown from non-strict mode to strict mode
 
-     When you apply 'use strict'; syntax, some of the below cases will throw a SyntaxError before executing the script
+     当你应用 'use strict'; 语法时，下边的一些场景在执行脚本前会抛出语法错误
 
-     1. When you use Octal syntax
+     1. 当你使用八进制语法时
 
      ```javascript
      var n = 022;
      ```
 
-     1. Using `with` statement
-     2. When you use delete operator on a variable name
-     3. Using eval or arguments as variable or function argument name
-     4. When you use newly reserved keywords
-     5. When you declare a function in a block
+     1. 使用 `with` 语句
+     2. 当你对变量名使用delete操作符时
+     3. 使用eval或arguments作为变量名或者函数参数名
+     4. 当使用新保留的关键字时
+     5. 当你在一个块中声明函数
 
      ```javascript
      if (someCondition) {
@@ -6019,7 +6019,7 @@ You can download the PDF and Epub version of this repository from the latest run
      }
      ```
 
-     Hence, the errors from above cases are helpful to avoid errors in development/production environments.
+     因此，上述案例中的错误有助于避免开发/生产环境中的错误
 
      **[⬆ Back to Top](#table-of-contents)**
 
