@@ -392,56 +392,56 @@ You can download the PDF and Epub version of this repository from the latest run
 | 348 | [如何在开头或结尾去除字符串空格](#how-do-you-trim-a-string-at-the-beginning-or-ending)                                                       |
 | 349 | [下边一元运算符的console语句输出是什么](#what-is-the-output-of-below-console-statement-with-unary-operator)                           |
 | 350 | [javascript使用mixin吗](#does-javascript-uses-mixins)                                                                                                       |
-| 351 | [What is a thunk function](#what-is-a-thunk-function)                                                                                                             |
-| 352 | [What are asynchronous thunks](#what-are-asynchronous-thunks)                                                                                                     |
-| 353 | [What is the output of below function calls](#what-is-the-output-of-below-function-calls)                                                                         |
-| 354 | [How to remove all line breaks from a string](#how-to-remove-all-line-breaks-from-a-string)                                                                       |
-| 355 | [What is the difference between reflow and repaint](#what-is-the-difference-between-reflow-and-repaint)                                                           |
-| 356 | [What happens with negating an array](#what-happens-with-negating-an-array)                                                                                       |
-| 357 | [What happens if we add two arrays](#what-happens-if-we-add-two-arrays)                                                                                           |
-| 358 | [What is the output of prepend additive operator on falsy values](#what-is-the-output-of-prepend-additive-operator-on-falsy-values)                               |
-| 359 | [How do you create self string using special chardacters](#how-do-you-create-self-string-using-special-characters)                                                 |
-| 360 | [How do you remove falsy values from an array](#how-do-you-remove-falsy-values-from-an-array)                                                                     |
-| 361 | [How do you get unique values of an array](#how-do-you-get-unique-values-of-an-array)                                                                             |
-| 362 | [What is destructuring aliases](#what-is-destructuring-aliases)                                                                                                   |
-| 363 | [How do you map the array values without using map method](#how-do-you-map-the-array-values-without-using-map-method)                                             |
-| 364 | [How do you empty an array](#how-do-you-empty-an-array)                                                                                                           |
-| 365 | [How do you rounding numbers to certain decimals](#how-do-you-rounding-numbers-to-certain-decimals)                                                               |
-| 366 | [What is the easiest way to convert an array to an object](#what-is-the-easiest-way-to-convert-an-array-to-an-object)                                             |
-| 367 | [How do you create an array with some data](#how-do-you-create-an-array-with-some-data)                                                                           |
-| 368 | [What are the placeholders from console object](#what-are-the-placeholders-from-console-object)                                                                   |
-| 369 | [Is it possible to add CSS to console messages](#is-it-possible-to-add-css-to-console-messages)                                                                   |
-| 370 | [What is the purpose of dir method of console object](#what-is-the-purpose-of-dir-method-of-console-object)                                                       |
-| 371 | [Is it possible to debug HTML elements in console](#is-it-possible-to-debug-html-elements-in-console)                                                             |
-| 372 | [How do you display data in a tabular format using console object](#how-do-you-display-data-in-a-tabular-format-using-console-object)                             |
-| 373 | [How do you verify that an argument is a Number or not](#how-do-you-verify-that-an-argument-is-a-number-or-not)                                                   |
-| 374 | [How do you create copy to clipboard button](#how-do-you-create-copy-to-clipboard-button)                                                                         |
-| 375 | [What is the shortcut to get timestamp](#what-is-the-shortcut-to-get-timestamp)                                                                                   |
-| 376 | [How do you flattening multi dimensional arrays](#how-do-you-flattening-multi-dimensional-arrays)                                                                 |
-| 377 | [What is the easiest multi condition checking](#what-is-the-easiest-multi-condition-checking)                                                                     |
-| 378 | [How do you capture browser back button](#how-do-you-capture-browser-back-button)                                                                                 |
-| 379 | [How do you disable right click in the web page](#how-do-you-disable-right-click-in-the-web-page)                                                                 |
-| 380 | [What are wrapper objects](#what-are-wrapper-objects)                                                                                                             |
-| 381 | [What is AJAX](#what-is-ajax)                                                                                                                                     |
-| 382 | [What are the different ways to deal with Asynchronous Code](#what-are-the-different-ways-to-deal-with-asynchronous-code)                                         |
-| 383 | [How to cancel a fetch request](#how-to-cancel-a-fetch-request)                                                                                                   |
-| 384 | [What is web speech API](#what-is-web-speech-api)                                                                                                                 |
-| 385 | [What is minimum timeout throttling](#what-is-minimum-timeout-throttling)                                                                                         |
-| 386 | [How do you implement zero timeout in modern browsers](#how-do-you-implement-zero-timeout-in-modern-browsers)                                                     |
-| 387 | [What are tasks in event loop](#what-are-tasks-in-event-loop)                                                                                                     |
-| 388 | [What are microtasks](#what-are-microtasks)                                                                                                                       |
-| 389 | [What are different event loops](#what-are-different-event-loops)                                                                                                 |
-| 390 | [What is the purpose of queueMicrotask](#what-is-the-purpose-of-queuemicrotask)                                                                                   |
-| 391 | [How do you use javascript libraries in typescript file](#how-do-you-use-javascript-libraries-in-typescript-file)                                                 |
-| 392 | [What are the differences between promises and observables](#what-are-the-differences-between-promises-and-observables)                                           |
-| 393 | [What is heap](#what-is-heap)                                                                                                                                     |
-| 394 | [What is an event table](#what-is-an-event-table)                                                                                                                 |
-| 395 | [What is a microTask queue](#what-is-a-microtask-queue)                                                                                                           |
-| 396 | [What is the difference between shim and polyfill](#what-is-the-difference-between-shim-and-polyfill)                                                             |
-| 397 | [How do you detect primitive or non primitive value type](#how-do-you-detect-primitive-or-non-primitive-value-type)                                               |
-| 398 | [What is babel](#what-is-babel)                                                                                                                                   |
-| 399 | [Is Node.js completely single threaded](#is-node.js-completely-single-threaded)                                                                                   |
-| 400 | [What are the common use cases of observables](#what-are-the-common-use-cases-of-observables)                                                                     |
+| 351 | [什么是thunk函数](#what-is-a-thunk-function)                                                                                                             |
+| 352 | [什么是异步thunk](#what-are-asynchronous-thunks)                                                                                                     |
+| 353 | [下边的函数调用输出是什么](#what-is-the-output-of-below-function-calls)                                                                         |
+| 354 | [如何从字符串中移除换行](#how-to-remove-all-line-breaks-from-a-string)                                                                       |
+| 355 | [回流和重绘的区别是什么](#what-is-the-difference-between-reflow-and-repaint)                                                           |
+| 356 | [对数组取反会发生什么](#what-happens-with-negating-an-array)                                                                                       |
+| 357 | [若两数组相加会发生什么](#what-happens-if-we-add-two-arrays)                                                                                           |
+| 358 | [在假值前增加额外的运算符的输出是什么](#what-is-the-output-of-prepend-additive-operator-on-falsy-values)                               |
+| 359 | [如何使用特殊字符创建self字符串](#how-do-you-create-self-string-using-special-characters)                                                 |
+| 360 | [如何移除数组中的假值](#how-do-you-remove-falsy-values-from-an-array)                                                                     |
+| 361 | [数组如何去重](#how-do-you-get-unique-values-of-an-array)                                                                             |
+| 362 | [什么是解构别名](#what-is-destructuring-aliases)                                                                                                   |
+| 363 | [不使用map方法如何对数组值进行映射](#how-do-you-map-the-array-values-without-using-map-method)                                             |
+| 364 | [如何清空一个数组](#how-do-you-empty-an-array)                                                                                                           |
+| 365 | [你如何将数字四舍五入到某些小数](#how-do-you-rounding-numbers-to-certain-decimals)                                                               |
+| 366 | [将数组转换为对象最简单的方法是什么](#what-is-the-easiest-way-to-convert-an-array-to-an-object)                                             |
+| 367 | [如何用一些数据来创建数组](#how-do-you-create-an-array-with-some-data)                                                                           |
+| 368 | [console对象中的占位符是什么](#what-are-the-placeholders-from-console-object)                                                                   |
+| 369 | [是否可以将 CSS 添加到控制台消息](#is-it-possible-to-add-css-to-console-messages)                                                                   |
+| 370 | [console对象的dir方法的作用是什么](#what-is-the-purpose-of-dir-method-of-console-object)                                                       |
+| 371 | [在控制台中可以调试HTML元素吗](#is-it-possible-to-debug-html-elements-in-console)                                                             |
+| 372 | [使用console对象如何用制表符格式展示数据](#how-do-you-display-data-in-a-tabular-format-using-console-object)                             |
+| 373 | [如何验证实参是否是数字](#how-do-you-verify-that-an-argument-is-a-number-or-not)                                                   |
+| 374 | [如何创建复制到剪贴板按钮](#how-do-you-create-copy-to-clipboard-button)                                                                         |
+| 375 | [获得时间戳的快捷方式](#what-is-the-shortcut-to-get-timestamp)                                                                                   |
+| 376 | [如何扁平化多维数组](#how-do-you-flattening-multi-dimensional-arrays)                                                                 |
+| 377 | [最简单的多条件检测是什么](#what-is-the-easiest-multi-condition-checking)                                                                     |
+| 378 | [如何捕获浏览器返回键](#how-do-you-capture-browser-back-button)                                                                                 |
+| 379 | [如何禁止网页的右键点击](#how-do-you-disable-right-click-in-the-web-page)                                                                 |
+| 380 | [什么是包装对象](#what-are-wrapper-objects)                                                                                                             |
+| 381 | [什么是AJAX](#what-is-ajax)                                                                                                                                     |
+| 382 | [处理异步代码的不同方法是什么](#what-are-the-different-ways-to-deal-with-asynchronous-code)                                         |
+| 383 | [如何取消fetch请求](#how-to-cancel-a-fetch-request)                                                                                                   |
+| 384 | [什么是web speech API](#what-is-web-speech-api)                                                                                                                 |
+| 385 | [最小的超时延迟](#what-is-minimum-timeout-throttling)                                                                                         |
+| 386 | [现代浏览器中如何实现0延迟](#how-do-you-implement-zero-timeout-in-modern-browsers)                                                     |
+| 387 | [事件循环中的任务是什么](#what-are-tasks-in-event-loop)                                                                                                     |
+| 388 | [什么是微任务](#what-are-microtasks)                                                                                                                       |
+| 389 | [不同的事件循环是什么](#what-are-different-event-loops)                                                                                                 |
+| 390 | [微任务队列的作用是什么](#what-is-the-purpose-of-queuemicrotask)                                                                                   |
+| 391 | [如何在typescript文件中使用javascript库](#how-do-you-use-javascript-libraries-in-typescript-file)                                                 |
+| 392 | [promises 和 observables间的区别是什么](#what-are-the-differences-between-promises-and-observables)                                           |
+| 393 | [什么是堆](#what-is-heap)                                                                                                                                     |
+| 394 | [什么是事件表](#what-is-an-event-table)                                                                                                                 |
+| 395 | [什么是微任务队列](#what-is-a-microtask-queue)                                                                                                           |
+| 396 | [shim 和 polyfill间的区别是什么](#what-is-the-difference-between-shim-and-polyfill)                                                             |
+| 397 | [如何检测原生或非原生值类型](#how-do-you-detect-primitive-or-non-primitive-value-type)                                               |
+| 398 | [什么是babel](#what-is-babel)                                                                                                                                   |
+| 399 | [Node.js完全是单线程吗](#is-node.js-completely-single-threaded)                                                                                   |
+| 400 | [observables通常的用例是什么](#what-are-the-common-use-cases-of-observables)                                                                     |
 | 401 | [What is RxJS](#what-is-rxjs)                                                                                                                                     |
 | 402 | [What is the difference between Function constructor and function declaration](#what-is-the-difference-between-function-constructor-and-function-declaration)     |
 | 403 | [What is a Short circuit condition](#what-is-a-short-circuit-condition)                                                                                           |
@@ -6227,7 +6227,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 351. ### What is a thunk function
 
-     A thunk is just a function which delays the evaluation of the value. It doesn’t take any arguments but gives the value whenever you invoke the thunk. i.e, It is used not to execute now but it will be sometime in the future. Let's take a synchronous example,
+     thunk 只是一个延迟执行的函数。它不接受任何参数，而是在调用 thunk 时给出值。即，它不用于现在执行，但它将在将来的某个时间执行。我们来看一个同步的例子
 
      ```javascript
      const add = (x, y) => x + y;
@@ -6241,7 +6241,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 352. ### What are asynchronous thunks
 
-     The asynchronous thunks are useful to make network requests. Let's see an example of network requests,
+     异步 thunk 对发起网络请求很有用。让我们看一个网络请求的例子
 
      ```javascript
      function fetchData(fn) {
@@ -6259,13 +6259,13 @@ You can download the PDF and Epub version of this repository from the latest run
      asyncThunk();
      ```
 
-     The `getData` function won't be called immediately but it will be invoked only when the data is available from API endpoint. The setTimeout function is also used to make our code asynchronous. The best real time example is redux state management library which uses the asynchronous thunks to delay the actions to dispatch.
+     `getData` 函数不会马上调用，但只有当数据在 API 可用时才会被调用。 setTimeout 函数也用于使我们的代码异步。最好的实时示例是 redux 状态管理库，它使用异步 thunk 来延迟调度指令
 
      **[⬆ Back to Top](#table-of-contents)**
 
 353. ### What is the output of below function calls
 
-     **Code snippet:**
+     **代码片段:**
 
      ```javascript
      const circle = {
@@ -6282,15 +6282,15 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(circle.perimeter());
      ```
 
-     **Output:**
+     **输出:**
 
-     The output is 40 and NaN. Remember that diameter is a regular function, whereas the value of perimeter is an arrow function. The `this` keyword of a regular function(i.e, diameter) refers to the surrounding scope which is a class(i.e, Shape object). Whereas this keyword of perimeter function refers to the surrounding scope which is a window object. Since there is no radius property on window objects it returns an undefined value and the multiple of number value returns NaN value.
+     输出为 40 和 NaN。记住diameter是常规函数，而perimeter是箭头函数。常规函数周围作用域的 `this` 关键字（即diameter）是一个类（即 Shape 对象）。而周围作用域中 perimeter 函数的 this 关键字是一个window对象。由于窗口对象没有半径属性，它返回一个undefined的值，并且与数字值相乘后返回 NaN 值
 
      **[⬆ Back to Top](#table-of-contents)**
 
 354. ### How to remove all line breaks from a string
 
-     The easiest approach is using regular expressions to detect and replace newlines in the string. In this case, we use replace function along with string to replace with, which in our case is an empty string.
+     最简单的方法是使用正则表达式来检测和替换字符串中的换行符。在这种情况下，我们使用替换函数和要替换的字符串，在我们的例子中是一个空字符串。
 
      ```javascript
      function remove_linebreaks( var message ) {
@@ -6298,19 +6298,19 @@ You can download the PDF and Epub version of this repository from the latest run
      }
      ```
 
-     In the above expression, g and m are for global and multiline flags.
+     上边表达式中，g和m是全局和多行标记
 
      **[⬆ Back to Top](#table-of-contents)**
 
 355. ### What is the difference between reflow and repaint
 
-     A _repaint_ occurs when changes are made which affect the visibility of an element, but not its layout. Examples of this include outline, visibility, or background color. A _reflow_ involves changes that affect the layout of a portion of the page (or the whole page). Resizing the browser window, changing the font, content changing (such as user typing text), using JavaScript methods involving computed styles, adding or removing elements from the DOM, and changing an element's classes are a few of the things that can trigger reflow. Reflow of an element causes the subsequent reflow of all child and ancestor elements as well as any elements following it in the DOM.
+     当更改影响元素的可见性但不影响其布局时，会发生 _重绘_ 。这方面的示例包括轮廓、可见性或背景颜色。 _回流_ 涉及影响页面一部分（或整个页面）布局的更改。调整浏览器窗口的大小、更改字体、更改内容（例如用户键入文本）、使用涉及计算样式的 JavaScript 方法、在 DOM 中添加或删除元素以及更改元素的类都是可以触发回流的一些事情。元素的回流会导致所有子元素和祖先元素以及 DOM 中跟随它的任何元素的后续回流
 
      **[⬆ Back to Top](#table-of-contents)**
 
 356. ### What happens with negating an array
 
-     Negating an array with `!` character will coerce the array into a boolean. Since Arrays are considered to be truthy So negating it will return `false`.
+     使用 `!` 字符对数组求反会将数组强制转换为布尔值。由于数组被认为是真值，所以取反会返回 `false`
 
      ```javascript
      console.log(![]); // false
@@ -6320,7 +6320,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 357. ### What happens if we add two arrays
 
-     If you add two arrays together, it will convert them both to strings and concatenate them. For example, the result of adding arrays would be as below,
+     如果将两个数组相加，会将它们都转换为字符串并将它们连接起来。例如，添加数组的结果如下
 
      ```javascript
      console.log(["a"] + ["b"]); // "ab"
@@ -6332,7 +6332,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 358. ### What is the output of prepend additive operator on falsy values
 
-     If you prepend the additive(+) operator on falsy values(null, undefined, NaN, false, ""), the falsy value converts to a number value zero. Let's display them on browser console as below,
+     如果在假值（null、undefined、NaN、false、""）上添加加法（+）运算符，则假值将转换为数字值0。让我们在浏览器控制台上显示它们，如下所示
 
      ```javascript
      console.log(+null); // 0
@@ -6346,19 +6346,19 @@ You can download the PDF and Epub version of this repository from the latest run
 
 359. ### How do you create self string using special characters
 
-     The self string can be formed with the combination of `[]()!+` characters. You need to remember the below conventions to achieve this pattern.
+     字符串可以由 `[]()!+` 字符的组合形成。需要记住以下约定以实现此模式
 
-     1. Since Arrays are truthful values, negating the arrays will produce false: ![] === false
-     2. As per JavaScript coercion rules, the addition of arrays together will toString them: [] + [] === ""
-     3. Prepend an array with + operator will convert an array to false, the negation will make it true and finally converting the result will produce value '1': +(!(+[])) === 1
+     1. 由于数组是真值，对数组取反会产生false: ![] === false
+     2. 根据 JavaScript 强转规则，将数组加在一起会将它们串起来: [] + [] === ""
+     3. 在数组前面加上 + 运算符会将数组转换为 false，否定将使其为 true，最后转换结果将产生值 '1'： +(!(+[])) === 1
 
-     By applying the above rules, we can derive below conditions
+     通过应用上述规则，我们可以得出以下条件
 
      ```javascript
      (![] + [] === "false" + !+[]) === 1;
      ```
 
-     Now the character pattern would be created as below,
+     现在字符模式将如下创建
 
      ```javascript
            s               e               l               f
@@ -6378,7 +6378,8 @@ You can download the PDF and Epub version of this repository from the latest run
 
 360. ### How do you remove falsy values from an array
 
-     You can apply the filter method on the array by passing Boolean as a parameter. This way it removes all falsy values(0, undefined, null, false and "") from the array.
+     可以将Boolean作为参数传递给数组的filter方法。这样就会从数组中删除所有假值（0、undefined、null、false 和 ""）
+     
 
      ```javascript
      const myArray = [false, null, 1, 5, undefined];
@@ -6389,7 +6390,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 361. ### How do you get unique values of an array
 
-     You can get unique values of an array with the combination of `Set` and rest expression/spread(...) syntax.
+     可以使用 `Set` 和 剩余表达式/展开(...) 语法的组合来对数组去重
 
      ```javascript
      console.log([...new Set([1, 2, 4, 4, 3])]); // [1, 2, 4, 3]
@@ -6399,7 +6400,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 362. ### What is destructuring aliases
 
-     Sometimes you would like to have a destructured variable with a different name than the property name. In that case, you'll use a `: newName` to specify a name for the variable. This process is called destructuring aliases.
+     有时你希望有一个名称与属性名称不同的解构变量。在这种情况下，可以使用 `:newName` 来指定变量的名称。这个过程称为解构别名
 
      ```javascript
      const obj = { x: 1 };
@@ -6411,7 +6412,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 363. ### How do you map the array values without using map method
 
-     You can map the array values without using the `map` method by just using the `from` method of Array. Let's map city names from Countries array,
+     只需使用 Array 的 `from` 方法就可以在不使用 `map` 方法的情况下映射数组值。让我们从Countries数组中映射城市名称
 
      ```javascript
      const countries = [
@@ -6431,7 +6432,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 364. ### How do you empty an array
 
-     You can empty an array quickly by setting the array length to zero.
+     可以通过将数组length设置为0来快速清空数组
 
      ```javascript
      let cities = ["Singapore", "Delhi", "London"];
@@ -6442,7 +6443,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 365. ### How do you rounding numbers to certain decimals
 
-     You can round numbers to a certain number of decimals using `toFixed` method from native javascript.
+     可以使用原生 javascript 中的 `toFixed` 方法将数字四舍五入到一定的小数位数
 
      ```javascript
      let pie = 3.141592653;
@@ -6453,7 +6454,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 366. ### What is the easiest way to convert an array to an object
 
-     You can convert an array to an object with the same data using spread(...) operator.
+     你可以将同样的数据使用展开（...）运算符将对象转换为数组
 
      ```javascript
      var fruits = ["banana", "apple", "orange", "watermelon"];
@@ -6465,7 +6466,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 367. ### How do you create an array with some data
 
-     You can create an array with some data or an array with the same values using `fill` method.
+     可以使用 `fill` 方法创建包含一些数据的数组或具有相同值的数组
 
      ```javascript
      var newArray = new Array(5).fill("0");
@@ -6476,12 +6477,12 @@ You can download the PDF and Epub version of this repository from the latest run
 
 368. ### What are the placeholders from console object
 
-     Below are the list of placeholders available from console object,
+     下边是console对象中可用的一些占位符。
 
-     1. %o — It takes an object,
-     2. %s — It takes a string,
-     3. %d — It is used for a decimal or integer
-        These placeholders can be represented in the console.log as below
+     1. %o — 表示对象,
+     2. %s — 表示字符串,
+     3. %d — 表示十进制或整数
+        这些占位符可以在 console.log 中表示，如下所示
 
      ```javascript
      const user = { name: "John", id: 1, city: "Delhi" };
@@ -6496,7 +6497,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 369. ### Is it possible to add CSS to console messages
 
-     Yes, you can apply CSS styles to console messages similar to html text on the web page.
+     你可以像网页中的html文本一样将css样式引用到console消息中
 
      ```javascript
      console.log(
@@ -6505,37 +6506,37 @@ You can download the PDF and Epub version of this repository from the latest run
      );
      ```
 
-     The text will be displayed as below,
+     文本会像下边一样展示
      ![Screenshot](images/console-css.png)
 
-     **Note:** All CSS styles can be applied to console messages.
+     **注意:** 所有的CSS样式都可以被应用到console消息上
 
      **[⬆ Back to Top](#table-of-contents)**
 
 370. ### What is the purpose of dir method of console object
 
-     The `console.dir()` is used to display an interactive list of the properties of the specified JavaScript object as JSON.
+     `console.dir()` 用于将指定 JavaScript 对象作为JSON展示属性的交互式列表
 
      ```javascript
      const user = { name: "John", id: 1, city: "Delhi" };
      console.dir(user);
      ```
 
-     The user object displayed in JSON representation
+     user对象以JSON形式展示
      ![Screenshot](images/console-dir.png)
 
      **[⬆ Back to Top](#table-of-contents)**
 
 371. ### Is it possible to debug HTML elements in console
 
-     Yes, it is possible to get and debug HTML elements in the console just like inspecting elements.
+     是的，可以在控制台中获取和调试 HTML 元素，就像检查元素一样
 
      ```javascript
      const element = document.getElementsByTagName("body")[0];
      console.log(element);
      ```
 
-     It prints the HTML element in the console,
+     在console中打印了HTML元素
 
      ![Screenshot](images/console-html.png)
 
@@ -6543,7 +6544,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 372. ### How do you display data in a tabular format using console object
 
-     The `console.table()` is used to display data in the console in a tabular format to visualize complex arrays or objects.
+     `console.table()` 用于在控制台中以表格格式显示数据，以可视化展示复杂的数组或对象
 
      ```js
      const users = [
@@ -6554,16 +6555,16 @@ You can download the PDF and Epub version of this repository from the latest run
      console.table(users);
      ```
 
-     The data visualized in a table format,
+     数据以表格格式可视化
 
      ![Screenshot](images/console-table.png)
-     **Not:** Remember that `console.table()` is not supported in IE.
+     **注意:** 记住IE不支持 `console.table()`
 
      **[⬆ Back to Top](#table-of-contents)**
 
 373. ### How do you verify that an argument is a Number or not
 
-     The combination of IsNaN and isFinite methods are used to confirm whether an argument is a number or not.
+     IsNaN 和 isFinite 方法的结合用于确认实参是否为数字
 
      ```javascript
      function isNumber(n) {
@@ -6575,7 +6576,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 374. ### How do you create copy to clipboard button
 
-     You need to select the content(using .select() method) of the input element and execute the copy command with execCommand (i.e, execCommand('copy')). You can also execute other system commands like cut and paste.
+     你需要选择输入元素的内容（使用 .select() 方法）并使用 execCommand 执行复制命令（即 execCommand('copy')）。还可以执行其他系统命令，例如剪切和粘贴
 
      ```javascript
      document.querySelector("#copy-button").onclick = function () {
@@ -6590,7 +6591,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 375. ### What is the shortcut to get timestamp
 
-     You can use `new Date().getTime()` to get the current timestamp. There is an alternative shortcut to get the value.
+     可以使用 `new Date().getTime()` 获得当前时间戳. 也有别的快捷方式获得该值
 
      ```javascript
      console.log(+new Date());
@@ -6601,14 +6602,14 @@ You can download the PDF and Epub version of this repository from the latest run
 
 376. ### How do you flattening multi dimensional arrays
 
-     Flattening bi-dimensional arrays is trivial with Spread operator.
+     使用展开运算符扁平化二维数组很简单
 
      ```javascript
      const biDimensionalArr = [11, [22, 33], [44, 55], [66, 77], 88, 99];
      const flattenArr = [].concat(...biDimensionalArr); // [11, 22, 33, 44, 55, 66, 77, 88, 99]
      ```
 
-     But you can make it work with multi-dimensional arrays by recursive calls,
+     但是你也可以通过递归调用使得多维数组也起作用
 
      ```javascript
      function flattenMultiArray(arr) {
@@ -6625,7 +6626,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 377. ### What is the easiest multi condition checking
 
-     You can use `indexOf` to compare input with multiple values instead of checking each value as one condition.
+     可以使用 `indexOf` 将输入与多个值进行比较，而不是检查每个值作为一个条件
 
      ```javascript
      // Verbose approach
@@ -6647,7 +6648,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 378. ### How do you capture browser back button
 
-     The `window.onbeforeunload` method is used to capture browser back button events. This is helpful to warn users about losing the current data.
+     `window.onbeforeunload` 方法用于捕获浏览器后退按钮事件。这有助于警告用户将要丢失当前数据
 
      ```javascript
      window.onbeforeunload = function () {
@@ -6659,7 +6660,8 @@ You can download the PDF and Epub version of this repository from the latest run
 
 379. ### How do you disable right click in the web page
 
-     The right click on the page can be disabled by returning false from the `oncontextmenu` attribute on the body element.
+     可以通过在 body 元素的 `oncontextmenu` 属性中返回 false 来禁用页面上的右键单击
+    
 
      ```html
      <body oncontextmenu="return false;"></body>
@@ -6669,7 +6671,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 380. ### What are wrapper objects
 
-     Primitive Values like string,number and boolean don't have properties and methods but they are temporarily converted or coerced to an object(Wrapper object) when you try to perform actions on them. For example, if you apply toUpperCase() method on a primitive string value, it does not throw an error but returns uppercase of the string.
+     像字符串、数字和布尔值这样的原始值没有属性和方法，但是当您尝试对其执行操作时，它们会被临时转换或强制转换为对象（包装对象）。例如，如果对原始字符串值应用 toUpperCase() 方法，它不会抛出错误，而是返回字符串的大写
 
      ```javascript
      let name = "john";
@@ -6677,36 +6679,37 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(name.toUpperCase()); // Behind the scenes treated as console.log(new String(name).toUpperCase());
      ```
 
-     i.e, Every primitive except null and undefined have Wrapper Objects and the list of wrapper objects are String,Number,Boolean,Symbol and BigInt.
+     也就是说，除了null和undefined的原始值都有包装对象，包装对象有String,Number,Boolean,Symbol 和 BigInt
 
      **[⬆ Back to Top](#table-of-contents)**
 
 381. ### What is AJAX
 
-     AJAX stands for Asynchronous JavaScript and XML and it is a group of related technologies(HTML, CSS, JavaScript, XMLHttpRequest API etc) used to display data asynchronously. i.e. We can send data to the server and get data from the server without reloading the web page.
+     AJAX 代表异步 JavaScript 和 XML，它是一组用于异步显示数据的相关技术（HTML、CSS、JavaScript、XMLHttpRequest API 等）。即我们可以向服务器发送数据并从服务器获取数据，而无需重新加载网页
 
      **[⬆ Back to Top](#table-of-contents)**
 
 382. ### What are the different ways to deal with Asynchronous Code
 
-     Below are the list of different ways to deal with Asynchronous code.
+     下边是处理异步代码的不同方法
 
-     1. Callbacks
+     1. 回调
      2. Promises
      3. Async/await
-     4. Third-party libraries such as async.js,bluebird etc
+     4. 第三方库例如async.js,bluebird等
 
      **[⬆ Back to Top](#table-of-contents)**
 
 383. ### How to cancel a fetch request
 
-     Until a few days back, One shortcoming of native promises is no direct way to cancel a fetch request. But the new `AbortController` from js specification allows you to use a signal to abort one or multiple fetch calls.
-     The basic flow of cancelling a fetch request would be as below,
+     直到几天前，原生 Promise 的一个缺点是无法直接取消 fetch 请求。但是 js 规范中的新 `AbortController` 允许您使用signal中止一个或多个 fetch 调用
+     取消fetch请求的基本流程如下
+     
 
-     1. Create an `AbortController` instance
-     2. Get the signal property of an instance and pass the signal as a fetch option for signal
-     3. Call the AbortController's abort property to cancel all fetches that use that signal
-        For example, let's pass the same signal to multiple fetch calls will cancel all requests with that signal,
+     1. 创建一个 `AbortController` 实例
+     2. 获取实例的signal属性并将signal作为信号的fetch选项传递
+     3. 调用 AbortController 的 abort 属性以取消使用该信号的所有fetch
+        例如，让我们将相同的signal传递给多个 fetch 调用,将取消所有带有该信号的请求
 
      ```javascript
      const controller = new AbortController();
@@ -6740,10 +6743,10 @@ You can download the PDF and Epub version of this repository from the latest run
 
 384. ### What is web speech API
 
-     Web speech API is used to enable modern browsers recognize and synthesize speech(i.e, voice data into web apps). This API has been introduced by W3C Community in the year 2012. It has two main parts,
+     Web speech API 用于使现代浏览器能够识别和合成语音（即语音数据到 Web 应用程序中）。该 API 由 W3C 社区于 2012 年推出。它有两个主要部分
 
-     1. **SpeechRecognition (Asynchronous Speech Recognition or Speech-to-Text):** It provides the ability to recognize voice context from an audio input and respond accordingly. This is accessed by the `SpeechRecognition` interface.
-        The below example shows on how to use this API to get text from speech,
+     1. **语音识别 (异步语音识别或语音转文本):** 它提供了从音频输入中识别语音上下文并做出相应响应的能力。这是由 `SpeechRecognition` 接口访问的
+        下边的例子展示了如何使用这个API从语音中获得文本
 
      ```javascript
      window.SpeechRecognition =
@@ -6757,10 +6760,10 @@ You can download the PDF and Epub version of this repository from the latest run
      recognition.start();
      ```
 
-     In this API, browser is going to ask you for permission to use your microphone
+     这个API中，浏览器会向你请求使用麦克风的权限
 
-     1. **SpeechSynthesis (Text-to-Speech):** It provides the ability to recognize voice context from an audio input and respond. This is accessed by the `SpeechSynthesis` interface.
-        For example, the below code is used to get voice/speech from text,
+     1. **SpeechSynthesis (Text-to-Speech):** 它提供了从音频输入中识别语音上下文并做出响应的能力。这是由 `SpeechSynthesis` 接口访问的
+        例如，以下代码用于从文本中获取语音/发音
 
      ```javascript
      if ("speechSynthesis" in window) {
@@ -6770,18 +6773,18 @@ You can download the PDF and Epub version of this repository from the latest run
      }
      ```
 
-     The above examples can be tested on chrome(33+) browser's developer console.
-     **Note:** This API is still a working draft and only available in Chrome and Firefox browsers(ofcourse Chrome only implemented the specification)
+     上面的例子可以在 chrome(33+) 浏览器的开发者控制台上测试
+     **注意:** 这个 API 仍然是一个工作草案，只在 Chrome 和 Firefox 浏览器中可用（当然 Chrome 只实现了规范）
 
      **[⬆ Back to Top](#table-of-contents)**
 
 385. ### What is minimum timeout throttling
 
-     Both browser and NodeJS javascript environments throttles with a minimum delay that is greater than 0ms. That means even though setting a delay of 0ms will not happen instantaneously.
-     **Browsers:** They have a minimum delay of 4ms. This throttle occurs when successive calls are triggered due to callback nesting(certain depth) or after a certain number of successive intervals.
-     Note: The older browsers have a minimum delay of 10ms.
-     **Nodejs:** They have a minimum delay of 1ms. This throttle happens when the delay is larger than 2147483647 or less than 1.
-     The best example to explain this timeout throttling behavior is the order of below code snippet.
+     浏览器和 NodeJS的javascript 环境都会以大于 0 毫秒的最小延迟进行节流。这意味着即使设置 0ms 的延迟也不会立即发生
+     **浏览器:** 最小延迟为 4 毫秒。当由于回调嵌套（一定深度）或在一定数量的连续间隔之后触发连续调用时，会发生此限制
+     注意: 老式浏览器最小延时为10ms
+     **Nodejs:** 最小延迟为 1 毫秒。 当延迟大于 2147483647 或小于 1 时会发生此限制
+     解释此超时限制行为的最佳示例是以下代码片段的顺序
 
      ```javascript
      function runMeFirst() {
@@ -6791,14 +6794,14 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log("Script loaded");
      ```
 
-     and the output would be in
+     输出是
 
      ```cmd
      Script loaded
      My script is initialized
      ```
 
-     If you don't use `setTimeout`, the order of logs will be sequential.
+     如果不使用 `setTimeout`, 输出顺序会是串行的
 
      ```javascript
      function runMeFirst() {
@@ -6808,7 +6811,7 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log("Script loaded");
      ```
 
-     and the output is,
+     输出是,
 
      ```cmd
      My script is initialized
@@ -6819,27 +6822,27 @@ You can download the PDF and Epub version of this repository from the latest run
 
 386. ### How do you implement zero timeout in modern browsers
 
-     You can't use setTimeout(fn, 0) to execute the code immediately due to minimum delay of greater than 0ms. But you can use window.postMessage() to achieve this behavior.
+     由于最小延迟大于 0 毫秒，你不能使用 setTimeout(fn, 0) 立即执行代码。但是您可以使用 window.postMessage() 来实现此行为
 
      **[⬆ Back to Top](#table-of-contents)**
 
 387. ### What are tasks in event loop
 
-     A task is any javascript code/program which is scheduled to be run by the standard mechanisms such as initially starting to run a program, run an event callback, or an interval or timeout being fired. All these tasks are scheduled on a task queue.
-     Below are the list of use cases to add tasks to the task queue,
+     任务是由标准机制安排好运行的任何 javascript 代码/程序，例如最初开始运行程序、运行事件回调或触发间隔或超时。所有这些任务都安排在一个任务队列中
+     下边是一些将任务添加到任务队列中用例
 
-     1. When a new javascript program is executed directly from console or running by the `<script>` element, the task will be added to the task queue.
-     2. When an event fires, the event callback added to task queue
-     3. When a setTimeout or setInterval is reached, the corresponding callback added to task queue
+     1. 当一个新的 javascript 程序直接从控制台执行或由 `<script>` 元素运行时，该任务将被添加到任务队列中
+     2. 当事件触发时，事件回调被添加到任务队列中
+     3. 当达到 setTimeout 或 setInterval 时，将相应的回调添加到任务队列
 
      **[⬆ Back to Top](#table-of-contents)**
 
 388. ### What is microtask
 
-     Microtask is the javascript code which needs to be executed immediately after the currently executing task/microtask is completed. They are kind of blocking in nature. i.e, The main thread will be blocked until the microtask queue is empty.
-     The main sources of microtasks are Promise.resolve, Promise.reject, MutationObservers, IntersectionObservers etc
+     微任务是当前执行的任务/微任务完成后需要立即执行的javascript代码。它们本质上是一种阻塞。即，主线程将被阻塞，直到微任务队列为空。
+     微任务的主要来源是 Promise.resolve、Promise.reject、MutationObservers、IntersectionObservers 等
 
-     **Note:** All of these microtasks are processed in the same turn of the event loop.
+     **注意:** 所有这些微任务都在事件循环的同一轮中处理
      **[⬆ Back to Top](#table-of-contents)**
 
 389. ### What are different event loops
@@ -6852,13 +6855,13 @@ You can download the PDF and Epub version of this repository from the latest run
 
 391. ### How do you use javascript libraries in typescript file
 
-     It is known that not all JavaScript libraries or frameworks have TypeScript declaration files. But if you still want to use libraries or frameworks in our TypeScript files without getting compilation errors, the only solution is `declare` keyword along with a variable declaration. For example, let's imagine you have a library called `customLibrary` that doesn’t have a TypeScript declaration and have a namespace called `customLibrary` in the global namespace. You can use this library in typescript code as below,
+     众所周知，并非所有 JavaScript 库或框架都有 TypeScript 声明文件。但是，如果您仍想在我们的 TypeScript 文件中使用库或框架而不会出现编译错误，唯一的解决方案是 `declare` 关键字和变量声明。例如，假设您有一个名为“customLibrary”的库，它没有 TypeScript 声明，并且在全局命名空间中有一个名为“customLibrary”的命名空间。您可以在打字稿代码中使用此库，如下所示
 
      ```javascript
      declare var customLibrary;
      ```
 
-     In the runtime, typescript will provide the type to the `customLibrary` variable as `any` type. The another alternative without using declare keyword is below
+     在运行时，typescript 会将类型提供给 `customLibrary` 变量作为 `any` 类型。不使用 declare 关键字的另一种选择如下
 
      ```javascript
      var customLibrary: any;
@@ -6868,22 +6871,22 @@ You can download the PDF and Epub version of this repository from the latest run
 
 392. ### What are the differences between promises and observables
 
-     Some of the major difference in a tabular form
+     表格中是一些主要区别
 
-     | Promises                                                           | Observables                                                                              |
-     | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
-     | Emits only a single value at a time                                | Emits multiple values over a period of time(stream of values ranging from 0 to multiple) |
-     | Eager in nature; they are going to be called immediately           | Lazy in nature; they require subscription to be invoked                                  |
-     | Promise is always asynchronous even though it resolved immediately | Observable can be either synchronous or asynchronous                                     |
-     | Doesn't provide any operators                                      | Provides operators such as map, forEach, filter, reduce, retry, and retryWhen etc        |
-     | Cannot be canceled                                                 | Canceled by using unsubscribe() method                                                   |
+     | Promises                                                           | Observables                                                     |
+     | ------------------------------------------| ---------------------------------------------------------------------------------------- |
+     |  一次只发出一个值                             | 在一段时间内发出多个值（从 0 到多个值的流） |
+     | 天生渴望；他们将立即被执行           | 天生懒惰；需要订阅来执行                                |
+     | 即使立即解析promise也总是异步 | 可以是同步或者异步                                     |
+     | 不提供任何操作符                                      | 提供像 map, forEach, filter, reduce, retry, 和 retryWhen 等操作符        |
+     | 不能被取消                                                 | 使用unsubscribe() 方法取消                                                  |
 
      **[⬆ Back to Top](#table-of-contents)**
 
 393. ### What is heap
 
-     Heap(Or memory heap) is the memory location where objects are stored when we define variables. i.e, This is the place where all the memory allocations and de-allocation take place. Both heap and call-stack are two containers of JS runtime.
-     Whenever runtime comes across variables and function declarations in the code it stores them in the Heap.
+     堆（或内存堆）是我们定义变量时存储对象的内存位置。即，这是所有内存分配和解除分配发生的地方。堆和调用栈都是 JS 运行时的两个容器。
+     每当运行时在代码中遇到变量和函数声明时，它将它们存储在堆中。
 
      ![Screenshot](images/heap.png)
 
@@ -6891,8 +6894,8 @@ You can download the PDF and Epub version of this repository from the latest run
 
 394. ### What is an event table
 
-     Event Table is a data structure that stores and keeps track of all the events which will be executed asynchronously like after some time interval or after the resolution of some API requests. i.e Whenever you call a setTimeout function or invoke async operation, it is added to the Event Table.
-     It doesn't not execute functions on it’s own. The main purpose of the event table is to keep track of events and send them to the Event Queue as shown in the below diagram.
+     事件表是一种数据结构，用于存储和跟踪所有将异步执行的事件，例如在某个时间间隔之后或在某些 API 请求解决之后。即每当您调用 setTimeout 函数或调用异步操作时，它都会添加到事件表中
+     它不会自行执行功能。事件表的主要目的是跟踪事件并将它们发送到事件队列，如下图所示
 
      ![Screenshot](images/event-table.png)
 
@@ -6900,22 +6903,22 @@ You can download the PDF and Epub version of this repository from the latest run
 
 395. ### What is a microTask queue
 
-     Microtask Queue is the new queue where all the tasks initiated by promise objects get processed before the callback queue.
-     The microtasks queue are processed before the next rendering and painting jobs. But if these microtasks are running for a long time then it leads to visual degradation.
+     微任务队列是新的队列，promise 对象初始化的所有任务都在回调队列之前得到处理
+     在下一个渲染和绘制作业之前处理微任务队列。但如果这些微任务运行时间很长，则会导致视觉退化
 
      **[⬆ Back to Top](#table-of-contents)**
 
 396. ### What is the difference between shim and polyfill
 
-     A shim is a library that brings a new API to an older environment, using only the means of that environment. It isn't necessarily restricted to a web application. For example, es5-shim.js is used to emulate ES5 features on older browsers (mainly pre IE9).
-     Whereas polyfill is a piece of code (or plugin) that provides the technology that you, the developer, expect the browser to provide natively.
-     In a simple sentence, A polyfill is a shim for a browser API.
+     shim 是一个库，它将新 API 引入旧环境，仅使用该环境的方法。它不一定限于 Web 应用程序。例如，es5-shim.js 用于在旧浏览器（主要是 IE9 之前）上模拟 ES5 功能
+         而 polyfill 是一段代码（或插件），它提供了您（开发人员）期望浏览器原生提供的技术
+     简单来说，polyfill 是浏览器 API 的 shim
 
      **[⬆ Back to Top](#table-of-contents)**
 
 397. ### How do you detect primitive or non primitive value type
 
-     In JavaScript, primitive types include boolean, string, number, BigInt, null, Symbol and undefined. Whereas non-primitive types include the Objects. But you can easily identify them with the below function,
+     在 JavaScript 中，原始类型包括 boolean、string、number、BigInt、null、Symbol 和 undefined。而非原始类型包括对象。但是你可以使用以下功能轻松区分它们
 
      ```javascript
      var myPrimitive = 30;
@@ -6928,29 +6931,29 @@ You can download the PDF and Epub version of this repository from the latest run
      isPrimitive(myNonPrimitive);
      ```
 
-     If the value is a primitive data type, the Object constructor creates a new wrapper object for the value. But If the value is a non-primitive data type (an object), the Object constructor will give the same object.
+     如果该值是原始数据类型，则 Object 构造函数会为该值创建一个新的包装器对象。但是如果值是非原始数据类型（一个对象），Object构造函数会给出相同的对象
 
      **[⬆ Back to Top](#table-of-contents)**
 
 398. ### What is babel
 
-     Babel is a JavaScript transpiler to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments. Some of the main features are listed below,
+     Babel 是一个 JavaScript 转译器，用于将 ECMAScript 2015+ 代码转换为当前和旧版浏览器或环境中向后兼容的 JavaScript 版本。下面列出了一些主要功能
 
-     1. Transform syntax
-     2. Polyfill features that are missing in your target environment (using @babel/polyfill)
-     3. Source code transformations (or codemods)
+     1. 转译语法
+     2. 提供目标环境中缺少的 Polyfill 功能（使用 @babel/polyfill）
+     3. 源代码转换（或 codemods）
 
      **[⬆ Back to Top](#table-of-contents)**
 
 399. ### Is Node.js completely single threaded
 
-     Node is a single thread, but some of the functions included in the Node.js standard library(e.g, fs module functions) are not single threaded. i.e, Their logic runs outside of the Node.js single thread to improve the speed and performance of a program.
+     Node 是单线程的，但是 Node.js 标准库中包含的一些函数（例如 fs 模块函数）不是单线程的。即，他们的逻辑在 Node.js 单线程之外运行，以提高程序的速度和性能
 
      **[⬆ Back to Top](#table-of-contents)**
 
 400. ### What are the common use cases of observables
 
-     Some of the most common use cases of observables are web sockets with push notifications, user input changes, repeating intervals, etc
+     一些最常见的 observable 用例是带有推送通知、用户输入更改、重复间隔等的 websocket
 
      **[⬆ Back to Top](#table-of-contents)**
 
