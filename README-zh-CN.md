@@ -442,26 +442,26 @@ You can download the PDF and Epub version of this repository from the latest run
 | 398 | [什么是babel](#what-is-babel)                                                                                                                                   |
 | 399 | [Node.js完全是单线程吗](#is-node.js-completely-single-threaded)                                                                                   |
 | 400 | [observables通常的用例是什么](#what-are-the-common-use-cases-of-observables)                                                                     |
-| 401 | [What is RxJS](#what-is-rxjs)                                                                                                                                     |
-| 402 | [What is the difference between Function constructor and function declaration](#what-is-the-difference-between-function-constructor-and-function-declaration)     |
-| 403 | [What is a Short circuit condition](#what-is-a-short-circuit-condition)                                                                                           |
-| 404 | [What is the easiest way to resize an array](#what-is-the-easiest-way-to-resize-an-array)                                                                         |
-| 405 | [What is an observable](#what-is-an-observable)                                                                                                                   |
-| 406 | [What is the difference between function and class declarations](#what-is-the-difference-between-function-and-class-declarations)                                 |
-| 407 | [What is an async function](#what-is-an-async-function)                                                                                                           |
-| 408 | [How do you prevent promises swallowing errors](#how-do-you-prevent-promises-swallowing-errors)                                                                   |
-| 409 | [What is deno](#what-is-deno)                                                                                                                                     |
-| 410 | [How do you make an object iterable in javascript](#how-do-you-make-an-object-iterable-in-javascript)                                                             |
-| 411 | [What is a Proper Tail Call](#what-is-a-proper-tail-call)                                                                                                         |
-| 412 | [How do you check an object is a promise or not](#how-do-you-check-an-object-is-a-promise-or-not)                                                                 |
-| 413 | [How to detect if a function is called as constructor](#how-to-detect-if-a-function-is-called-as-constructor)                                                     |
-| 414 | [What are the differences between arguments object and rest parameter](#what-are-the-differences-between-arguments-object-and-rest-parameter)                     |
-| 415 | [What are the differences between spread operator and rest parameter](#what-are-the-differences-between-spread-operator-and-rest-parameter)                       |
-| 416 | [What are the different kinds of generators](#what-are-the-different-kinds-of-generators)                                                                         |
-| 417 | [What are the built-in iterables](#what-are-the-built-in-iterables)                                                                                               |
-| 418 | [What are the differences between for...of and for...in statements](#what-are-the-differences-between-for...of-and-for...in-statements)                           |
-| 419 | [How do you define instance and non-instance properties](#how-do-you-define-instance-and-non-instance-properties)                                                 |
-| 420 | [What is the difference between isNaN and Number.isNaN?](#what-is-the-difference-between-isnan-and-number.isnan)                                                  |
+| 401 | [什么是RxJS](#what-is-rxjs)                                                                                                                                     |
+| 402 | [函数构造器和函数声明之间的区别是什么](#what-is-the-difference-between-function-constructor-and-function-declaration)     |
+| 403 | [什么是短路条件](#what-is-a-short-circuit-condition)                                                                                           |
+| 404 | [调整数组大小最简单的方法是什么](#what-is-the-easiest-way-to-resize-an-array)                                                                         |
+| 405 | [什么是可观察对象](#what-is-an-observable)                                                                                                                   |
+| 406 | [函数和类声明间的区别是什么](#what-is-the-difference-between-function-and-class-declarations)                                 |
+| 407 | [什么是async函数](#what-is-an-async-function)                                                                                                           |
+| 408 | [如何避免promises吞错误](#how-do-you-prevent-promises-swallowing-errors)                                                                   |
+| 409 | [什么是deno](#what-is-deno)                                                                                                                                     |
+| 410 | [如何用javascript使对象可迭代](#how-do-you-make-an-object-iterable-in-javascript)                                                             |
+| 411 | [什么是正确的尾调用](#what-is-a-proper-tail-call)                                                                                                         |
+| 412 | [如何检测对象是否是promise](#how-do-you-check-an-object-is-a-promise-or-not)                                                                 |
+| 413 | [如何检测一个函数是否被当作构造器来调用](#how-to-detect-if-a-function-is-called-as-constructor)                                                     |
+| 414 | [arguments对象和剩余参数的区别是什么](#what-are-the-differences-between-arguments-object-and-rest-parameter)                     |
+| 415 | [展开运算符和剩余参数的区别是什么](#what-are-the-differences-between-spread-operator-and-rest-parameter)                       |
+| 416 | [生成器都有哪些种类](#what-are-the-different-kinds-of-generators)                                                                         |
+| 417 | [内置的可迭代对象都是什么](#what-are-the-built-in-iterables)                                                                                               |
+| 418 | [for...of 和 for...in 语句间的区别是什么](#what-are-the-differences-between-for...of-and-for...in-statements)                           |
+| 419 | [如何定义实例和非实例属性](#how-do-you-define-instance-and-non-instance-properties)                                                 |
+| 420 | [isNaN 和 Number.isNaN间的区别是什么?](#what-is-the-difference-between-isnan-and-number.isnan)                                                  |
 | 421 | [How to invoke an IIFE without any extra brackets?](#how-to-invoke-an-iife-without-any-extra-brackets)                                                            |
 | 422 | [Is that possible to use expressions in switch cases?](#is-that-possible-to-use-expressions-in-switch-cases)                                                      |
 | 423 | [What is the easiest way to ignore promise errors?](#what-is-the-easiest-way-to-ignore-promise-errors)                                                            |
@@ -6959,17 +6959,18 @@ You can download the PDF and Epub version of this repository from the latest run
 
 401. ### What is RxJS
 
-     RxJS (Reactive Extensions for JavaScript) is a library for implementing reactive programming using observables that makes it easier to compose asynchronous or callback-based code. It also provides utility functions for creating and working with observables.
+     RxJS（JavaScript 的响应式扩展）是一个使用可观察对象实现响应式编程的库，它可以更轻松地编写异步或基于回调的代码。它还提供了用于创建和使用可观察对象的工具函数
 
      **[⬆ Back to Top](#table-of-contents)**
 
 402. ### What is the difference between Function constructor and function declaration
 
      The functions which are created with `Function constructor` do not create closures to their creation contexts but they are always created in the global scope. i.e, the function can access its own local variables and global scope variables only. Whereas function declarations can access outer function variables(closures) too.
+     使用`Function构造器`创建的函数不会为其上下文创建闭包，但它们总是在全局范围内创建。即，该函数只能访问其自己的局部变量和全局范围变量。而函数声明也可以访问外部函数变量（闭包）
 
      Let's see this difference with an example,
 
-     **Function Constructor:**
+     **Function构造器:**
 
      ```javascript
      var a = 100;
@@ -6980,7 +6981,7 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(createFunction()()); // 100
      ```
 
-     **Function declaration:**
+     **函数声明:**
 
      ```javascript
      var a = 100;
@@ -6998,6 +6999,7 @@ You can download the PDF and Epub version of this repository from the latest run
 403. ### What is a Short circuit condition
 
      Short circuit conditions are meant for condensed way of writing simple if statements. Let's demonstrate the scenario using an example. If you would like to login to a portal with an authentication condition, the expression would be as below,
+     短路条件是用于简化编写简单 if 语句的方式。让我们用一个例子来演示这个场景。如果你想经过身份认证登录门户，则表达式如下
 
      ```javascript
      if (authenticate) {
@@ -7005,7 +7007,7 @@ You can download the PDF and Epub version of this repository from the latest run
      }
      ```
 
-     Since the javascript logical operators evaluated from left to right, the above expression can be simplified using && logical operator
+     由于javascript逻辑运算符从左到右进行运算，上述表达式可以被简化成使用&&运算符
 
      ```javascript
      authenticate && loginToPorta();
@@ -7015,7 +7017,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 404. ### What is the easiest way to resize an array
 
-     The length property of an array is useful to resize or empty an array quickly. Let's apply length property on number array to resize the number of elements from 5 to 2,
+     数组的length属性对于快速重新调整或清空数组很有用。让我们在数字数组上应用length属性来将元素的数量从 5 调整为 2
 
      ```javascript
      var array = [1, 2, 3, 4, 5];
@@ -7026,7 +7028,7 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(array); // [1,2]
      ```
 
-     and the array can be emptied too
+     数组也可以被清空
 
      ```javascript
      var array = [1, 2, 3, 4, 5];
@@ -7039,8 +7041,8 @@ You can download the PDF and Epub version of this repository from the latest run
 
 405. ### What is an observable
 
-     An Observable is basically a function that can return a stream of values either synchronously or asynchronously to an observer over time. The consumer can get the value by calling `subscribe()` method.
-     Let's look at a simple example of an Observable
+     Observable 基本上是一个函数，它可以随时间同步或异步地向观察者返回值的流。消费者可以通过调用 `subscribe()` 方法获取值
+     让我们看一个Observable的简单例子
 
      ```javascript
      import { Observable } from "rxjs";
@@ -7056,15 +7058,15 @@ You can download the PDF and Epub version of this repository from the latest run
 
      ![Screenshot](images/observables.png)
 
-     **Note:** Observables are not part of the JavaScript language yet but they are being proposed to be added to the language
+     **注意:** Observables 还不是 JavaScript 语言的一部分，但正在提议将它们添加到该语言中
 
      **[⬆ Back to Top](#table-of-contents)**
 
 406. ### What is the difference between function and class declarations
 
-     The main difference between function declarations and class declarations is `hoisting`. The function declarations are hoisted but not class declarations.
+     函数声明和类声明的主要区别是 `hoisting`。函数声明会被提升但是类声明不会
 
-     **Classes:**
+     **类:**
 
      ```javascript
      const user = new User(); // ReferenceError
@@ -7072,7 +7074,7 @@ You can download the PDF and Epub version of this repository from the latest run
      class User {}
      ```
 
-     **Constructor Function:**
+     **构造函数:**
 
      ```javascript
      const user = new User(); // No error
@@ -7084,9 +7086,9 @@ You can download the PDF and Epub version of this repository from the latest run
 
 407. ### What is an async function
 
-     An async function is a function declared with the `async` keyword which enables asynchronous, promise-based behavior to be written in a cleaner style by avoiding promise chains. These functions can contain zero or more `await` expressions.
+     async函数是使用 `async` 关键字声明的函数，它通过避免使用promise链，可以以更简洁的方式编写基于承诺的异步行为。这些函数可以包含零个或多个 `await` 表达式
 
-     Let's take a below async function example,
+     让我们看下边的async函数例子
 
      ```javascript
      async function logger() {
@@ -7096,15 +7098,15 @@ You can download the PDF and Epub version of this repository from the latest run
      logger();
      ```
 
-     It is basically syntax sugar over ES2015 promises and generators.
+     基本上是 ES2015 promise和生成器的语法糖
 
      **[⬆ Back to Top](#table-of-contents)**
 
 408. ### How do you prevent promises swallowing errors
 
-     While using asynchronous code, JavaScript’s ES6 promises can make your life a lot easier without having callback pyramids and error handling on every second line. But Promises have some pitfalls and the biggest one is swallowing errors by default.
+     在使用异步代码时，JavaScript 的 ES6 promise 可以让你的生活变得更轻松，而无需在每一行都进行回调金字塔和错误处理。但是 Promise 有一些陷阱，最大的一个是会默认吞下错误
 
-     Let's say you expect to print an error to the console for all the below cases,
+     假设您希望在以下所有情况下向控制台打印错误
 
      ```javascript
      Promise.resolve("promised value").then(function () {
@@ -7120,9 +7122,9 @@ You can download the PDF and Epub version of this repository from the latest run
      });
      ```
 
-     But there are many modern JavaScript environments that won't print any errors. You can fix this problem in different ways,
+     但是有许多现代 JavaScript 环境不会打印任何错误。可以通过不同的方式解决此问题
 
-     1. **Add catch block at the end of each chain:** You can add catch block to the end of each of your promise chains
+     1. **在每个链式调用结尾增加catch块:** 将catch块添加到每个promise链结尾
 
         ```javascript
         Promise.resolve("promised value")
@@ -7134,9 +7136,9 @@ You can download the PDF and Epub version of this repository from the latest run
           });
         ```
 
-        But it is quite difficult to type for each promise chain and verbose too.
+        但是对于每个promise链都很难键入并且也很冗长
 
-     2. **Add done method:** You can replace first solution's then and catch blocks with done method
+     2. **增加done方法:** 可以将第一个方案中的then和catch块替换为done方法
 
         ```javascript
         Promise.resolve("promised value").done(function () {
@@ -7144,7 +7146,7 @@ You can download the PDF and Epub version of this repository from the latest run
         });
         ```
 
-        Let's say you want to fetch data using HTTP and later perform processing on the resulting data asynchronously. You can write `done` block as below,
+        假设您想使用 HTTP 获取数据，然后对结果数据进行异步处理。您可以如下编写 `done` 块
 
         ```javascript
         getDataFromHttp()
@@ -7156,7 +7158,7 @@ You can download the PDF and Epub version of this repository from the latest run
           });
         ```
 
-        In future, if the processing library API changed to synchronous then you can remove `done` block as below,
+        将来，如果处理库 API 更改为同步，那么您可以删除 `done` 块，如下所示
 
         ```javascript
         getDataFromHttp().then(function (result) {
@@ -7164,10 +7166,11 @@ You can download the PDF and Epub version of this repository from the latest run
         });
         ```
 
-        and then you forgot to add `done` block to `then` block leads to silent errors.
+        然后你忘记将 `done` 块添加到 `then` 块会导致静默错误
 
-     3. **Extend ES6 Promises by Bluebird:**
-        Bluebird extends the ES6 Promises API to avoid the issue in the second solution. This library has a “default” onRejection handler which will print all errors from rejected Promises to stderr. After installation, you can process unhandled rejections
+     3. **Bluebird扩展的ES6 Promise:**
+
+        Bluebird 扩展了 ES6 Promises API 以避免第二个解决方案中的问题。这个库有一个 “默认” 的 onRejection 处理程序，它将从被拒绝的 Promises 中打印所有错误到 st​​derr。在安装后，您可以处理未处理的rejection
 
         ```javascript
         Promise.onPossiblyUnhandledRejection(function (error) {
@@ -7175,7 +7178,7 @@ You can download the PDF and Epub version of this repository from the latest run
         });
         ```
 
-        and discard a rejection, just handle it with an empty catch
+        丢弃rejection，只需用空catch处理它
 
         ```javascript
         Promise.reject("error value").catch(function () {});
@@ -7185,15 +7188,15 @@ You can download the PDF and Epub version of this repository from the latest run
 
 409. ### What is deno
 
-     Deno is a simple, modern and secure runtime for JavaScript and TypeScript that uses V8 JavaScript engine and the Rust programming language.
+     Deno 是一个简单、现代且安全的 JavaScript 和 TypeScript 运行时，它使用 V8 JavaScript 引擎和 Rust 编程语言
 
      **[⬆ Back to Top](#table-of-contents)**
 
 410. ### How do you make an object iterable in javascript
 
-     By default, plain objects are not iterable. But you can make the object iterable by defining a `Symbol.iterator` property on it.
+     默认情况下，普通对象是不可迭代的。但是您可以通过在对象上定义 `Symbol.iterator` 属性来使对象可迭代
 
-     Let's demonstrate this with an example,
+     让我们用例子说明
 
      ```javascript
      const collection = {
@@ -7222,7 +7225,7 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(iterator.next()); // → {value: undefined, done: true}
      ```
 
-     The above process can be simplified using a generator function,
+     使用生成器函数可以简化上述过程
 
      ```javascript
      const collection = {
@@ -7246,9 +7249,9 @@ You can download the PDF and Epub version of this repository from the latest run
 
 411. ### What is a Proper Tail Call
 
-     First, we should know about tail call before talking about "Proper Tail Call". A tail call is a subroutine or function call performed as the final action of a calling function. Whereas **Proper tail call(PTC)** is a technique where the program or code will not create additional stack frames for a recursion when the function call is a tail call.
+     首先，在谈论“正确的尾调用”之前，我们应该了解尾调用。尾调用是作为调用函数的最终操作执行的子例程或函数调用。而**正确的尾调用（PTC）**是一种技术，当函数调用是尾调用时，程序或代码不会为递归创建额外的堆栈帧。
 
-     For example, the below classic or head recursion of factorial function relies on stack for each step. Each step need to be processed upto `n * factorial(n - 1)`
+     例如，下面的阶乘函数的经典或头递归依赖于每个步骤的堆栈。每一步都需要处理到`n * factorial(n - 1)`
 
      ```javascript
      function factorial(n) {
@@ -7260,7 +7263,7 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(factorial(5)); //120
      ```
 
-     But if you use Tail recursion functions, they keep passing all the necessary data it needs down the recursion without relying on the stack.
+     但是，如果您使用尾递归函数，它们会不断将所需的所有必要数据传递到递归中，而不依赖于堆栈
 
      ```javascript
      function factorial(n, acc = 1) {
@@ -7272,13 +7275,13 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(factorial(5)); //120
      ```
 
-     The above pattern returns the same output as the first one. But the accumulator keeps track of total as an argument without using stack memory on recursive calls.
+     上述模式返回与第一个模式相同的输出。但是累加器会跟踪总数作为参数，而不在递归调用中使用堆栈内存
 
      **[⬆ Back to Top](#table-of-contents)**
 
 412. ### How do you check an object is a promise or not
 
-     If you don't know if a value is a promise or not, wrapping the value as `Promise.resolve(value)` which returns a promise
+     如果你不知道一个值是否是一个promise，将这个值包装为`Promise.resolve(value)`，它会返回一个promise
 
      ```javascript
      function isPromise(object) {
@@ -7298,7 +7301,7 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(isPromise(promise)); // true
      ```
 
-     Another way is to check for `.then()` handler type
+     另一个方法是检测`.then()`处理器的类型
 
      ```javascript
      function isPromise(value) {
@@ -7317,10 +7320,10 @@ You can download the PDF and Epub version of this repository from the latest run
 
 413. ### How to detect if a function is called as constructor
 
-     You can use `new.target` pseudo-property to detect whether a function was called as a constructor(using the new operator) or as a regular function call.
+     您可以使用 `new.target` 伪属性来检测函数是作为构造函数调用（使用 new 运算符）还是作为常规函数调用
 
-     1. If a constructor or function invoked using the new operator, new.target returns a reference to the constructor or function.
-     2. For function calls, new.target is undefined.
+     1. 如果使用new操作符调用了构造器或者函数，new.target 返回该构造器或函数的引用
+     2. 对于函数调用，new.target是undefined
 
      ```javascript
      function Myfunc() {
@@ -7340,25 +7343,25 @@ You can download the PDF and Epub version of this repository from the latest run
 
 414. ### What are the differences between arguments object and rest parameter
 
-     There are three main differences between arguments object and rest parameters
+     arguments对象和剩余参数的三个主要区别是
 
-     1. The arguments object is an array-like but not an array. Whereas the rest parameters are array instances.
-     2. The arguments object does not support methods such as sort, map, forEach, or pop. Whereas these methods can be used in rest parameters.
-     3. The rest parameters are only the ones that haven’t been given a separate name, while the arguments object contains all arguments passed to the function
+     1. arguments对象是类数组而非对象。而剩余参数是数组实例
+     2. arguments对象不支持如 sort, map, forEach, 或者 pop. 而这些方法在剩余参数上可用
+     3. 剩余参数只是那些没有被赋予单独名称的参数，而 arguments 对象包含传递给函数的所有参数
 
      **[⬆ Back to Top](#table-of-contents)**
 
 415. ### What are the differences between spread operator and rest parameter
 
-     Rest parameter collects all remaining elements into an array. Whereas Spread operator allows iterables( arrays / objects / strings ) to be expanded into single arguments/elements. i.e, Rest parameter is opposite to the spread operator.
+     剩余参数将所有剩余元素收集到一个数组中。而展开运算符允许将迭代（数组/对象/字符串）扩展为单个参数/元素。即，剩余参数与展开运算符相反
 
      **[⬆ Back to Top](#table-of-contents)**
 
 416. ### What are the different kinds of generators
 
-     There are five kinds of generators,
+     有五种生成器
 
-     1. **Generator function declaration:**
+     1. **生成器函数声明:**
 
         ```javascript
         function* myGenFunc() {
@@ -7369,7 +7372,7 @@ You can download the PDF and Epub version of this repository from the latest run
         const genObj = myGenFunc();
         ```
 
-     2. **Generator function expressions:**
+     2. **生成器函数表达式:**
 
         ```javascript
         const myGenFunc = function* () {
@@ -7380,7 +7383,7 @@ You can download the PDF and Epub version of this repository from the latest run
         const genObj = myGenFunc();
         ```
 
-     3. **Generator method definitions in object literals:**
+     3. **对象字面量中的生成器方法定义:**
 
         ```javascript
         const myObj = {
@@ -7393,7 +7396,7 @@ You can download the PDF and Epub version of this repository from the latest run
         const genObj = myObj.myGeneratorMethod();
         ```
 
-     4. **Generator method definitions in class:**
+     4. **类中的生成器方法定义:**
 
         ```javascript
         class MyClass {
@@ -7407,7 +7410,7 @@ You can download the PDF and Epub version of this repository from the latest run
         const genObj = myObject.myGeneratorMethod();
         ```
 
-     5. **Generator as a computed property:**
+     5. **作为计算属性的生成器:**
 
         ```javascript
         const SomeObj = {
@@ -7425,25 +7428,25 @@ You can download the PDF and Epub version of this repository from the latest run
 
 417. ### What are the built-in iterables
 
-     Below are the list of built-in iterables in javascript,
+     下边是javascript中内置的可迭代对象
 
-     1. Arrays and TypedArrays
-     2. Strings: Iterate over each character or Unicode code-points
-     3. Maps: iterate over its key-value pairs
-     4. Sets: iterates over their elements
-     5. arguments: An array-like special variable in functions
-     6. DOM collection such as NodeList
+     1. 数组和类型数组
+     2. Strings: 迭代每个字符或 Unicode 码点
+     3. Maps: 迭代它的键值对
+     4. Sets: 迭代它的元素
+     5. arguments: 函数中的类数组特殊变量
+     6. 像NodeList一样的DOM集合
 
      **[⬆ Back to Top](#table-of-contents)**
 
 418. ### What are the differences between for...of and for...in statements
 
-     Both for...in and for...of statements iterate over js data structures. The only difference is over what they iterate:
+     for...in 和 for...of 语句都迭代js数据结构。唯一区别是它们迭代的东西：:
 
-     1. for..in iterates over all enumerable property keys of an object
-     2. for..of iterates over the values of an iterable object.
+     1. for..in 迭代对象的所有可枚举属性
+     2. for..of 迭代可迭代对象的所有值
 
-     Let's explain this difference with an example,
+     让我们用一个例子来解释区别
 
      ```javascript
      let arr = ["a", "b", "c"];
@@ -7461,13 +7464,13 @@ You can download the PDF and Epub version of this repository from the latest run
      }
      ```
 
-     Since for..in loop iterates over the keys of the object, the first loop logs 0, 1, 2 and newProp while iterating over the array object. The for..of loop iterates over the values of a arr data structure and logs a, b, c in the console.
+     由于 for..in 循环遍历对象的键，因此第一个循环在遍历数组对象时记录 0、1、2 和 newProp。 for..of 循环遍历 arr 数据结构的值并在控制台中记录 a、b、c
 
      **[⬆ Back to Top](#table-of-contents)**
 
 419. ### How do you define instance and non-instance properties
 
-     The Instance properties must be defined inside of class methods. For example, name and age properties defined inside constructor as below,
+     实例属性必须在类方法内部定义。例如，下边name和age属性定义在构造函数内部
 
      ```javascript
      class Person {
@@ -7478,7 +7481,7 @@ You can download the PDF and Epub version of this repository from the latest run
      }
      ```
 
-     But Static(class) and prototype data properties must be defined outside of the ClassBody declaration. Let's assign the age value for Person class as below,
+     但是静态（类）和原型数据属性必须在类声明之外定义。让我们为 Person 类指定age值，如下所示
 
      ```javascript
      Person.staticAge = 30;
@@ -7489,10 +7492,11 @@ You can download the PDF and Epub version of this repository from the latest run
 
 420. ### What is the difference between isNaN and Number.isNaN?
 
-     1. **isNaN**: The global function `isNaN` converts the argument to a Number and returns true if the resulting value is NaN.
-     2. **Number.isNaN**: This method does not convert the argument. But it returns true when the type is a Number and value is NaN.
+     1. **isNaN**: 全局函数 `isNaN` 将参数转换为数字，如果结果值为 NaN，则返回 true
+     2. **Number.isNaN**: 此方法不转换参数。但当类型为数字且值为 NaN 时返回 true
 
      Let's see the difference with an example,
+     让我们用一个例子看下区别
 
      ```javascript
      isNaN(‘hello’);   // true
