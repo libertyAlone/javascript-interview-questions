@@ -462,22 +462,22 @@ You can download the PDF and Epub version of this repository from the latest run
 | 418 | [for...of 和 for...in 语句间的区别是什么](#what-are-the-differences-between-for...of-and-for...in-statements)                           |
 | 419 | [如何定义实例和非实例属性](#how-do-you-define-instance-and-non-instance-properties)                                                 |
 | 420 | [isNaN 和 Number.isNaN间的区别是什么?](#what-is-the-difference-between-isnan-and-number.isnan)                                                  |
-| 421 | [How to invoke an IIFE without any extra brackets?](#how-to-invoke-an-iife-without-any-extra-brackets)                                                            |
-| 422 | [Is that possible to use expressions in switch cases?](#is-that-possible-to-use-expressions-in-switch-cases)                                                      |
-| 423 | [What is the easiest way to ignore promise errors?](#what-is-the-easiest-way-to-ignore-promise-errors)                                                            |
-| 424 | [How do style the console output using CSS?](#how-do-style-the-console-output-using-css)                                                                          |
-| 425 | [What is nullish coalescing operator(??)?](<#what-is-nullish-coalescing-operator-(??)>)                                                                           |
-| 426 | [How do you group and nest console output?](#how-do-you-group-and-nest-console-output)                                                                            |
-| 427 | [What is the difference between dense and sparse arrays?](#what-is-the-difference-between-dense-and-sparse-arrays)                                                |
-| 428 | [What are the different ways to create sparse arrays?](#what-are-the-different-ways-to-create-sparse-arrays)                                                      |
-| 429 | [What is the difference between setTimeout, setImmediate and process.nextTick?](#what-is-the-difference-between-set-timeout-,-set-immediate-and-processnext-tick) |
-| 430 | [How do you reverse an array without modifying original array?](#how-do-you-reverse-an-array-without-modifying-original-array)                                    |
-| 431 | [How do you create custom HTML element?](#how-do-you-create-custom-html-element)                                                                                  |
-| 432 | [What is global execution context?](#what-is-global-execution-context)                                                                                            |
-| 433 | [What is function execution context?](#what-is-function-execution-context)                                                                                        |
-| 434 | [What is debouncing?](#what-is-debouncing)                                                                                                                        |
-| 435 | [What is throttling?](#what-is-throttling)                                                                                                                        |
-| 436 | [What is optional chaining?](#what-is-optional-chaining)                                                                                                          |
+| 421 | [不使用额外的括号如何调用IIFE?](#how-to-invoke-an-iife-without-any-extra-brackets)                                                            |
+| 422 | [在switch case中可以使用表达式吗?](#is-that-possible-to-use-expressions-in-switch-cases)                                                      |
+| 423 | [忽略promise错误最简单的方法是什么?](#what-is-the-easiest-way-to-ignore-promise-errors)                                                            |
+| 424 | [如何使用CSS给console输出添加样式?](#how-do-style-the-console-output-using-css)                                                                          |
+| 425 | [什么是空值合并运算符(??)?](<#what-is-nullish-coalescing-operator-(??)>)                                                                           |
+| 426 | [如何分组和嵌套console输出?](#how-do-you-group-and-nest-console-output)                                                                            |
+| 427 | [密接和稀疏数组的区别是什么?](#what-is-the-difference-between-dense-and-sparse-arrays)                                                |
+| 428 | [创建稀疏数组的不同方法都是什么?](#what-are-the-different-ways-to-create-sparse-arrays)                                                      |
+| 429 | [setTimeout, setImmediate 和 process.nextTick间的区别是什么?](#what-is-the-difference-between-set-timeout-,-set-immediate-and-processnext-tick) |
+| 430 | [不修改原始数组如何反转数组?](#how-do-you-reverse-an-array-without-modifying-original-array)                                    |
+| 431 | [如何创建自定义的HTML元素?](#how-do-you-create-custom-html-element)                                                                                  |
+| 432 | [全局执行上下文是什么?](#what-is-global-execution-context)                                                                                            |
+| 433 | [函数执行上下文是什么?](#what-is-function-execution-context)                                                                                        |
+| 434 | [什么是防抖?](#what-is-debouncing)                                                                                                                        |
+| 435 | [什么是节流?](#what-is-throttling)                                                                                                                        |
+| 436 | [什么是可选链?](#what-is-optional-chaining)                                                                                                          |
 
 1. ### What are the possible ways to create objects in JavaScript
 
@@ -7507,7 +7507,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 421. ### How to invoke an IIFE without any extra brackets?
 
-     Immediately Invoked Function Expressions(IIFE) requires a pair of parenthesis to wrap the function which contains set of statements.
+     立即执行函数表达式（IIFE）需要一对圆括号包裹含有一组语句集合的函数
 
      ```js
      (function (dt) {
@@ -7515,7 +7515,7 @@ You can download the PDF and Epub version of this repository from the latest run
      })(new Date());
      ```
 
-     Since both IIFE and void operator discard the result of an expression, you can avoid the extra brackets using `void operator` for IIFE as below,
+     由于IIFE和void操作符都会抛弃表达式的结果，您可以使用 IIFE 的 `void operator` 避免额外的括号，如下所示
 
      ```js
      void (function (dt) {
@@ -7527,7 +7527,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 422. ### Is that possible to use expressions in switch cases?
 
-     You might have seen expressions used in switch condition but it is also possible to use for switch cases by assigning true value for the switch condition. Let's see the weather condition based on temparature as an example,
+     您可能已经看到在 switch 条件中使用的表达式，但也可以通过为 switch 条件分配 true 值来使用 switch case。让我们以基于温度的天气状况为例
 
      ```js
      const weather = (function getWeather(temp) {
@@ -7548,7 +7548,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 423. ### What is the easiest way to ignore promise errors?
 
-     The easiest and safest way to ignore promise errors is void that error. This approach is ESLint friendly too.
+     忽略promise错误最简单和安全的方法就是void错误。这种方法也对ESLint友好
 
      ```js
      await promise.catch((e) => void e);
@@ -7558,13 +7558,13 @@ You can download the PDF and Epub version of this repository from the latest run
 
 424. ### How do style the console output using CSS?
 
-     You can add CSS styling to the console output using the CSS format content specifier %c. The console string message can be appended after the specifier and CSS style in another argument. Let's print the red the color text using console.log and CSS specifier as below,
+     您可以使用 CSS 格式化内容说明符 %c 将 CSS 样式添加到控制台输出。控制台字符串消息可以附加在另一个参数中的说明符和 CSS 样式之后。让我们使用 console.log 和 CSS 说明符将颜色文本打印成红色，如下所示
 
      ```js
      console.log("%cThis is a red text", "color:red");
      ```
 
-     It is also possible to add more styles for the content. For example, the font-size can be modified for the above text
+     也可以为内容添加更多样式。比如上面的文字可以修改font-size
 
      ```js
      console.log(
@@ -7577,7 +7577,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 425. ### What is nullish coalescing operator (??)?
 
-     It is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand. This can be contrasted with the logical OR (||) operator, which returns the right-hand side operand if the left operand is any falsy value, not only null or undefined.
+     是一个逻辑运算符，当其左侧操作数为null或undefined时返回其右侧操作数，否则返回其左侧操作数。这可以与逻辑 OR (||) 运算符进行对比，如果左侧操作数是任何假值，则返回右侧操作数，而不仅仅是 null 或 undefined
 
      ```js
      console.log(null ?? true); // true
@@ -7589,9 +7589,9 @@ You can download the PDF and Epub version of this repository from the latest run
 
 426. ### How do you group and nest console output?
 
-     The `console.group()` can be used to group related log messages to be able to easily read the logs and use console.groupEnd()to close the group. Along with this, you can also nest groups which allows to output message in hierarchical manner.
+     `console.group()` 可用于对相关日志消息进行分组，以便能够轻松读取日志并使用 console.groupEnd() 闭合分组。除此之外，您还可以嵌套组，允许以分层方式输出消息
 
-     For example, if you’re logging a user’s details:
+     例如，如果你记录用户的详情
 
      ```js
      console.group("User Details");
@@ -7613,9 +7613,9 @@ You can download the PDF and Epub version of this repository from the latest run
 
 427. ### What is the difference between dense and sparse arrays?
 
-     An array contains items at each index starting from first(0) to last(array.length - 1) is called as Dense array. Whereas if at least one item is missing at any index, the array is called as sparse.
+     从第一个(0) 到 最后一个(array.length - 1) 的每个索引处都包含项目的数组称为密集数组。若任何索引处至少缺少一项，则该数组称为稀疏数组
 
-     Let's see the below two kind of arrays,
+     让我们看看下边两种数组
 
      ```js
      const avengers = ["Ironman", "Hulk", "CaptainAmerica"];
@@ -7636,39 +7636,39 @@ You can download the PDF and Epub version of this repository from the latest run
 
 428. ### What are the different ways to create sparse arrays?
 
-     There are 4 different ways to create sparse arrays in JavaScript
+     在JavaScript中有4中不同方法创建稀疏数组
 
-     1. **Array literal:** Omit a value when using the array literal
+     1. **数组字面量:** 当使用数组字面量时忽略一个值
         ```js
         const justiceLeague = ["Superman", "Aquaman", , "Batman"];
         console.log(justiceLeague); // ['Superman', 'Aquaman', empty ,'Batman']
         ```
-     2. **Array() constructor:** Invoking Array(length) or new Array(length)
+     2. **Array()构造器:** 调用 Array(length) 或者 new Array(length)
         ```js
         const array = Array(3);
         console.log(array); // [empty, empty ,empty]
         ```
-     3. **Delete operator:** Using delete array[index] operator on the array
+     3. **delete操作符:** 对数组使用操作符 delete array[index]
         ```js
         const justiceLeague = ["Superman", "Aquaman", "Batman"];
         delete justiceLeague[1];
         console.log(justiceLeague); // ['Superman', empty, ,'Batman']
         ```
-     4. **Increase length property:** Increasing length property of an array
+     4. **增加length属性:** 增加数组的length属性值
         `js const justiceLeague = ['Superman', 'Aquaman', 'Batman']; justiceLeague.length = 5; console.log(justiceLeague); // ['Superman', 'Aquaman', 'Batman', empty, empty] `
         **[⬆ Back to Top](#table-of-contents)**
 
 429. ### What is the difference between setTimeout, setImmediate and process.nextTick?
 
-     1. **Set Timeout:** setTimeout() is to schedule execution of a one-time callback after delay milliseconds.
-     2. **Set Immediate:** The setImmediate function is used to execute a function right after the current event loop finishes.
-     3. **Process NextTick:** If process.nextTick() is called in a given phase, all the callbacks passed to process.nextTick() will be resolved before the event loop continues. This will block the event loop and create I/O Starvation if process.nextTick() is called recursively.
+     1. **SetTimeout:** setTimeout() 是在延迟毫秒后安排一次回调的执行
+     2. **SetImmediate:** setImmediate函数用来在当前事件循环结束后立马执行一个函数
+     3. **Process NextTick:** 如果在给定阶段调用 process.nextTick()，则传递给 process.nextTick() 的所有回调将在事件循环继续之前解决。如果 process.nextTick() 被递归调用，这将阻塞事件循环并创建 I/O 饥饿
 
      **[⬆ Back to Top](#table-of-contents)**
 
 430. ### How do you reverse an array without modifying original array?
 
-     The `reverse()` method reverses the order of the elements in an array but it mutates the original array. Let's take a simple example to demonistrate this case,
+     `reverse()` 方法反转数组中元素的顺序，但它会改变原始数组。我们举一个简单的例子来说明
 
      ```javascript
      const originalArray = [1, 2, 3, 4, 5];
@@ -7678,10 +7678,10 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(originalArray); // [ 5, 4, 3, 2, 1]
      ```
 
-     There are few solutions that won't mutate the original array. Let's take a look.
+     有几个不会修改原始数组的方案。让我们看下
 
-     1. **Using slice and reverse methods:**
-        In this case, just invoke the `slice()` method on the array to create a shallow copy followed by `reverse()` method call on the copy.
+     1. **使用 slice 和 reverse 方法:**
+        在这种情况下，只需在数组上调用 `slice()` 方法来创建一个浅拷贝，然后在该拷贝上调用 `reverse()` 方法
 
         ```javascript
         const originalArray = [1, 2, 3, 4, 5];
@@ -7691,8 +7691,8 @@ You can download the PDF and Epub version of this repository from the latest run
         console.log(newArray); // [ 5, 4, 3, 2, 1]
         ```
 
-     2. **Using spread and reverse methods:**
-        In this case, let's use the spread syntax (...) to create a copy of the array followed by `reverse()` method call on the copy.
+     2. **使用展开运算符和reverse方法:**
+        在这种情况下，让我们使用展开语法 (...) 创建数组的副本，然后在副本上调用 `reverse()` 方法
 
         ```javascript
         const originalArray = [1, 2, 3, 4, 5];
@@ -7702,8 +7702,8 @@ You can download the PDF and Epub version of this repository from the latest run
         console.log(newArray); // [ 5, 4, 3, 2, 1]
         ```
 
-     3. **Using reduce and spread methods:**
-        Here execute a reducer function on an array elements and append the accumulated array on right side using spread syntax
+     3. **使用 reduce方法 和 展开运算符:**
+        这里对数组元素执行reduce函数并使用展开展语法将累积的数组附加到右侧
 
         ```javascript
         const originalArray = [1, 2, 3, 4, 5];
@@ -7715,8 +7715,9 @@ You can download the PDF and Epub version of this repository from the latest run
         console.log(newArray); // [ 5, 4, 3, 2, 1]
         ```
 
-     4. **Using reduceRight and spread methods:**
-        Here execute a right reducer function(i.e. opposite direction of reduce method) on an array elements and append the accumulated array on left side using spread syntax
+     4. **使用 reduceRight 方法和展开运算符:**
+
+        这里对数组元素执行一个右侧reducer函数（即reduce方法的相反方向）并使用展开语法将累积的数组附加到左侧
 
         ```javascript
         const originalArray = [1, 2, 3, 4, 5];
@@ -7728,8 +7729,8 @@ You can download the PDF and Epub version of this repository from the latest run
         console.log(newArray); // [ 5, 4, 3, 2, 1]
         ```
 
-     5. **Using reduceRight and push methods:**
-        Here execute a right reducer function(i.e. opposite direction of reduce method) on an array elements and push the iterated value to the accumulator
+     5. **使用 reduceRight 和 push 方法:**
+        这里对数组元素执行一个右侧的reducer函数（即reduce方法的相反方向）并将迭代值push到accumulator
 
         ```javascript
         const originalArray = [1, 2, 3, 4, 5];
@@ -7746,11 +7747,11 @@ You can download the PDF and Epub version of this repository from the latest run
 
 431. ### How do you create custom HTML element?
 
-     The creation of custom HTML elements involves two main steps,
+     创建自定义HTML元素主要包括两步
 
-     1. **Define your custom HTML element:** First you need to define some custom class by extending HTMLElement class.
-        After that define your component properties (styles,text etc) using `connectedCallback` method.
-        **Note:** The browser exposes a function called `customElements.define` inorder to reuse the element.
+     1. **定义你的自定义HTML元素:** 首先，您需要通过扩展 HTMLElement 类来定义一些自定义类
+        之后使用 `connectedCallback` 方法定义您的组件属性（样式、文本等）
+        **注意:** 浏览器暴露了一个名为 `customElements.define` 的函数，以便重用元素
         ```javascript
         class CustomElement extends HTMLElement {
           connectedCallback() {
@@ -7759,7 +7760,7 @@ You can download the PDF and Epub version of this repository from the latest run
         }
         customElements.define("custom-element", CustomElement);
         ```
-     2. **Use custome element just like other HTML element:** Declare your custom element as a HTML tag.
+     2. **像其他HTML元素一样使用自定义的元素:** 像HTML标签一样生情你的自定义元素
 
      ```javascript
         <body>
@@ -7771,9 +7772,9 @@ You can download the PDF and Epub version of this repository from the latest run
 
 432. ### What is global execution context?
 
-     The global execution context is the default or first execution context that is created by the JavaScript engine before any code is executed(i.e, when the file first loads in the browser). All the global code that is not inside a function or object will be executed inside this global execution context. Since JS engine is single threaded there will be only one global environment and there will be only one global execution context.
+     全局执行上下文是 JavaScript 引擎在执行任何代码之前（即文件首次在浏览器中加载时）创建的默认或第一个执行上下文。所有不在函数或对象内的全局代码都将在这个全局执行上下文中执行。由于 JS 引擎是单线程的，所以只有一个全局环境，并且只有一个全局执行上下文
 
-     For example, the below code other than code inside any function or object is executed inside the global execution context.
+     例如，除了任何函数或对象中的代码之外的以下代码在全局执行上下文中执行
 
      ```javascript
      var x = 10;
@@ -7797,15 +7798,15 @@ You can download the PDF and Epub version of this repository from the latest run
 
 433. ### What is function execution context?
 
-     Whenever a function is invoked, the JavaScript engine creates a different type of Execution Context known as a Function Execution Context (FEC) within the Global Execution Context (GEC) to evaluate and execute the code within that function.
+     每当调用函数时，JavaScript 引擎都会在全局执行上下文 (GEC) 中创建一种不同类型的执行上下文，称为函数执行上下文 (FEC)，以执行该函数中的代码
 
      **[⬆ Back to Top](#table-of-contents)**
 
 434. ### What is debouncing?
 
-     Debouncing is a programming pattern that allows delaying execution of some piece of code until a specified time to avoid unnecessary _CPU cycles, API calls and improve performance_. The debounce function make sure that your code is only triggered once per user input. The common usecases are Search box suggestions, text-field auto-saves, and eliminating double-button clicks.
+     防抖是一种编程模式，它允许将某些代码的执行延迟到指定时间，以避免不必要的 _CPU 循环、API 调用和提高性能_ 。 debounce 函数确保您的代码仅在每个用户输入时触发一次。常见用例是搜索框建议、文本字段自动保存和消除双击
 
-     Let's say you want to show suggestions for a search query, but only after a visitor has finished typing it. So here you write a debounce function where the user keeps writing the characters with in 500ms then previous timer cleared out using `clearTimeout` and reschedule API call/DB query for a new time—300 ms in the future.
+     假设您想只在完成输入之后显示搜索查询的建议。因此，你在这里编写了一个防抖函数，其中用户在 500 毫秒内继续写入字符，然后使用 `clearTimeout` 清除前一个计时器，并在300毫秒后重新安排 API 调用/DB 查询
 
      ```js
      function debounce(func, timeout = 500) {
@@ -7823,7 +7824,7 @@ You can download the PDF and Epub version of this repository from the latest run
      const processChange = debounce(() => fetchResults());
      ```
 
-     The _debounce()_ function can be used on input, button and window events
+     _debounce()_ 函数可以被用在Input，button和window事件中
 
      **Input:**
 
@@ -7847,9 +7848,9 @@ You can download the PDF and Epub version of this repository from the latest run
 
 435. ### What is throttling?
 
-     Throttling is a technique used to limit the execution of an event handler function, even when this event triggers continuously due to user actions. The common use cases are browser resizing, window scrolling etc.
+     节流是一种用于限制事件处理函数执行的技术，即使该事件由于用户操作而连续触发也是如此。常见的用例是浏览器调整大小、窗口滚动等
 
-     The below example creates a throttle function to reduce the number of events for each pixel change and trigger scroll event for each 100ms except for the first event.
+     下面的示例创建一个节流函数，以减少每个微小更改的事件数量，并每 100 毫秒触发一次滚动事件，第一个事件除外
 
      ```js
      const throttle = (func, limit) => {
@@ -7871,9 +7872,9 @@ You can download the PDF and Epub version of this repository from the latest run
 
 436. ### What is optional chaining?
 
-     According to MDN official docs, the optional chaining operator (?.) permits reading the value of a property located deep within a chain of connected objects without having to expressly validate that each reference in the chain is valid.
+     根据 MDN 官方文档，可选的链式运算符 (?.) 允许读取位于连接对象链深处的属性的值，而无需明确验证链中的每个引用是否有效
 
-     The ?. operator is like the . chaining operator, except that instead of causing an error if a reference is nullish (null or undefined), the expression short-circuits with a return value of undefined. When used with function calls, it returns undefined if the given function does not exist.
+     ?.运算符就像 . 链式运算符，除了如果引用为空（null 或undefined）时不会导致错误，表达式会短路并返回undefined值。与函数调用一起使用时，如果给定函数不存在，则返回 undefined
 
      ```js
       const adventurer = {
