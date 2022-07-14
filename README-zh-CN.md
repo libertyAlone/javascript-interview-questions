@@ -7894,7 +7894,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 ### Coding Exercise
 
-#### 1. What is the output of below code
+#### 1. 下边代码的输出是什么
 
 ```javascript
 var car = new Vehicle("Honda", "white", "2010", "UK");
@@ -7913,12 +7913,12 @@ function Vehicle(model, color, year, country) {
 - 3: null
 - 4: {model: "Honda", color: "white", year: "2010", country: "UK"}
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>答案</b></summary>
 <p>
 
 ##### Answer: 4
 
-The function declarations are hoisted similar to any variables. So the placement for `Vehicle` function declaration doesn't make any difference.
+函数声明类似任何变量会被提升。所以`Vehicle`函数的位置声明没有什么区别
 
 </p>
 </details>
@@ -7945,12 +7945,12 @@ console.log(foo(), typeof x, typeof y);
 - 3: 1, undefined and number
 - 4: 1, number and number
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>答案</b></summary>
 <p>
 
 ##### Answer: 3
 
-Of course the return value of `foo()` is 1 due to the increment operator. But the statement `let x = y = 0` declares a local variable x. Whereas y declared as a global variable accidentally. This statement is equivalent to,
+由于自增运算符`foo()`显然会返回1。但是 `let x = y = 0`声明了局部变量x。而y偶然被声明为了全局变量。该语句等价于
 
 ```javascript
 let x;
@@ -7958,7 +7958,8 @@ window.y = 0;
 x = window.y;
 ```
 
-Since the block scoped variable x is undefined outside of the function, the type will be undefined too. Whereas the global variable `y` is available outside the function, the value is 0 and type is number.
+由于块作用域变量 x 在函数之外是undefined，因此类型也是undefined。而全局变量 `y` 在函数外可用，其值为 0，类型为数字
+
 
 </p>
 </details>
@@ -7985,21 +7986,21 @@ main();
 - 3: A and C
 - 4: A, C and B
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>答案</b></summary>
 <p>
 
 ##### Answer: 4
 
-The statements order is based on the event loop mechanism. The order of statements follows the below order,
+语句顺序基于事件循环机制。语句的顺序遵循以下顺序
 
-1. At first, the main function is pushed to the stack.
-2. Then the browser pushes the fist statement of the main function( i.e, A's console.log) to the stack, executing and popping out immediately.
-3. But `setTimeout` statement moved to Browser API to apply the delay for callback.
-4. In the meantime, C's console.log added to stack, executed and popped out.
-5. The callback of `setTimeout` moved from Browser API to message queue.
-6. The `main` function popped out from stack because there are no statements to execute
-7. The callback moved from message queue to the stack since the stack is empty.
-8. The console.log for B is added to the stack and display on the console.
+1. 首先，main函数被压入栈中
+2. 然后浏览器将main函数的第一个语句（即 A的console.log）压入栈中，执行并立即出栈
+3. 但是 `setTimeout` 语句移至浏览器 API 以应用回调延迟
+4. 同时，C的console.log加入栈中，执行并出栈
+5. `setTimeout`回调从浏览器API进入了消息队列
+6. `main`出栈因为没有语句可执行
+7. 由于栈是空的，回调从消息队列进入到了栈中
+8. B的console.log入栈并在控制台展示
 
 </p>
 </details>
@@ -8017,13 +8018,13 @@ console.log(0.1 + 0.2 === 0.3);
 - 1: false
 - 2: true
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>答案</b></summary>
 <p>
 
 ##### Answer: 1
 
-This is due to the float point math problem. Since the floating point numbers are encoded in binary format, the addition operations on them lead to rounding errors. Hence, the comparison of floating points doesn't give expected results.
-You can find more details about the explanation here [0.30000000000000004.com/](https://0.30000000000000004.com/)
+这是由于浮点数学问题。由于浮点数以二进制格式编码，因此对它们的加法运算会导致取舍错误。因此，浮点数的比较不会给出预期的结果
+可以在这找到更多的详情 [0.30000000000000004.com/](https://0.30000000000000004.com/)
 
 </p>
 </details>
@@ -8047,17 +8048,17 @@ console.log(y);
 - 3: ReferenceError
 - 4: 1undefined
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>答案</b></summary>
 <p>
 
-##### Answer: 4
+##### Answer: 4（不同浏览器表现不一样，有的是1object）
 
-The main points in the above code snippets are,
+上述代码片段的主要点在于
 
-1. You can see function expression instead function declaration inside if statement. So it always returns true.
-2. Since it is not declared(or assigned) anywhere, f is undefined and typeof f is undefined too.
+1. 你可以在 if 语句中看到函数表达式而不是函数声明。所以总会返回true
+2. 由于未声明(或赋值) , f 是 undefined typeof f 也是undefined.（译注：不同浏览器表现不一致）
 
-In other words, it is same as
+换句话说，它和下边一样
 
 ```javascript
 var y = 1;
@@ -8067,7 +8068,7 @@ if ("foo") {
 console.log(y);
 ```
 
-**Note:** It returns 1object for MS Edge browser
+**注意:** Edge浏览器会返回1object（译注：safari也一样）
 
 </p>
 </details>
@@ -8093,14 +8094,14 @@ console.log(foo());
 - 3: Undefined
 - 4: SyntaxError
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>答案</b></summary>
 <p>
 
 ##### Answer: 3
 
-This is a semicolon issue. Normally semicolons are optional in JavaScript. So if there are any statements(in this case, return) missing semicolon, it is automatically inserted immediately. Hence, the function returned as undefined.
+这是一个分号问题。通常分号在JavaScript中是可选的。如果有任何语句（此例中是return）缺少分号，会自动在后边插入。因此，函数返回undefined
 
-Whereas if the opening curly brace is along with the return keyword then the function is going to be returned as expected.
+而如果左花括号与 return 关键字一起，则函数将按预期返回
 
 ```javascript
 function foo() {
@@ -8138,8 +8139,8 @@ console.log(myChars.length);
 
 ##### Answer: 3
 
-The `delete` operator will delete the object property but it will not reindex the array or change its length. So the number or elements or length of the array won't be changed.
-If you try to print myChars then you can observe that it doesn't set an undefined value, rather the property is removed from the array. The newer versions of Chrome use `empty` instead of `undefined` to make the difference a bit clearer.
+`delete` 运算符将删除对象属性，但不会重新索引数组或更改其长度。所以数组的数量或元素或长度不会改变
+如果你尝试打印 myChars 那么可以观察到它没有设置undefined，而是从数组中删除了该属性。较新版本的 Chrome 使用 `empty` 而不是 `undefined` 以使区别更加清晰
 
 </p>
 </details>
@@ -8172,8 +8173,8 @@ console.log(array3);
 
 ##### Answer: 2
 
-The latest chrome versions display `sparse array`(they are filled with holes) using this empty x n notation. Whereas the older versions have undefined x n notation.
-**Note:** The latest version of FF displays `n empty slots` notation.
+最新的 chrome 版本使用 empty x n 表示法显示“稀疏数组”（它们充满了空洞）。而旧版本是 undefined x n 表示
+**注意:** 最新版本的FF展示成 `n empty slots`.
 
 </p>
 </details>
@@ -8212,7 +8213,7 @@ console.log(obj.prop3());
 
 ##### Answer: 1
 
-ES6 provides method definitions and property shorthands for objects. So both prop2 and prop3 are treated as regular function values.
+ES6为对象提供了函数定义和属性的简写。所以prop2和prop3被当作一般的函数值
 
 </p>
 </details>
@@ -8238,15 +8239,15 @@ console.log(3 > 2 > 1);
 
 ##### Answer: 2
 
-The important point is that if the statement contains the same operators(e.g, < or >) then it can be evaluated from left to right.
-The first statement follows the below order,
+关键点是如果语句包含襄公的运算符（如<或者>），则会被从左到右计算
+第一个语句遵循下边的顺序
 
 1. console.log(1 < 2 < 3);
 2. console.log(true < 3);
 3. console.log(1 < 3); // True converted as `1` during comparison
 4. True
 
-Whereas the second statement follows the below order,
+而第二个语句遵守下边的顺序
 
 1. console.log(3 > 2 > 1);
 2. console.log(true > 1);
@@ -8279,10 +8280,11 @@ printNumbers(1, 2, 3);
 
 ##### Answer: 2
 
-In non-strict mode, the regular JavaScript functions allow duplicate named parameters. The above code snippet has duplicate parameters on 1st and 3rd parameters.
-The value of the first parameter is mapped to the third argument which is passed to the function. Hence, the 3rd argument overrides the first parameter.
+非严格模式下，一般的JavaScript函数允许重名参数。上边的代码片段第一个和第三个形参重名。
+第一个参数的值映射到传递给函数的第三个参数。因此，第三个实参覆盖了第一个参数。
 
-**Note:** In strict mode, duplicate parameters will throw a Syntax Error.
+
+**注意:** 严格模式中，重名参数会抛出语法错误
 
 </p>
 </details>
@@ -8310,7 +8312,7 @@ printNumbersArrow(1, 2, 3);
 
 ##### Answer: 3
 
-Unlike regular functions, the arrow functions doesn't not allow duplicate parameters in either strict or non-strict mode. So you can see `SyntaxError` in the console.
+不像一般的函数，箭头函数无论在严格或者非严格模式下都不允许重名参数。所以你可以在控制台中看到`SyntaxError`
 
 </p>
 </details>
@@ -8336,9 +8338,9 @@ console.log(arrowFunc(1, 2, 3));
 
 ##### Answer: 1
 
-Arrow functions do not have an `arguments, super, this, or new.target` bindings. So any reference to `arguments` variable tries to resolve to a binding in a lexically enclosing environment. In this case, the arguments variable is not defined outside of the arrow function. Hence, you will receive a reference error.
+箭头函数没有 `arguments, super, this, or new.target` 绑定。因此，对 `arguments` 变量的任何引用都会尝试解析为词法封闭环境中的绑定。在这个用例中，arguments变量没有在箭头函数外定义。因此，会收到引用错误
 
-Where as the normal function provides the number of arguments passed to the function
+而普通函数提供了传给函数的实参的数量
 
 ```javascript
 const func = function () {
@@ -8347,7 +8349,7 @@ const func = function () {
 console.log(func(1, 2, 3));
 ```
 
-But If you still want to use an arrow function then rest operator on arguments provides the expected arguments
+但是如果你还是想使用箭头函数，实参的剩余运算符会提供预期的arguments
 
 ```javascript
 const arrowFunc = (...args) => args.length;
@@ -8376,7 +8378,7 @@ console.log(String.prototype.trimLeft.name === "trimStart");
 
 ##### Answer: 2
 
-In order to be consistent with functions like `String.prototype.padStart`, the standard method name for trimming the whitespaces is considered as `trimStart`. Due to web web compatibility reasons, the old method name 'trimLeft' still acts as an alias for 'trimStart'. Hence, the prototype for 'trimLeft' is always 'trimStart'
+为了和像`String.prototype.padStart`函数保持一直，移除空格的标准方法名被考虑为 `trimStart`。由于web兼容性原因，旧方法名称“trimLeft”仍然充当“trimStart”的别名。因此，'trimLeft'的原型一直是'trimStart'
 
 </p>
 </details>
@@ -8401,8 +8403,8 @@ console.log(Math.max());
 
 ##### Answer: 4
 
--Infinity is the initial comparant because almost every other value is bigger. So when no arguments are provided, -Infinity is going to be returned.
-**Note:** Zero number of arguments is a valid case.
+-Infinity 是初始化的比较值，因为几乎所有其他值都更大。因此，当没有提供参数时，将返回 -Infinity
+**注意:** 0个实参是合法用例
 
 </p>
 </details>
@@ -8428,14 +8430,13 @@ console.log(10 == [[[[[[[10]]]]]]]);
 
 ##### Answer: 1
 
-As per the comparison algorithm in the ECMAScript specification(ECMA-262), the above expression converted into JS as below
+根据 ECMAScript 规范（ECMA-262）中的比较算法，上面的表达式转换为 JS 如下
 
 ```javascript
 10 === Number([10].valueOf().toString()); // 10
 ```
 
-So it doesn't matter about number brackets([]) around the number, it is always converted to a number in the expression.
-
+所以不管数字周围有多少括号（[]），总是会转换表达式为数字
 </p>
 </details>
 
@@ -8460,7 +8461,7 @@ console.log(10 - "10");
 
 ##### Answer: 2
 
-The concatenation operator(+) is applicable for both number and string types. So if any operand is string type then both operands concatenated as strings. Whereas subtract(-) operator tries to convert the operands as number type.
+连接运算符 (+) 适用于数字和字符串类型。因此，如果任何操作数是字符串类型，则两个操作数都连接为字符串。而减法（-）运算符尝试将操作数转换为数字类型
 
 </p>
 </details>
@@ -8490,7 +8491,7 @@ if ([0]) {
 
 ##### Answer: 1
 
-In comparison operators, the expression `[0]` converted to Number([0].valueOf().toString()) which is resolved to false. Whereas `[0]` just becomes a truthy value without any conversion because there is no comparison operator.
+在比较运算符中，表达式 `[0]` 转换为 Number([0].valueOf().toString()) 解析为 false。而 `[0]` 只是变成了一个没有任何转换的真值，因为没有比较运算符
 
 </p>
 </details>
@@ -8511,7 +8512,7 @@ console.log([1, 2] + [3, 4]);
 
 ##### Answer: 4
 
-The + operator is not meant or defined for arrays. So it converts arrays into strings and concatenates them.
++ 运算符不是为数组定义的。所以它将数组转换为字符串并将它们连接起来
 
 </p>
 </details>
@@ -8540,7 +8541,7 @@ console.log(browser);
 
 ##### Answer: 1
 
-Since `Set` object is a collection of unique values, it won't allow duplicate values in the collection. At the same time, it is case sensitive data structure.
+由于 `Set` 对象是不重复值的集合，不允许集合中存在重复值。同时，也是大小写敏感的数据结构
 
 </p>
 </details>
@@ -8563,7 +8564,7 @@ console.log(NaN === NaN);
 
 ##### Answer: 2
 
-JavaScript follows IEEE 754 spec standards. As per this spec, NaNs are never equal for floating-point numbers.
+JavaScript 遵循 IEEE 754 规范标准. 根据本规范，浮点数与 NaN 永远不会相等
 
 </p>
 </details>
@@ -8589,8 +8590,8 @@ console.log(numbers.indexOf(NaN));
 
 ##### Answer: 4
 
-The `indexOf` uses strict equality operator(===) internally and `NaN === NaN` evaluates to false. Since indexOf won't be able to find NaN inside an array, it returns -1 always.
-But you can use `Array.prototype.findIndex` method to find out the index of NaN in an array or You can use `Array.prototype.includes` to check if NaN is present in an array or not.
+`indexOf` 在内部使用严格相等运算符 (===) 并且 `NaN === NaN` 为 false。由于 indexOf 无法在数组中找到 NaN，因此它总是返回 -1
+但是可以使用 `Array.prototype.findIndex` 方法来找出 NaN 在数组中的索引，或者可以使用 `Array.prototype.includes` 来检查 NaN 是否存在于数组中
 
 ```javascript
 let numbers = [1, 2, 3, 4, NaN];
@@ -8623,8 +8624,8 @@ console.log(a, b);
 
 ##### Answer: 3
 
-When using rest parameters, trailing commas are not allowed and will throw a SyntaxError.
-If you remove the trailing comma then it displays 1st answer
+当使用剩余参数时，尾逗号是不允许的并会抛出语法错误
+如果移除尾逗号则会像第一个答案那样显示
 
 ```javascript
 let [a, ...b] = [1, 2, 3, 4, 5];
@@ -8657,7 +8658,7 @@ console.log(func());
 
 ##### Answer: 1
 
-Async functions always return a promise. But even if the return value of an async function is not explicitly a promise, it will be implicitly wrapped in a promise. The above async function is equivalent to below expression,
+async函数总是返回一个promise。但即使async函数的返回值不是显式的 Promise，它也会被隐式地包装在 promise 中。上面的 async 函数等价于下面的表达式
 
 ```javascript
 function func() {
@@ -8691,7 +8692,7 @@ console.log(func());
 
 ##### Answer: 4
 
-The await expression returns value 10 with promise resolution and the code after each await expression can be treated as existing in a `.then` callback. In this case, there is no return expression at the end of the function. Hence, the default return value of `undefined` is returned as the resolution of the promise. The above async function is equivalent to below expression,
+await 表达式返回值 10 并带有 promise 解析，并且每个 await 表达式之后的代码可以被视为存在于 `.then` 回调中。在这种情况下，函数末尾没有返回表达式。因此，`undefined` 的默认返回值作为 promise 的解析返回。上面的 async 函数等价于下面的表达式
 
 ```javascript
 function func() {
@@ -8737,7 +8738,7 @@ processArray([1, 2, 3, 4]);
 
 ##### Answer: 1
 
-Even though “processArray” is an async function, the anonymous function that we use for `forEach` is synchronous. If you use await inside a synchronous function then it throws a syntax error.
+即使“processArray”是async函数，我们在 `forEach` 使用的匿名函数也是同步的。如果在同步函数内使用await会抛出语法错误
 
 </p>
 
@@ -8778,9 +8779,9 @@ process([1, 2, 3, 5]);
 
 ##### Answer: 4
 
-The forEach method will not wait until all items are finished but it just runs the tasks and goes next. Hence, the last statement is displayed first followed by a sequence of promise resolutions.
+forEach 方法不会等到所有项目都完成后，它只是运行任务并继续下一步。因此，最后一条语句首先显示，然后是一系列promise解析结果
 
-But you control the array sequence using for..of loop,
+但是你可以使用for...of循环控制数组
 
 ```javascript
 async function processArray(array) {
@@ -8816,10 +8817,10 @@ console.log(set);
 
 ##### Answer: 1
 
-Set has few exceptions from equality check,
+Set 几乎没有相等性检查的例外情况
 
-1. All NaN values are equal
-2. Both +0 and -0 considered as different values
+1. 所有的 NaN 值都相等
+2. +0 和 -0 被视作不同的值
 
 </p>
 </details>
@@ -8850,12 +8851,12 @@ cnsooe.log(sym1 === sym2, sym3 === sym4);
 
 ##### Answer: 3
 
-Symbol follows below conventions,
+Symbol遵循以下约定
 
-1. Every symbol value returned from Symbol() is unique irrespective of the optional string.
-2. `Symbol.for()` function creates a symbol in a global symbol registry list. But it doesn't necessarily create a new symbol on every call, it checks first if a symbol with the given key is already present in the registry and returns the symbol if it is found. Otherwise a new symbol created in the registry.
+1. 返回的每个symbol值都是唯一的，与可选字符串无关
+2. `Symbol.for()` 函数在全局符号注册表列表中创建一个符号。但它不一定在每次调用时都创建一个新符号，它首先检查具有给定键的符号是否已存在于注册表中，如果找到则返回该符号。否则在注册表中创建一个新符号
 
-**Note:** The symbol description is just useful for debugging purposes.
+**注意:** 符号描述对于调试很有用
 
 </p>
 
@@ -8882,7 +8883,7 @@ console.log(sym1);
 
 ##### Answer: 1
 
-`Symbol` is a just a standard function and not an object constructor(unlike other primitives new Boolean, new String and new Number). So if you try to call it with the new operator will result in a TypeError
+`Symbol`只是一个标准函数而不是一个对象构造器（不像其他原语 new Boolean, new String 和 new Number。所以若尝试用new操作符调用它会导致TyoeError
 
 </p>
 
@@ -8921,7 +8922,7 @@ if (!typeof myString === "number") {
 
 ##### Answer: 4
 
-The return value of `typeof myNumber (OR) typeof myString` is always the truthy value (either "number" or "string"). Since ! operator converts the value to a boolean value, the value of both `!typeof myNumber or !typeof myString` is always false. Hence the if condition fails and control goes to else block.
+`typeof myNumber (或) typeof myString`的返回值总是真值("number" 或者 "string"). 由于 ! 操作符将值转换成boolean值,  `!typeof myNumber 或 !typeof myString`的值总是 false.因此if条件会失败条件控制进入else块中
 
 </p>
 
@@ -8952,10 +8953,10 @@ console.log(
 
 ##### Answer: 2
 
-The symbols has below constraints,
+symbol有以下约束
 
-1. The undefined, Functions, and Symbols are not valid JSON values. So those values are either omitted (in an object) or changed to null (in an array). Hence, it returns null values for the value array.
-2. All Symbol-keyed properties will be completely ignored. Hence it returns an empty object({}).
+1. undefined, Functions, 和 Symbols不是合法JSON值。所以那些值要么被忽略（在对象中）要么被修改成null（在数组中）。因此，数组的值会返回null
+2. 所有的symbol的键属性都会被完全忽略。因此返回空对象（{}）
 
 </p>
 
@@ -8992,7 +8993,7 @@ new B();
 
 ##### Answer: 2
 
-Using constructors, `new.target` refers to the constructor (points to the class definition of class which is initialized) that was directly invoked by new. This also applies to the case if the constructor is in a parent class and was delegated from a child constructor.
+使用构造函数，`new.target` 指的是由 new 直接调用的构造函数（指向被初始化的类的类定义）。这也适用于构造函数在父类中并且是从子构造函数委托的情况
 
 </p>
 
@@ -9005,7 +9006,7 @@ Using constructors, `new.target` refers to the constructor (points to the class 
 #### 35. What is the output of below code
 
 ```javascript
-const [x, ...y] = [1, 2, 3, 4];
+const [x, ...y,] = [1, 2, 3, 4];
 console.log(x, y);
 ```
 
@@ -9019,7 +9020,7 @@ console.log(x, y);
 
 ##### Answer: 4
 
-It throws a syntax error because the rest element should not have a trailing comma. You should always consider using a rest operator as the last element.
+抛出语法错误因为剩余元素不应该有尾逗号。总是应该考虑对最后的元素使用剩余运算符
 
 </p>
 
@@ -9048,10 +9049,10 @@ console.log(y);
 
 ##### Answer: 1
 
-The object property follows below rules,
+对象属性遵循以下规则
 
-1. The object properties can be retrieved and assigned to a variable with a different name
-2. The property assigned a default value when the retrieved value is `undefined`
+1. 可以检索对象属性并将其分配给具有不同名称的变量
+2. 当获得的值是`undefined`时属性赋予一个默认值
 
 </p>
 
@@ -9081,11 +9082,11 @@ area();
 
 ##### Answer: 2
 
-If you leave out the right-hand side assignment for the destructuring object, the function will look for at least one argument to be supplied when invoked. Otherwise you will receive an error `Error: Cannot read property 'length' of undefined` as mentioned above.
+如果省略解构对象的右侧赋值，则该函数将在调用时寻找至少提供一个实参。否则将收到错误`Error: Cannot read property 'length' of undefined`，如上所述
 
-You can avoid the error with either of the below changes,
+你可以改成下边这样来避免错误
 
-1. **Pass at least an empty object:**
+1. **至少传入一个空对象:**
 
 ```javascript
 function area({ length = 10, width = 20 }) {
@@ -9095,7 +9096,7 @@ function area({ length = 10, width = 20 }) {
 area({});
 ```
 
-2. **Assign default empty object:**
+2. **赋予默认空对象:**
 
 ```javascript
 function area({ length = 10, width = 20 } = {}) {
@@ -9136,7 +9137,7 @@ console.log(name);
 
 ##### Answer: 1
 
-It is possible to combine Array and Object destructuring. In this case, the third element in the array props accessed first followed by name property in the object.
+可以将数组和对象解构结合起来。在这种情况下，首先访问数组 props 中的第三个元素，然后是对象中的 name 属性
 
 </p>
 
@@ -9169,12 +9170,13 @@ checkType(null);
 
 ##### Answer: 3
 
-If the function argument is set implicitly(not passing argument) or explicitly to undefined, the value of the argument is the default parameter. Whereas for other falsy values('' or null), the value of the argument is passed as a parameter.
+如果函数参数被隐式设置（不传递参数）或显式设置为undefined，则参数的值是默认参数。而对于其他虚假值（'' 或 null），实参的值会作为形参传递
 
-Hence, the result of function calls categorized as below,
+因此，函数调用的结果分类如下
 
-1. The first two function calls logs number type since the type of default value is number
-2. The type of '' and null values are string and object type respectively.
+
+1. 前两个函数打印了日志数字类型，因为默认值的类型是数字
+2. '' 和 null 的值类型分别是字符串和对象
 
 </p>
 
@@ -9204,7 +9206,7 @@ console.log(add("Apple"));
 
 ##### Answer: 2
 
-Since the default argument is evaluated at call time, a new object is created each time the function is called. So in this case, the new array is created and an element pushed to the default empty array.
+由于在调用时计算默认参数，因此每次调用函数时都会创建一个新对象。所以在这种情况下，新数组被创建并且一个元素被push到默认的空数组
 
 </p>
 
@@ -9233,7 +9235,7 @@ greet("Hello", "John", "Good morning!");
 
 ##### Answer: 2
 
-Since parameters defined earlier are available to later default parameters, this code snippet doesn't throw any error.
+由于先定义的形参在后边的默认参数中也可以访问，这个代码片段不会抛出任何错误
 
 </p>
 
@@ -9262,7 +9264,7 @@ outer();
 
 ##### Answer: 1
 
-The functions and variables declared in the function body cannot be referred from default value parameter initializers. If you still try to access, it throws a run-time ReferenceError(i.e, `inner` is not defined).
+在函数体内声明的函数和变量不能被形参默认值初始化引用。如果仍尝试访问，则会抛出一个运行时的引用错误（即 `inner` 未被定义）
 
 </p>
 
@@ -9293,7 +9295,7 @@ myFun(1, 2);
 
 ##### Answer: 3
 
-The rest parameter is used to hold the remaining parameters of a function and it becomes an empty array if the argument is not provided.
+、剩余参数用于承载函数的剩余参数，若实参未提供则会成为空数组。
 
 </p>
 
@@ -9321,7 +9323,7 @@ console.log(array);
 
 ##### Answer: 2
 
-Spread syntax can be applied only to iterable objects. By default, Objects are not iterable, but they become iterable when used in an Array, or with iterating functions such as `map(), reduce(), and assign()`. If you still try to do it, it still throws `TypeError: obj is not iterable`.
+扩展语法只能应用于可迭代对象。默认情况下，对象是不可迭代的，但当它们在数组中使用时，或者与诸如`map()、reduce() 和assign()` 之类的迭代函数一起使用时，它们变得可迭代。如果你仍然尝试这样做，它仍然会抛出 `TypeError: obj is not iterable`
 
 </p>
 
@@ -9353,7 +9355,7 @@ console.log(myGenObj.next().value);
 
 ##### Answer: 4
 
-Generators are not constructible type. But if you still proceed to do, there will be an error saying "TypeError: myGenFunc is not a constructor"
+生成器不是可以构造的类型。但是如果你继续这么做，会抛出一个错误 "TypeError: myGenFunc is not a constructor"
 
 </p>
 
@@ -9388,7 +9390,7 @@ console.log(myGenObj.next());
 
 ##### Answer: 1
 
-A return statement in a generator function will make the generator finish. If a value is returned, it will be set as the value property of the object and done property to true. When a generator is finished, subsequent next() calls return an object of this form: `{value: undefined, done: true}`.
+生成器函数中的 return 语句将使生成器结束。如果返回一个值，它将被设置为对象的 value 属性，并且 done 属性为 true。当一个生成器结束后，后续的 next() 调用会返回一个这种格式的对象：`{value: undefined, done: true}`
 
 </p>
 
@@ -9426,7 +9428,7 @@ for (const value of myGenerator) {
 
 ##### Answer: 4
 
-The generator should not be re-used once the iterator is closed. i.e, Upon exiting a loop(on completion or using break & return), the generator is closed and trying to iterate over it again does not yield any more results. Hence, the second loop doesn't print any value.
+一旦迭代器结束生成器不应该被重复使用。也就是说，上边的循环（结束或者使用break & return），生成器被关闭尝试再次迭代并不会在产生更多的结果。因此，第二个循环不会打印任何值
 
 </p>
 
@@ -9451,7 +9453,7 @@ console.log(num);
 
 ##### Answer: 1
 
-If you use an invalid number(outside of 0-7 range) in the octal literal, JavaScript will throw a SyntaxError. In ES5, it treats the octal literal as a decimal number.
+如果在八进制字面量中使用了一个非法数字（在0-7之外），JavaScript会抛出语法错误。在ES5中，会将八进制字面量当作十进制
 
 </p>
 
@@ -9490,9 +9492,9 @@ class Square {
 
 ##### Answer: 2
 
-Unlike function declarations, class declarations are not hoisted. i.e, First You need to declare your class and then access it, otherwise it will throw a ReferenceError "Uncaught ReferenceError: Square is not defined".
+不像函数声明，类声明并不会被提升。也就是说，首先需要声明类然后才能访问，否则会抛出引用错误 "Uncaught ReferenceError: Square is not defined"
 
-**Note:** Class expressions also applies to the same hoisting restrictions of class declarations.
+**注意:** 类表达式和类声明有相同的提升限制
 
 </p>
 
@@ -9533,7 +9535,7 @@ console.log(run());
 
 ##### Answer: 4
 
-When a regular or prototype method is called without a value for **this**, the methods return an initial this value if the value is not undefined. Otherwise global window object will be returned. In our case, the initial `this` value is undefined so both methods return window objects.
+当调用一个没有 **this** 值的常规或原型方法时，如果该值不是undefined，则这些方法将返回一个初始 this 值。否则将返回全局window对象。在我们的例子中，初始的 `this` 值是未定义的，所以两个方法都返回window对象
 
 </p>
 
@@ -9577,7 +9579,7 @@ console.log(car.start());
 
 ##### Answer: 3
 
-The super keyword is used to call methods of a superclass. Unlike other languages the super invocation doesn't need to be a first statement. i.e, The statements will be executed in the same order of code.
+super关键字用于调用父类的方法。不像其他语言super调用不需要时第一个语句。也就是说，语句会按代码相同顺序执行
 
 </p>
 
@@ -9605,7 +9607,7 @@ console.log(USER.age);
 
 ##### Answer: 2
 
-Even though we used constant variables, the content of it is an object and the object's contents (e.g properties) can be altered. Hence, the change is going to be valid in this case.
+即使我们使用了常量，内容是对象，对象的内容（即属性）也可以被修改。因此，这个用例中修改也是合法的
 
 </p>
 
@@ -9629,7 +9631,7 @@ console.log("🙂" === "🙂");
 
 ##### Answer: 2
 
-Emojis are unicodes and the unicode for smile symbol is "U+1F642". The unicode comparision of same emojies is equivalent to string comparison. Hence, the output is always true.
+Emoji是unicode，且微小符号的unicode是 "U+1F642"。相同emoji的unicode比较和字符串比较一样。因此，输出总是true
 
 </p>
 
@@ -9655,7 +9657,7 @@ console.log(typeof typeof typeof true);
 
 ##### Answer: 1
 
-The typeof operator on any primitive returns a string value. So even if you apply the chain of typeof operators on the return value, it is always string.
+任何原始值的typeof操作符都会返回字符串值。所以即使你对返回值应用typeof操作符链，也总是返回字符串
 
 </p>
 
@@ -9687,10 +9689,10 @@ if (zero) {
 
 ##### Answer: 1
 
-1. The type of operator on new Number always returns object. i.e, typeof new Number(0) --> object.
-2. Objects are always truthy in if block
+1. new Number操作返回的类型总是对象。即new Number(0) --> object
+2. if块中的对象总是真值
 
-Hence the above code block always goes to if section.
+因此上边的代码块总是会进入if部分
 
 </p>
 
@@ -9720,7 +9722,7 @@ console.log(msg.name);
 
 ##### Answer: 4
 
-It returns undefined for non-strict mode and returns Error for strict mode. In non-strict mode, the wrapper object is going to be created and get the mentioned property. But the object get disappeared after accessing the property in next line.
+非严格模式下返回undefined，严格模式下返回错误。在非严格模式下，将创建包装器对象并获取提到的属性。但是在访问下一行的属性后对象会消失
 
 </p>
 
@@ -9754,10 +9756,10 @@ let count = 10;
 
 ##### Answer: 1
 
-11 and 10 is logged to the console.
+11 和 10 被打印到控制台.
 
-The innerFunc is a closure which captures the count variable from the outerscope. i.e, 10. But the conditional has another local variable `count` which overwrites the ourter `count` variable. So the first console.log displays value 11.
-Whereas the second console.log logs 10 by capturing the count variable from outerscope.
+innerFunc 是一个闭包，它从外部作用域捕获count变量。即 10。但是条件有另一个局部变量 `count`，它覆盖了我们的 `count` 变量。所以第一个 console.log 显示值 11
+而第二个 console.log 通过从外部范围捕获计数变量来记录 10
 
 </p>
 
@@ -9776,16 +9778,16 @@ Whereas the second console.log logs 10 by capturing the count variable from oute
  - 1: hi
  - 2: 1
  - 3: ''
-  
- Reason : The operator returns the value of the first falsy operand encountered when evaluating from left to right, or the value of the last operand if they are all truthy.
 
-**Note:** Below these values are consider as falsy value
+ 原因：运算符返回从左到右求值时遇到的第一个操作数为假的值，如果都为真则返回最后一个操作数的值
+
+**注意:** 下边的值被当作假值
 
 - 1: 0
 - 2: ''
 - 3: null
 - 4: undefined
-- 5: NAN
+- 5: NaN
 
 </p>
 </details>
@@ -9810,7 +9812,7 @@ console.log(arr == str);
 
 ##### Answer: 3
 
-Arrays have their own implementation of `toString` method that returns a comma-separated list of elements. So the above code snippet returns true. In order to avoid conversion of array type, we should use === for comparison.
+数组有自己的 `toString` 方法实现，返回逗号分隔的元素列表。所以上边的代码片段返回true。为了避免数组类型的转换，我们应该使用 === 来比较
 
 </p>
 
@@ -9838,7 +9840,7 @@ var getMessage = () => {
 
 ##### Answer: 2
 
-Hoisting will move variables and functions to be the top of scope. Even though getMessage is an arrow function the above function will considered as a varible due to it's variable declaration or assignment. So the variables will have undefined value in memory phase and throws an error '`getMessage` is not a function' at the code execution phase.
+提升会将变量和函数移动到作用域的顶部。即使getMessage是一个箭头函数，由于变量声明或赋值上边的函数会被当做一个变量。所以变量在内存中会有undefined值并在代码执行阶段抛出一个错误'`getMessage` is not a function'
 
 </p>
 
@@ -9864,9 +9866,9 @@ console.log("program finished");
 
 ##### Answer: 3
 
-Even though a promise is resolved immediately, it won't be executed immediately because its **.then/catch/finally** handlers or callbacks(aka task) are pushed into the queue. Whenever the JavaScript engine becomes free from the current program, it pulls a task from the queue and executes it. This is the reason why last statement is printed first before the log of promise handler.
+即使 promise 立即解析，它也不会立即执行，因为它的 **.then/catch/finally** 处理程序或回调（也叫任务）被推入队列。每当 JavaScript 引擎从当前程序中解放出来时，它就会从队列中拉出一个任务并执行它。这就是为什么在 Promise 处理器的输出之前首先打印最后一条语句的原因
 
-**Note:** We call the above queue as "MicroTask Queue"
+**注意:** 我们称上边的队列为 "微任务队列"
 
 </p>
 
@@ -9890,13 +9892,13 @@ console.log('Third line')
 
 ##### Answer: 4
 
-When JavaScript encounters a line break without a semicolon, the JavaScript parser will automatically add a semicolon based on a set of rules called `Automatic Semicolon Insertion` which determines whether line break as end of statement or not to insert semicolon. But it does not assume a semicolon before square brackets [...]. So the first two lines considered as a single statement as below.
+当 JavaScript 遇到没有分号的换行符时，JavaScript 解析器会根据一组称为“自动分号插入”的规则自动添加分号，该规则决定是否将换行符作为语句的结尾插入分号。但它不假定方括号 [...] 前有分号。所以前两行被认为是一个单一的语句，如下所示
 
 ```javascript
 console.log('First line')['a', 'b', 'c'].forEach((element) => console.log(element))
 ```
 
-Hence, there will be **cannot read properties of undefined** error while applying the array square bracket on log function.
+因此，在 log 函数上应用数组方括号时会出现 **cannot read properties of undefined** 错误
 
 </p>
 
@@ -9906,7 +9908,8 @@ Hence, there will be **cannot read properties of undefined** error while applyin
 ## Disclaimer
 
 The questions provided in this repository are the summary of frequently asked questions across numerous companies. We cannot guarantee that these questions will actually be asked during your interview process, nor should you focus on memorizing all of them. The primary purpose is for you to get a sense of what some companies might ask — do not get discouraged if you don't know the answer to all of them ⁠— that is ok!
+此仓库中提供的问题是众多公司常见问题的摘要。我们不能保证这些问题会在你的面试过程中被问到，你也不应该专注于记住所有这些问题。主要目的是让您了解一些公司可能会问什么——如果你不知道所有问题的答案，不要气馁 ⁠- 没关系！
 
-Good luck with your interview 😊
+祝你面试好运 😊
 
 ---
